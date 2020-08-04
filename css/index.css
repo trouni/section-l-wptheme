@@ -1,0 +1,139 @@
+/* 1rem = 10px */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+@font-face {
+  font-family: Proxima Nova;
+  src: url(/wp-content/themes/section-l-wptheme/fonts/Proxima-Nova-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Proxima Nova;
+  src: url(/wp-content/themes/section-l-wptheme/fonts/Proxima-Nova-Semibold.otf);
+  font-weight: medium;
+  font-style: normal;
+}
+@font-face {
+  font-family: Proxima Nova;
+  src: url(/wp-content/themes/section-l-wptheme/fonts/Proxima-Nova-Bold.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+#masthead.site-header .site-logo {
+  position: fixed;
+  top: 3rem;
+  left: 3.5rem;
+  overflow: hidden;
+  width: 16em;
+  text-align: left;
+}
+#masthead.site-header .site-logo img {
+  transform: translateX(0);
+  transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  object-fit: cover;
+}
+#masthead.site-header .site-logo.collapsed img {
+  transform: translateX(-83%);
+}
+#site-navigation.main-navigation .menu-toggle {
+  position: fixed;
+  top: 3rem;
+  right: 3.5rem;
+  width: 3.5rem;
+  z-index: 10;
+}
+#site-navigation.main-navigation .menu-toggle:before {
+  content: unset;
+}
+#masthead.site-header .site-logo img, #site-navigation.main-navigation .menu-toggle img {
+  height: 2.5rem;
+  width: auto;
+}
+#site-navigation.main-navigation *, #site-navigation.main-navigation.toggled * {
+  margin: 0;
+  padding: 0;
+  display: inherit;
+  background-color: unset;
+  border: unset;
+  box-shadow: unset;
+  opacity: unset;
+  width: unset;
+  height: unset;
+  line-height: unset;
+  left: unset;
+  right: unset;
+  top: unset;
+  bottom: unset;
+}
+#site-navigation.main-navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+}
+#site-navigation.main-navigation .inside-navigation {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#site-navigation.main-navigation #primary-menu {
+  padding: 2em;
+  display: none;
+  flex-grow: 1;
+}
+#site-navigation.main-navigation #primary-menu > ul {
+  justify-content: space-evenly;
+}
+#site-navigation.main-navigation #primary-menu li {
+  float: none;
+  clear: both;
+  display: block;
+  text-align: left;
+}
+.toggled #site-navigation.main-navigation #primary-menu {
+  display: inherit !important;
+}
+#site-navigation.main-navigation #menu-header-nav {
+  display: inline-flex;
+  justify-content: flex-start;
+  margin: 0;
+  height: auto;
+  max-width: 1000px;
+  width: 100%;
+}
+#site-navigation.main-navigation #menu-header-nav > li {
+  font-weight: bolder;
+  flex: 1 1 0px;
+}
+#site-navigation.main-navigation #menu-header-nav > li > a {
+  font-size: 2em;
+}
+#site-navigation.main-navigation #menu-header-nav ul, #site-navigation.main-navigation #menu-header-nav li {
+  margin: 0;
+  list-style: none;
+}
+#site-navigation.main-navigation #menu-header-nav .sub-menu {
+  position: relative;
+}
+#site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu {
+  visibility: visible;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+#site-navigation.main-navigation #menu-header-nav .menu-item-has-children:hover .sub-menu {
+  visibility: visible;
+  opacity: 1;
+}
+#site-navigation.main-navigation #menu-header-nav .menu-item-has-children .dropdown-menu-toggle {
+  float: right;
+}
+#site-navigation.main-navigation.toggled #primary-menu {
+  background-color: white;
+  border: solid 1px black;
+  display: inherit !important;
+}

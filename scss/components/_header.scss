@@ -1,0 +1,38 @@
+#masthead.site-header .site-logo {
+  position: fixed;
+  top: 3rem;
+  left: 3.5rem;
+  overflow: hidden;
+  width: 16em;
+  text-align: left;
+
+  img {
+    transform: translateX(0);
+    transition: transform 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045);
+    object-fit: cover;
+  }
+  
+  &.collapsed img {
+    transform: translateX(-83%);
+  }
+}
+
+#site-navigation.main-navigation {
+  
+  .menu-toggle {
+    position: fixed;
+    top: 3rem;
+    right: 3.5rem;
+    width: 3.5rem;
+    z-index: 10;
+  
+    &:before {
+      content: unset;
+    }
+  }
+}
+
+#masthead.site-header .site-logo img, #site-navigation.main-navigation .menu-toggle img {
+  height: 2.5rem;
+  width: auto;
+}
