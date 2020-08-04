@@ -27,7 +27,7 @@ function enqueue_custom_styles()
 }
 
 /**
- * Enqueuing JavaScript files
+ * Enqueuing JavaScript files in the footer
  */
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
 function enqueue_custom_scripts()
@@ -35,9 +35,18 @@ function enqueue_custom_scripts()
   foreach (glob(get_stylesheet_directory() . '/js/*.js') as $file) {
     // $file returns the absolute path
     $filename = substr($file, strrpos($file, '/') + 1);
-    wp_enqueue_script($file, get_stylesheet_directory_uri() . '/js/' . $filename);
+    wp_enqueue_script($file, get_stylesheet_directory_uri() . '/js/' . $filename, array(), false, true);
   }
 }
+
+/**
+ * Adding custom fonts to Customizer
+ */
+add_filter('generate_typography_default_fonts', function ($fonts) {
+  $fonts[] = 'Proxima Nova';
+
+  return $fonts;
+});
 
 /**
  * Get all necessary theme files
@@ -45,3 +54,4 @@ function enqueue_custom_scripts()
 $theme_dir = get_stylesheet_directory();
 
 require $theme_dir . '/inc/scss-variables.php';
+require $theme_dir . '/inc/structure/navigation.php';
