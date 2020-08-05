@@ -5,6 +5,17 @@ html {
 body {
   font-size: 1.6rem;
 }
+.site-footer {
+  display: none;
+}
+#page.container.grid-container {
+  max-width: unset;
+  padding: 3rem 13rem;
+  background-color: unset;
+}
+#page.container.grid-container .site-content {
+  padding: unset;
+}
 @font-face {
   font-family: Proxima Nova;
   src: url(/wp-content/themes/section-l-wptheme/fonts/Proxima-Nova-Regular.otf);
@@ -23,35 +34,42 @@ body {
   font-weight: bold;
   font-style: normal;
 }
+#masthead.site-header {
+  background-color: unset;
+}
 #masthead.site-header .site-logo {
   position: fixed;
-  top: 3rem;
-  left: 3.5rem;
+  top: 3.5rem;
+  left: 4rem;
   overflow: hidden;
-  width: 16em;
   text-align: left;
+  z-index: 10;
 }
 #masthead.site-header .site-logo img {
+  height: 3rem;
+  width: 16em;
   transform: translateX(0);
   transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  object-fit: cover;
+  object-fit: contain;
+  object-position: left;
 }
 #masthead.site-header .site-logo.collapsed img {
-  transform: translateX(-83%);
+  transform: translateX(-66%);
 }
 #site-navigation.main-navigation .menu-toggle {
   position: fixed;
-  top: 3rem;
-  right: 3.5rem;
-  width: 3.5rem;
-  z-index: 10;
+  top: 3.5rem;
+  right: 0rem;
+  width: 14rem;
+  display: flex;
+  justify-content: center;
 }
 #site-navigation.main-navigation .menu-toggle:before {
   content: unset;
 }
-#masthead.site-header .site-logo img, #site-navigation.main-navigation .menu-toggle img {
-  height: 2.5rem;
-  width: auto;
+#site-navigation.main-navigation .menu-toggle img {
+  height: 3rem;
+  width: 6rem;
 }
 #site-navigation.main-navigation *, #site-navigation.main-navigation.toggled * {
   margin: 0;
@@ -133,7 +151,6 @@ body {
   float: right;
 }
 #site-navigation.main-navigation.toggled #primary-menu {
-  background-color: white;
   border: solid 1px black;
   display: inherit !important;
 }

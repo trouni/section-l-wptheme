@@ -8,3 +8,17 @@ html {
 body {
   font-size: 1.6rem;
 }
+
+.site-footer {
+  display: none;
+}
+
+#page.container.grid-container {
+  max-width: unset;
+  padding: 3rem 13rem;
+  background-color: unset;
+
+  .site-content {
+    padding: unset;
+  }
+}

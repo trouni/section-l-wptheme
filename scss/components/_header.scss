@@ -1,19 +1,26 @@
+#masthead.site-header {
+  background-color: unset;
+}
+
 #masthead.site-header .site-logo {
   position: fixed;
-  top: 3rem;
-  left: 3.5rem;
+  top: 3.5rem;
+  left: 4rem;
   overflow: hidden;
-  width: 16em;
   text-align: left;
-
+  z-index: 10;
+  
   img {
+    height: 3rem;
+    width: 16em;
     transform: translateX(0);
     transition: transform 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045);
-    object-fit: cover;
+    object-fit: contain;
+    object-position: left;
   }
   
   &.collapsed img {
-    transform: translateX(-83%);
+    transform: translateX(-66%);
   }
 }
 
@@ -21,18 +28,19 @@
   
   .menu-toggle {
     position: fixed;
-    top: 3rem;
-    right: 3.5rem;
-    width: 3.5rem;
-    z-index: 10;
-  
+    top: 3.5rem;
+    right: 0rem;
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+    
     &:before {
       content: unset;
     }
+    
+    img {
+      height: 3rem;
+      width: 6rem;
+    }
   }
-}
-
-#masthead.site-header .site-logo img, #site-navigation.main-navigation .menu-toggle img {
-  height: 2.5rem;
-  width: auto;
 }
