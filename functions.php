@@ -16,7 +16,7 @@ function enqueue_custom_styles()
   foreach (glob(get_stylesheet_directory() . '/css/*.css') as $file) {
     // $file returns the absolute path
     $filename = substr($file, strrpos($file, '/') + 1);
-    wp_enqueue_style($file, get_stylesheet_directory_uri() . '/css/' . $filename);
+    wp_enqueue_style($file, get_stylesheet_directory_uri() . '/css/' . $filename, array(), filemtime(get_stylesheet_directory() . '/css/' . $filename));
   }
 
   foreach (glob(get_stylesheet_directory() . '/css/vendors/*.css') as $file) {
