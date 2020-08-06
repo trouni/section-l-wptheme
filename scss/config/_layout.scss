@@ -1,0 +1,56 @@
+@mixin layout-mobile($base-font-size, $body-padding-x, $body-padding-y) {
+  html {
+    font-size: $base-font-size;
+  }
+  #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
+    top: $body-padding-y;
+    right: calc(#{$body-padding-x} + 1rem);
+  }
+  #masthead.site-header .site-logo {
+    top: $body-padding-y;
+    left: calc(#{$body-padding-x} + 1rem);
+  }
+  #page.container.grid-container {
+    padding: $body-padding-y $body-padding-x;
+  }
+  #site-navigation.main-navigation #primary-menu {
+    padding: $body-padding-y;
+  }
+}
+
+@mixin layout($base-font-size, $body-padding-x, $body-padding-y) {
+  html {
+    font-size: $base-font-size;
+  }
+  #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
+    top: $body-padding-y;
+    right: calc((#{$body-padding-x} + 1rem) / 2);
+    transform: translateX(50%);
+  }
+  #masthead.site-header .site-logo {
+    top: $body-padding-y;
+    left: calc((#{$body-padding-x} + 1rem) / 2);
+    transform: translateX(-2.5rem);
+  }
+  #page.container.grid-container {
+    padding: $body-padding-y $body-padding-x;
+  }
+}
+
+@include layout-mobile($base-font-size: 6px, $body-padding-y: 3rem, $body-padding-x: 2rem);
+
+@media screen and (min-width: 577px) {
+  @include layout-mobile($base-font-size: 7px, $body-padding-y: 3rem, $body-padding-x: 2rem);
+}
+
+@media screen and (min-width: 769px) {
+  @include layout($base-font-size: 8px, $body-padding-y: 3rem, $body-padding-x: 6rem);
+}
+
+@media screen and (min-width: 997px) {
+  @include layout($base-font-size: 9px, $body-padding-y: 3rem, $body-padding-x: 10rem);
+}
+
+@media screen and (min-width: 1281px) {
+  @include layout($base-font-size: 10px, $body-padding-y: 3rem, $body-padding-x: 14rem);
+}

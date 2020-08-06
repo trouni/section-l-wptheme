@@ -15,10 +15,13 @@ body {
 
 #page.container.grid-container {
   max-width: unset;
-  padding: 3rem 13rem;
   background-color: unset;
 
   .site-content {
     padding: unset;
   }
+}
+
+.elementor-widget-container {
+  overflow: hidden;
 }

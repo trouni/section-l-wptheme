@@ -4,8 +4,6 @@
 
 #masthead.site-header .site-logo {
   position: fixed;
-  top: $nav-padding;
-  left: 4rem;
   overflow: hidden;
   text-align: left;
   z-index: 1000;
@@ -21,26 +19,5 @@
   
   &.collapsed img {
     transform: translateX(-66%);
-  }
-}
-
-#site-navigation.main-navigation {
-  
-  .menu-toggle {
-    position: fixed;
-    top: $nav-padding;
-    right: 0rem;
-    width: 14rem;
-    display: flex;
-    justify-content: center;
-    
-    &:before {
-      content: unset;
-    }
-    
-    img {
-      height: 3rem;
-      width: 6rem;
-    }
   }
 }

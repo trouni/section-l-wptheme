@@ -1,0 +1,32 @@
+#site-navigation.main-navigation {
+
+  // Hamburger toggle
+  .menu-toggle {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+
+    &:before {
+      content: unset;
+    }
+
+    img {
+      height: 3rem;
+    }
+  }
+
+  &.toggled .hamburger-menu {
+    display: none;
+  }
+
+  // Closing X when toggled on
+  &.toggled .menu-toggle:before {
+    content: '\2715';
+    height: 3rem;
+    font-size: 4rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
