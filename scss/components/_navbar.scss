@@ -7,6 +7,7 @@
   top: 0;
   width: 100%;
   background-color: transparent;
+  z-index: 10000;
   .inside-navigation {
     display: flex;
     flex-flow: row-reverse;
@@ -15,9 +16,10 @@
   }
 
   #primary-menu {
-    padding: 2em;
+    padding: $nav-padding;
     display: none;
     flex-grow: 1;
+    background-color: #FFFEC3;
 
     & > ul {
       justify-content: space-evenly;
@@ -40,16 +42,47 @@
     justify-content: flex-start;
     margin: 0;
     height: auto;
-    max-width: 1000px;
     width: 100%;
+    max-width: 1100px;
 
-    & > li {
-      font-weight: bolder;
+    & > li.menu-item {
+      font-weight: 800;
       flex: 1 1 0px;
+
+      & > a {
+        color: inherit;
+        align-content: start;
+        display: flex;
+
+        &:after {
+          content: $arrow-img;
+          transform: scale(0.7) rotate(90deg) translate(-1rem, -3rem);
+          display: inline-flex;
+          opacity: 0;
+          transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+        }
+      }
+      
+      &.current-menu-item > a, &:hover > a {
+        &:after {
+          transform: scale(0.7) rotate(90deg) translate(-1rem, -1rem);
+          opacity: 1;
+        }
+      }
+
+      &:hover > a {
+        // color: inherit;
+      }
     }
 
-    & > li > a {
-      font-size: 2em;
+    & > li.menu-item > a {
+      font-size: 4rem;
+      line-height: 4rem;
+      font-weight: 600;
+    }
+
+    .dropdown-menu-toggle {
+      display: none;
     }
   
     ul, li {
@@ -65,10 +98,15 @@
       visibility: visible;
       opacity: 0;
       transition: opacity 0.5s;
+      top: 3rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .menu-item-has-children .sub-menu > li > a {
+      font-size: 2rem;
     }
 
     .menu-item-has-children:hover .sub-menu {
-      visibility: visible;
       opacity: 1;
     }
 
@@ -81,7 +119,21 @@
 #site-navigation.main-navigation.toggled {
   
   #primary-menu {
-    border: solid 1px black;
     display: inherit !important;
+  }
+  
+  .menu-toggle {   
+    &:before {
+      content: '\2715';
+      width: 14rem;
+      height: 3rem;
+      font-size: 4rem;
+      position: fixed;
+      top: $nav-padding;
+      right: 0rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
