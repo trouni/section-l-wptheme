@@ -84,7 +84,7 @@ html {
   #masthead.site-header .site-logo {
     top: 3rem;
     left: calc((6rem + 1rem) / 2);
-    transform: translateX(-2.5rem);
+    transform: translateX(-1rem);
   }
   #page.container.grid-container {
     padding: 3rem 6rem;
@@ -102,7 +102,7 @@ html {
   #masthead.site-header .site-logo {
     top: 3rem;
     left: calc((10rem + 1rem) / 2);
-    transform: translateX(-2.5rem);
+    transform: translateX(-1rem);
   }
   #page.container.grid-container {
     padding: 3rem 10rem;
@@ -120,7 +120,7 @@ html {
   #masthead.site-header .site-logo {
     top: 3rem;
     left: calc((14rem + 1rem) / 2);
-    transform: translateX(-2.5rem);
+    transform: translateX(-1rem);
   }
   #page.container.grid-container {
     padding: 3rem 14rem;
@@ -137,14 +137,14 @@ html {
 }
 #masthead.site-header .site-logo img {
   height: 3rem;
-  width: 16em;
+  width: unset;
   transform: translateX(0);
   transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
   object-fit: contain;
   object-position: left;
 }
 #masthead.site-header .site-logo.collapsed img {
-  transform: translateX(-66%);
+  transform: translateX(-90%);
 }
 #site-navigation.main-navigation *, #site-navigation.main-navigation.toggled * {
   margin: 0;

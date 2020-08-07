@@ -10,7 +10,7 @@
   
   img {
     height: 3rem;
-    width: 16em;
+    width: unset;
     transform: translateX(0);
     transition: transform 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045);
     object-fit: contain;
@@ -18,6 +18,6 @@
   }
   
   &.collapsed img {
-    transform: translateX(-66%);
+    transform: translateX(-90%);
   }
 }

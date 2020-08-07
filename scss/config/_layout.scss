@@ -30,7 +30,7 @@
   #masthead.site-header .site-logo {
     top: $body-padding-y;
     left: calc((#{$body-padding-x} + 1rem) / 2);
-    transform: translateX(-2.5rem);
+    transform: translateX(-1rem);
   }
   #page.container.grid-container {
     padding: $body-padding-y $body-padding-x;
