@@ -15,6 +15,7 @@
     transition: transform 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045);
     object-fit: contain;
     object-position: left;
+    margin-right: 2rem; /* for the logo animation to not be cropped on the right */
   }
   
   &.collapsed img {
