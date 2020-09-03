@@ -43,7 +43,7 @@ function enqueue_custom_scripts()
  * Adding custom fonts to Customizer
  */
 add_filter('generate_typography_default_fonts', function ($fonts) {
-  $fonts[] = 'Proxima Nova';
+  $fonts[] = 'Inter';
 
   return $fonts;
 });
