@@ -12,25 +12,48 @@
   }
 }
 
-@include color_rules('01', #FFFFFF);
-@include color_rules('02', #290056);
-@include color_rules('03', #008A6A);
-@include color_rules('04', #FF5485);
-@include color_rules('05', #FF673A);
-@include color_rules('06', #ECEDF0);
-@include color_rules('07', #FFF5F5);
-@include color_rules('08', #FFE6D3);
-@include color_rules('09', #DAC5B4);
-@include color_rules('10', #E3DCFF);
-@include color_rules('11', #E4E4E7);
-@include color_rules('12', #FFD2C1);
-@include color_rules('13', #E3203D);
-@include color_rules('14', #B27D7E);
-@include color_rules('15', #BDACAB);
-@include color_rules('16', #FCB0B2);
-@include color_rules('17', #FFFEC3);
-@include color_rules('18', #FFDE47);
-@include color_rules('19', #8989BE);
-@include color_rules('20', #AAAAAA);
-@include color_rules('21', #4D87D9);
-@include color_rules('22', #C47159);
+@include color_rules('01', $color-01);
+@include color_rules('02', $color-02);
+@include color_rules('03', $color-03);
+@include color_rules('04', $color-04);
+@include color_rules('05', $color-05);
+@include color_rules('06', $color-06);
+@include color_rules('07', $color-07);
+@include color_rules('08', $color-08);
+@include color_rules('09', $color-09);
+@include color_rules('10', $color-10);
+@include color_rules('11', $color-11);
+@include color_rules('12', $color-12);
+@include color_rules('13', $color-13);
+@include color_rules('14', $color-14);
+@include color_rules('15', $color-15);
+@include color_rules('16', $color-16);
+@include color_rules('17', $color-17);
+@include color_rules('18', $color-18);
+@include color_rules('19', $color-19);
+@include color_rules('20', $color-20);
+@include color_rules('21', $color-21);
+@include color_rules('22', $color-22);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

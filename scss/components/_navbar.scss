@@ -18,7 +18,7 @@
   #primary-menu {
     display: none;
     flex-grow: 1;
-    background-color: #FFFEC3;
+    background-color: $color-09;
 
     & > ul {
       justify-content: space-evenly;
@@ -48,7 +48,7 @@
       margin-right: 3rem;
 
       & > a {
-        color: inherit;
+        color: $color-02;
         align-content: start;
         display: flex;
 
@@ -102,6 +102,7 @@
     }
 
     .menu-item-has-children .sub-menu > li > a {
+      color: $color-02;
       font-size: 2rem;
     }
 

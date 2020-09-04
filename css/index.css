@@ -402,7 +402,7 @@ html {
 #site-navigation.main-navigation #primary-menu {
   display: none;
   flex-grow: 1;
-  background-color: #fffec3;
+  background-color: #dac5b4;
 }
 #site-navigation.main-navigation #primary-menu > ul {
   justify-content: space-evenly;
@@ -428,7 +428,7 @@ html {
   margin-right: 3rem;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
-  color: inherit;
+  color: #290056;
   align-content: start;
   display: flex;
 }
@@ -470,6 +470,7 @@ html {
   top: 6rem;
 }
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu > li > a {
+  color: #290056;
   font-size: 2rem;
 }
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children:hover .sub-menu {
