@@ -1,0 +1,36 @@
+@mixin color_rules($color_name, $color_value) {
+  .text-color-#{$color_name} {
+    color: $color_value;
+  }
+
+  .bg-color-#{$color_name} {
+    background-color: $color_value;
+  }
+
+  .fill-color-#{$color_name} {
+    fill: $color_value;
+  }
+}
+
+@include color_rules('01', #FFFFFF);
+@include color_rules('02', #290056);
+@include color_rules('03', #008A6A);
+@include color_rules('04', #FF5485);
+@include color_rules('05', #FF673A);
+@include color_rules('06', #ECEDF0);
+@include color_rules('07', #FFF5F5);
+@include color_rules('08', #FFE6D3);
+@include color_rules('09', #DAC5B4);
+@include color_rules('10', #E3DCFF);
+@include color_rules('11', #E4E4E7);
+@include color_rules('12', #FFD2C1);
+@include color_rules('13', #E3203D);
+@include color_rules('14', #B27D7E);
+@include color_rules('15', #BDACAB);
+@include color_rules('16', #FCB0B2);
+@include color_rules('17', #FFFEC3);
+@include color_rules('18', #FFDE47);
+@include color_rules('19', #8989BE);
+@include color_rules('20', #AAAAAA);
+@include color_rules('21', #4D87D9);
+@include color_rules('22', #C47159);
