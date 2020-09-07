@@ -263,14 +263,14 @@ html {
 }
 #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
   top: 3rem;
-  right: calc(2rem + 1rem);
+  right: calc(3rem + 1rem);
 }
 #masthead.site-header .site-logo {
   top: 3rem;
-  left: calc(2rem + 1rem);
+  left: calc(3rem + 1rem);
 }
 #page.container.grid-container {
-  padding: 3rem 2rem;
+  padding: 3rem 3rem;
 }
 #site-navigation.main-navigation #primary-menu {
   padding: 3rem;
@@ -281,14 +281,14 @@ html {
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
     top: 3rem;
-    right: calc(2rem + 1rem);
+    right: calc(3rem + 1rem);
   }
   #masthead.site-header .site-logo {
     top: 3rem;
-    left: calc(2rem + 1rem);
+    left: calc(3rem + 1rem);
   }
   #page.container.grid-container {
-    padding: 3rem 2rem;
+    padding: 3rem 3rem;
   }
   #site-navigation.main-navigation #primary-menu {
     padding: 3rem;
