@@ -436,12 +436,12 @@ html {
   animation-iteration-count: infinite;
   animation-delay: 1s;
   animation-direction: reverse;
-  animation-timing-function: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .animate.rotate-in-ccw {
   animation-name: rotate-in-ccw;
   animation-duration: 1s;
-  animation-timing-function: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045), opacity 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045), opacity 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .round-word-btn .elementor-button {
   height: 5em;
