@@ -272,7 +272,7 @@ html {
   padding: 3rem;
 }
 #site-footer .footer-main-content {
-  padding-right: 3rem;
+  padding-right: 3rem !important;
 }
 @media screen and (min-width: 577px) {
   html {
@@ -293,7 +293,7 @@ html {
     padding: 3rem;
   }
   #site-footer .footer-main-content {
-    padding-right: 3rem;
+    padding-right: 3rem !important;
   }
 }
 @media screen and (min-width: 769px) {
@@ -313,8 +313,8 @@ html {
   #page.container.grid-container {
     padding: 3rem 6rem;
   }
-  #site-footer .footer-main-content {
-    padding-right: 6rem;
+  .site-footer .footer-main-content {
+    padding-right: 6rem !important;
   }
 }
 @media screen and (min-width: 997px) {
@@ -334,8 +334,8 @@ html {
   #page.container.grid-container {
     padding: 3rem 10rem;
   }
-  #site-footer .footer-main-content {
-    padding-right: 10rem;
+  .site-footer .footer-main-content {
+    padding-right: 10rem !important;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -355,8 +355,8 @@ html {
   #page.container.grid-container {
     padding: 3rem 14rem;
   }
-  #site-footer .footer-main-content {
-    padding-right: 14rem;
+  .site-footer .footer-main-content {
+    padding-right: 14rem !important;
   }
 }
 #masthead.site-header {

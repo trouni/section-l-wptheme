@@ -17,7 +17,7 @@
     padding: $body-padding-y;
   }
   #site-footer .footer-main-content {
-    padding-right: $body-padding-x;
+    padding-right: $body-padding-x !important;
   }
 }
 
@@ -38,8 +38,8 @@
   #page.container.grid-container {
     padding: $body-padding-y $body-padding-x;
   }
-  #site-footer .footer-main-content {
-    padding-right: $body-padding-x;
+  .site-footer .footer-main-content {
+    padding-right: $body-padding-x !important;
   }
 }
 
