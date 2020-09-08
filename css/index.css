@@ -259,8 +259,7 @@ html {
   font-size: 6px;
 }
 #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-  top: 3rem;
-  right: calc(3rem + 1rem);
+  margin: 3rem calc(3rem + 1rem);
 }
 #masthead.site-header .site-logo {
   top: 3rem;
@@ -283,8 +282,7 @@ html {
     font-size: 7px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    top: 3rem;
-    right: calc(3rem + 1rem);
+    margin: 3rem calc(3rem + 1rem);
   }
   #masthead.site-header .site-logo {
     top: 3rem;
@@ -308,8 +306,7 @@ html {
     font-size: 8px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    top: 3rem;
-    right: calc((6rem + 1rem) / 2);
+    margin: 3rem calc((6rem + 1rem) / 2);
     transform: translateX(50%);
   }
   #masthead.site-header .site-logo {
@@ -332,8 +329,7 @@ html {
     font-size: 9px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    top: 3rem;
-    right: calc((10rem + 1rem) / 2);
+    margin: 3rem calc((10rem + 1rem) / 2);
     transform: translateX(50%);
   }
   #masthead.site-header .site-logo {
@@ -356,8 +352,7 @@ html {
     font-size: 10px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    top: 3rem;
-    right: calc((14rem + 1rem) / 2);
+    margin: 3rem calc((14rem + 1rem) / 2);
     transform: translateX(50%);
   }
   #masthead.site-header .site-logo {
@@ -394,8 +389,10 @@ html {
   margin-right: 2rem;
   /* for the logo animation to not be cropped on the right */
 }
-#masthead.site-header .site-logo.collapsed img {
-  transform: translateX(-90%);
+@media screen and (min-width: 769px) {
+  #masthead.site-header .site-logo.collapsed img {
+    transform: translateX(-90%);
+  }
 }
 #site-navigation.main-navigation *, #site-navigation.main-navigation.toggled * {
   margin: 0;
@@ -417,8 +414,8 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: transparent;
-  z-index: 10000;
+  background-color: #ecedf0;
+  z-index: 100;
 }
 #site-navigation.main-navigation .inside-navigation {
   display: flex;
@@ -430,6 +427,7 @@ html {
   display: none;
   flex-grow: 1;
   background-color: #dac5b4;
+  height: 100vh;
 }
 #site-navigation.main-navigation #primary-menu > ul {
   justify-content: space-evenly;
@@ -444,7 +442,7 @@ html {
   display: inherit !important;
 }
 #site-navigation.main-navigation #menu-header-nav {
-  display: inline-flex;
+  display: block;
   justify-content: flex-start;
   margin: 0;
   height: 15rem;
@@ -475,9 +473,11 @@ html {
   opacity: 1;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 8rem;
+  line-height: 12rem;
   font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 #site-navigation.main-navigation #menu-header-nav .dropdown-menu-toggle {
   display: none;
@@ -506,6 +506,9 @@ html {
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .dropdown-menu-toggle {
   float: right;
 }
+#site-navigation.main-navigation.toggled {
+  z-index: 1000;
+}
 #site-navigation.main-navigation.toggled #primary-menu {
   display: inherit !important;
 }
@@ -514,8 +517,22 @@ html {
     max-width: 1100px;
   }
 }
+@media screen and (min-width: 769px) {
+  #site-navigation.main-navigation {
+    background-color: transparent;
+  }
+  #site-navigation.main-navigation #primary-menu {
+    height: unset;
+  }
+  #site-navigation.main-navigation #menu-header-nav {
+    display: inline-flex;
+  }
+  #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
 #site-navigation.main-navigation .menu-toggle {
-  position: fixed;
   display: flex;
   justify-content: center;
 }
@@ -530,10 +547,15 @@ html {
 }
 #site-navigation.main-navigation.toggled .menu-toggle:before {
   content: '\2715';
-  height: 3rem;
-  font-size: 4rem;
+  font-size: 48px;
   position: absolute;
+  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (min-width: 769px) {
+  #site-navigation.main-navigation.toggled .menu-toggle:before {
+    height: 3rem;
+  }
 }

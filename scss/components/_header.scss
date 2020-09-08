@@ -18,7 +18,9 @@
     margin-right: 2rem; /* for the logo animation to not be cropped on the right */
   }
   
-  &.collapsed img {
-    transform: translateX(-90%);
+  @media screen and (min-width: 769px) {
+    &.collapsed img {
+      transform: translateX(-90%);
+    }
   }
 }

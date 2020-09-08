@@ -3,8 +3,7 @@
     font-size: $base-font-size;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    top: $body-padding-y;
-    right: calc(#{$body-padding-x} + 1rem);
+    margin: $body-padding-y calc(#{$body-padding-x} + 1rem);
   }
   #masthead.site-header .site-logo {
     top: $body-padding-y;
@@ -29,8 +28,7 @@
     font-size: $base-font-size;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    top: $body-padding-y;
-    right: calc((#{$body-padding-x} + 1rem) / 2);
+    margin: $body-padding-y calc((#{$body-padding-x} + 1rem) / 2);
     transform: translateX(50%);
   }
   #masthead.site-header .site-logo {

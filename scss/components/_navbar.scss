@@ -6,8 +6,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: transparent;
-  z-index: 10000;
+  background-color: $color-06;
+  z-index: 100;
   .inside-navigation {
     display: flex;
     flex-flow: row-reverse;
@@ -19,6 +19,7 @@
     display: none;
     flex-grow: 1;
     background-color: $color-09;
+    height: 100vh;
 
     & > ul {
       justify-content: space-evenly;
@@ -37,7 +38,7 @@
   }
 
   #menu-header-nav {
-    display: inline-flex;
+    display: block;
     justify-content: flex-start;
     margin: 0;
     height: 15rem;
@@ -69,16 +70,14 @@
         transform: scale(0.7) rotate(90deg) translate(-1rem, -1rem);
         opacity: 1;
       }
-
-      &:hover > a {
-        // color: inherit;
-      }
     }
 
     & > li.menu-item > a {
-      font-size: 4rem;
-      line-height: 4rem;
+      font-size: 8rem;
+      line-height: 12rem;
       font-weight: 600;
+      display: flex;
+      align-items: center;
     }
 
     .dropdown-menu-toggle {
@@ -117,6 +116,7 @@
 }
 
 #site-navigation.main-navigation.toggled {
+  z-index: 1000;
   #primary-menu {
     display: inherit !important;
   }
@@ -126,5 +126,24 @@
 @media screen and (min-width: 1280px) {
   #menu-header-nav {
     max-width: 1100px;
+  }
+}
+
+// Desktop navbar
+
+@media screen and (min-width: 769px) {
+  #site-navigation.main-navigation {
+    background-color: transparent;
+
+    #primary-menu {
+      height: unset;
+    }
+    #menu-header-nav {
+      display: inline-flex;
+      & > li.menu-item > a {
+        font-size: 4rem;
+        line-height: 4rem;
+      }
+    }
   }
 }
