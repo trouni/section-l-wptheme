@@ -577,8 +577,8 @@ html {
   display: flex;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item > a:after {
-  content: url(/wp-content/uploads/2020/08/arrow_down.png);
-  transform: scale(0.7) rotate(90deg) translate(-1rem, -3rem);
+  content: url(/wp-content/uploads/2020/09/arrow.svg);
+  transform: scale(0.7) rotate(-90deg) translate(-1rem, -3rem);
   display: inline-flex;
   opacity: 0;
   height: 4rem;
@@ -588,7 +588,7 @@ html {
   margin-top: 1rem;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item.current-menu-item > a:after, #site-navigation.main-navigation #menu-header-nav > li.menu-item:hover > a:after {
-  transform: scale(0.7) rotate(90deg) translate(-1rem, -1rem);
+  transform: scale(0.7) rotate(-90deg) translate(-1rem, -1rem);
   opacity: 1;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
@@ -679,17 +679,17 @@ html {
   }
 }
 .elementor-swiper-button:after {
-  content: url(/wp-content/uploads/2020/08/arrow_down.png);
+  content: url(/wp-content/uploads/2020/09/arrow.svg);
   fill: #e3203d;
 }
 .elementor-swiper-button > i {
   display: none;
 }
 .elementor-swiper-button.elementor-swiper-button-prev:after {
-  transform: rotate(90deg) translateY(20px);
+  transform: rotate(-90deg) translateY(20px);
 }
 .elementor-swiper-button.elementor-swiper-button-next:after {
-  transform: rotate(-90deg) translateY(20px);
+  transform: rotate(90deg) translateY(20px);
 }
 .mobile-slider {
   height: 75vh;

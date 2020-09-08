@@ -7,10 +7,10 @@
     display: none;
   }
   &.elementor-swiper-button-prev:after {
-    transform: rotate(90deg) translateY(20px);
+    transform: rotate(-90deg) translateY(20px);
   }
   &.elementor-swiper-button-next:after {
-    transform: rotate(-90deg) translateY(20px);
+    transform: rotate(90deg) translateY(20px);
   }
 }
 

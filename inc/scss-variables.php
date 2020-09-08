@@ -6,7 +6,7 @@ function wp_scss_set_variables()
   $variables = array(
     'nav-padding' => '3.5rem',
     'main-padding' => '3.5rem',
-    'arrow-img' => 'url(/wp-content/uploads/2020/08/arrow_down.png)',
+    'arrow-img' => 'url(/wp-content/uploads/2020/09/arrow.svg)',
     'color-01' => '#FFFFFF',
     'color-02' => '#290056',
     'color-03' => '#008A6A',
