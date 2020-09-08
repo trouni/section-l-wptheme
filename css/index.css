@@ -42,7 +42,7 @@ body {
 .bg-color-01 {
   background-color: #fff;
 }
-.fill-color-01 {
+.fill-color-01, .fill-color-01 svg {
   fill: #fff;
 }
 .text-color-02 {
@@ -51,7 +51,7 @@ body {
 .bg-color-02 {
   background-color: #290056;
 }
-.fill-color-02 {
+.fill-color-02, .fill-color-02 svg {
   fill: #290056;
 }
 .text-color-03 {
@@ -60,7 +60,7 @@ body {
 .bg-color-03 {
   background-color: #008a6a;
 }
-.fill-color-03 {
+.fill-color-03, .fill-color-03 svg {
   fill: #008a6a;
 }
 .text-color-04 {
@@ -69,7 +69,7 @@ body {
 .bg-color-04 {
   background-color: #ff5485;
 }
-.fill-color-04 {
+.fill-color-04, .fill-color-04 svg {
   fill: #ff5485;
 }
 .text-color-05 {
@@ -78,7 +78,7 @@ body {
 .bg-color-05 {
   background-color: #ff673a;
 }
-.fill-color-05 {
+.fill-color-05, .fill-color-05 svg {
   fill: #ff673a;
 }
 .text-color-06 {
@@ -87,7 +87,7 @@ body {
 .bg-color-06 {
   background-color: #ecedf0;
 }
-.fill-color-06 {
+.fill-color-06, .fill-color-06 svg {
   fill: #ecedf0;
 }
 .text-color-07 {
@@ -96,7 +96,7 @@ body {
 .bg-color-07 {
   background-color: #fff5f5;
 }
-.fill-color-07 {
+.fill-color-07, .fill-color-07 svg {
   fill: #fff5f5;
 }
 .text-color-08 {
@@ -105,7 +105,7 @@ body {
 .bg-color-08 {
   background-color: #ffe6d3;
 }
-.fill-color-08 {
+.fill-color-08, .fill-color-08 svg {
   fill: #ffe6d3;
 }
 .text-color-09 {
@@ -114,7 +114,7 @@ body {
 .bg-color-09 {
   background-color: #dac5b4;
 }
-.fill-color-09 {
+.fill-color-09, .fill-color-09 svg {
   fill: #dac5b4;
 }
 .text-color-10 {
@@ -123,7 +123,7 @@ body {
 .bg-color-10 {
   background-color: #e3dcff;
 }
-.fill-color-10 {
+.fill-color-10, .fill-color-10 svg {
   fill: #e3dcff;
 }
 .text-color-11 {
@@ -132,7 +132,7 @@ body {
 .bg-color-11 {
   background-color: #e4e4e7;
 }
-.fill-color-11 {
+.fill-color-11, .fill-color-11 svg {
   fill: #e4e4e7;
 }
 .text-color-12 {
@@ -141,7 +141,7 @@ body {
 .bg-color-12 {
   background-color: #ffd2c1;
 }
-.fill-color-12 {
+.fill-color-12, .fill-color-12 svg {
   fill: #ffd2c1;
 }
 .text-color-13 {
@@ -150,7 +150,7 @@ body {
 .bg-color-13 {
   background-color: #e3203d;
 }
-.fill-color-13 {
+.fill-color-13, .fill-color-13 svg {
   fill: #e3203d;
 }
 .text-color-14 {
@@ -159,7 +159,7 @@ body {
 .bg-color-14 {
   background-color: #b27d7e;
 }
-.fill-color-14 {
+.fill-color-14, .fill-color-14 svg {
   fill: #b27d7e;
 }
 .text-color-15 {
@@ -168,7 +168,7 @@ body {
 .bg-color-15 {
   background-color: #bdacab;
 }
-.fill-color-15 {
+.fill-color-15, .fill-color-15 svg {
   fill: #bdacab;
 }
 .text-color-16 {
@@ -177,7 +177,7 @@ body {
 .bg-color-16 {
   background-color: #fcb0b2;
 }
-.fill-color-16 {
+.fill-color-16, .fill-color-16 svg {
   fill: #fcb0b2;
 }
 .text-color-17 {
@@ -186,7 +186,7 @@ body {
 .bg-color-17 {
   background-color: #fffec3;
 }
-.fill-color-17 {
+.fill-color-17, .fill-color-17 svg {
   fill: #fffec3;
 }
 .text-color-18 {
@@ -195,7 +195,7 @@ body {
 .bg-color-18 {
   background-color: #ffde47;
 }
-.fill-color-18 {
+.fill-color-18, .fill-color-18 svg {
   fill: #ffde47;
 }
 .text-color-19 {
@@ -204,7 +204,7 @@ body {
 .bg-color-19 {
   background-color: #8989be;
 }
-.fill-color-19 {
+.fill-color-19, .fill-color-19 svg {
   fill: #8989be;
 }
 .text-color-20 {
@@ -213,7 +213,7 @@ body {
 .bg-color-20 {
   background-color: #aaa;
 }
-.fill-color-20 {
+.fill-color-20, .fill-color-20 svg {
   fill: #aaa;
 }
 .text-color-21 {
@@ -222,7 +222,7 @@ body {
 .bg-color-21 {
   background-color: #4d87d9;
 }
-.fill-color-21 {
+.fill-color-21, .fill-color-21 svg {
   fill: #4d87d9;
 }
 .text-color-22 {
@@ -231,7 +231,7 @@ body {
 .bg-color-22 {
   background-color: #c47159;
 }
-.fill-color-22 {
+.fill-color-22, .fill-color-22 svg {
   fill: #c47159;
 }
 @font-face {
@@ -403,40 +403,58 @@ html {
 }
 @keyframes spin {
   0% {
-    fill: #ff5485;
     transform: rotate(0deg);
+  }
+  0% svg {
+    fill: #ff5485;
   }
   20% {
-    fill: #ff5485;
     transform: rotate(0deg);
   }
+  20% svg {
+    fill: #ff5485;
+  }
   25% {
-    fill: #008a6a;
     transform: rotate(90deg);
+  }
+  25% svg {
+    fill: #008a6a;
   }
   45% {
-    fill: #008a6a;
     transform: rotate(90deg);
   }
+  45% svg {
+    fill: #008a6a;
+  }
   50% {
-    fill: #ff673a;
     transform: rotate(180deg);
+  }
+  50% svg {
+    fill: #ff673a;
   }
   70% {
-    fill: #ff673a;
     transform: rotate(180deg);
   }
+  70% svg {
+    fill: #ff673a;
+  }
   75% {
-    fill: #4d87d9;
     transform: rotate(270deg);
+  }
+  75% svg {
+    fill: #4d87d9;
   }
   95% {
-    fill: #4d87d9;
     transform: rotate(270deg);
   }
+  95% svg {
+    fill: #4d87d9;
+  }
   100% {
-    fill: #ff5485;
     transform: rotate(360deg);
+  }
+  100% svg {
+    fill: #ff5485;
   }
 }
 .animate.spinning-wheel {

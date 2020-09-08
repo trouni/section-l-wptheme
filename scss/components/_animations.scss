@@ -11,39 +11,39 @@
 
 @keyframes spin {
   0%   {
-    fill: $color-04;
+    svg { fill: $color-04; }
     transform: rotate(0deg)
   }
   20%  {
-    fill: $color-04;
+    svg { fill: $color-04; }
     transform: rotate(0deg)
   }
   25%  {
-    fill: $color-03;
+    svg { fill: $color-03; }
     transform: rotate(90deg)
   }
   45%  {
-    fill: $color-03;
+    svg { fill: $color-03; }
     transform: rotate(90deg)
   }
   50%  {
-    fill: $color-05;
+    svg { fill: $color-05; }
     transform: rotate(180deg)
   }
   70%  {
-    fill: $color-05;
+    svg { fill: $color-05; }
     transform: rotate(180deg)
   }
   75%  {
-    fill: $color-21;
+    svg { fill: $color-21; }
     transform: rotate(270deg)
   }
   95%  {
-    fill: $color-21;
+    svg { fill: $color-21; }
     transform: rotate(270deg)
   }
   100% {
-    fill: $color-04;
+    svg { fill: $color-04; }
     transform: rotate(360deg)
   }
 }

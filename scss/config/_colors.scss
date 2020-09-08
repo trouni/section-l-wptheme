@@ -7,7 +7,7 @@
     background-color: $color_value;
   }
 
-  .fill-color-#{$color_name} {
+  .fill-color-#{$color_name}, .fill-color-#{$color_name} svg {
     fill: $color_value;
   }
 }
