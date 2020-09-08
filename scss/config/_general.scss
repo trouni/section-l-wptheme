@@ -21,3 +21,25 @@ body {
 .elementor-widget-container {
   overflow: hidden;
 }
+
+.object-fit-fill {
+  img {
+    object-fit: fill;
+  }
+
+  &, & div, & figure, & img {
+      height: 100%;
+      width: 100%;
+  }
+}
+
+.object-fit-cover {
+  img {
+    object-fit: cover;
+  }
+
+  &, & div, & figure, & img {
+      height: 100%;
+      width: 100%;
+  }
+}
