@@ -274,6 +274,9 @@ html {
 #site-footer .footer-main-content {
   padding-right: 3rem !important;
 }
+.section-l-divider {
+  padding: auto 3rem;
+}
 @media screen and (min-width: 577px) {
   html {
     font-size: 7px;
@@ -294,6 +297,9 @@ html {
   }
   #site-footer .footer-main-content {
     padding-right: 3rem !important;
+  }
+  .section-l-divider {
+    padding: auto 3rem;
   }
 }
 @media screen and (min-width: 769px) {
@@ -316,6 +322,9 @@ html {
   .site-footer .footer-main-content {
     padding-right: 6rem !important;
   }
+  .section-l-divider {
+    padding: auto 6rem;
+  }
 }
 @media screen and (min-width: 997px) {
   html {
@@ -337,6 +346,9 @@ html {
   .site-footer .footer-main-content {
     padding-right: 10rem !important;
   }
+  .section-l-divider {
+    padding: auto 10rem;
+  }
 }
 @media screen and (min-width: 1281px) {
   html {
@@ -357,6 +369,9 @@ html {
   }
   .site-footer .footer-main-content {
     padding-right: 14rem !important;
+  }
+  .section-l-divider {
+    padding: auto 14rem;
   }
 }
 #masthead.site-header {

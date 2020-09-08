@@ -19,6 +19,9 @@
   #site-footer .footer-main-content {
     padding-right: $body-padding-x !important;
   }
+  .section-l-divider {
+    padding: auto $body-padding-x;
+  }
 }
 
 @mixin layout($base-font-size, $body-padding-x, $body-padding-y) {
@@ -40,6 +43,9 @@
   }
   .site-footer .footer-main-content {
     padding-right: $body-padding-x !important;
+  }
+  .section-l-divider {
+    padding: auto $body-padding-x;
   }
 }
 
