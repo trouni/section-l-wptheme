@@ -1,3 +1,14 @@
+@keyframes rotate-in-ccw {
+  0%   {
+    opacity: 0;
+    transform: rotate(0deg)
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-360deg)
+  }
+}
+
 @keyframes spin {
   0%   {transform: rotate(0deg)}
   20%  {transform: rotate(0deg)}
@@ -14,6 +25,13 @@
   animation-name: spin;
   animation-duration: 15s;
   animation-iteration-count: infinite;
+  animation-delay: 1s;
   animation-direction: reverse;
   transition: transform 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045);
+}
+
+.animate.rotate-in-ccw {
+  animation-name: rotate-in-ccw;
+  animation-duration: 1s;
+  transition: transform 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045), opacity 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045);
 }
