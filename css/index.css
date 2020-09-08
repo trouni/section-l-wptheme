@@ -373,6 +373,9 @@ html {
 #masthead.site-header {
   background-color: unset;
 }
+#masthead.site-header .inside-header {
+  padding: 10px;
+}
 #masthead.site-header .site-logo {
   position: fixed;
   overflow: hidden;

@@ -1,26 +1,31 @@
 #masthead.site-header {
   background-color: unset;
-}
 
-#masthead.site-header .site-logo {
-  position: fixed;
-  overflow: hidden;
-  text-align: left;
-  z-index: 1000;
-  
-  img {
-    height: 3rem;
-    width: unset;
-    transform: translateX(0);
-    transition: transform 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045);
-    object-fit: contain;
-    object-position: left;
-    margin-right: 2rem; /* for the logo animation to not be cropped on the right */
+  .inside-header {
+    padding: 10px;
   }
-  
-  @media screen and (min-width: 769px) {
-    &.collapsed img {
-      transform: translateX(-90%);
+
+  .site-logo {
+    position: fixed;
+    overflow: hidden;
+    text-align: left;
+    z-index: 1000;
+
+    img {
+      height: 3rem;
+      width: unset;
+      transform: translateX(0);
+      transition: transform 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045);
+      object-fit: contain;
+      object-position: left;
+      margin-right: 2rem;
+      /* for the logo animation to not be cropped on the right */
+    }
+
+    @media screen and (min-width: 769px) {
+      &.collapsed img {
+        transform: translateX(-90%);
+      }
     }
   }
 }
