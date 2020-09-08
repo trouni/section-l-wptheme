@@ -570,3 +570,19 @@ html {
     height: 3rem;
   }
 }
+.elementor-swiper-button.elementor-swiper-button-next:after {
+  content: url(/wp-content/uploads/2020/08/arrow_down.png);
+  transform: rotate(-90deg) translateY(20px);
+  fill: #e3203d;
+}
+.elementor-swiper-button.elementor-swiper-button-next:after > i {
+  display: none;
+}
+.elementor-swiper-button.elementor-swiper-button-prev:after {
+  content: url(/wp-content/uploads/2020/08/arrow_down.png);
+  transform: rotate(90deg) translateY(-20px);
+  fill: #e3203d;
+}
+.elementor-swiper-button.elementor-swiper-button-prev:after > i {
+  display: none;
+}
