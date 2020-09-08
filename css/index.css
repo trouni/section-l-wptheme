@@ -7,7 +7,6 @@ body {
 }
 #page.container.grid-container {
   max-width: unset;
-  background-color: unset;
 }
 #page.container.grid-container .site-content {
   padding: unset;
@@ -272,6 +271,9 @@ html {
 #site-navigation.main-navigation #primary-menu {
   padding: 3rem;
 }
+#site-footer .footer-main-content {
+  padding-right: 3rem;
+}
 @media screen and (min-width: 577px) {
   html {
     font-size: 7px;
@@ -289,6 +291,9 @@ html {
   }
   #site-navigation.main-navigation #primary-menu {
     padding: 3rem;
+  }
+  #site-footer .footer-main-content {
+    padding-right: 3rem;
   }
 }
 @media screen and (min-width: 769px) {
@@ -308,6 +313,9 @@ html {
   #page.container.grid-container {
     padding: 3rem 6rem;
   }
+  #site-footer .footer-main-content {
+    padding-right: 6rem;
+  }
 }
 @media screen and (min-width: 997px) {
   html {
@@ -326,6 +334,9 @@ html {
   #page.container.grid-container {
     padding: 3rem 10rem;
   }
+  #site-footer .footer-main-content {
+    padding-right: 10rem;
+  }
 }
 @media screen and (min-width: 1281px) {
   html {
@@ -343,6 +354,9 @@ html {
   }
   #page.container.grid-container {
     padding: 3rem 14rem;
+  }
+  #site-footer .footer-main-content {
+    padding-right: 14rem;
   }
 }
 #masthead.site-header {

@@ -16,6 +16,9 @@
   #site-navigation.main-navigation #primary-menu {
     padding: $body-padding-y;
   }
+  #site-footer .footer-main-content {
+    padding-right: $body-padding-x;
+  }
 }
 
 @mixin layout($base-font-size, $body-padding-x, $body-padding-y) {
@@ -34,6 +37,9 @@
   }
   #page.container.grid-container {
     padding: $body-padding-y $body-padding-x;
+  }
+  #site-footer .footer-main-content {
+    padding-right: $body-padding-x;
   }
 }
 
