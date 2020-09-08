@@ -275,7 +275,7 @@ html {
   padding-right: 3rem !important;
 }
 .section-l-divider {
-  padding: auto 3rem;
+  padding: 0 3rem;
 }
 @media screen and (min-width: 577px) {
   html {
@@ -299,7 +299,7 @@ html {
     padding-right: 3rem !important;
   }
   .section-l-divider {
-    padding: auto 3rem;
+    padding: 0 3rem;
   }
 }
 @media screen and (min-width: 769px) {
@@ -323,7 +323,7 @@ html {
     padding-right: 6rem !important;
   }
   .section-l-divider {
-    padding: auto 6rem;
+    padding: 0 6rem;
   }
 }
 @media screen and (min-width: 997px) {
@@ -347,7 +347,7 @@ html {
     padding-right: 10rem !important;
   }
   .section-l-divider {
-    padding: auto 10rem;
+    padding: 0 10rem;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -371,7 +371,7 @@ html {
     padding-right: 14rem !important;
   }
   .section-l-divider {
-    padding: auto 14rem;
+    padding: 0 14rem;
   }
 }
 #masthead.site-header {
