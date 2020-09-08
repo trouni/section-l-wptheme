@@ -432,10 +432,10 @@ html {
 }
 @keyframes spin-colors {
   0% {
-    fill: #ff5485;
+    fill: #ff673a;
   }
   20% {
-    fill: #ff5485;
+    fill: #ff673a;
   }
   25% {
     fill: #008a6a;
@@ -444,10 +444,10 @@ html {
     fill: #008a6a;
   }
   50% {
-    fill: #ff673a;
+    fill: #ff5485;
   }
   70% {
-    fill: #ff673a;
+    fill: #ff5485;
   }
   75% {
     fill: #4d87d9;
@@ -456,7 +456,7 @@ html {
     fill: #4d87d9;
   }
   100% {
-    fill: #ff5485;
+    fill: #ff673a;
   }
 }
 .animate.spinning-wheel {

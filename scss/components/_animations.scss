@@ -22,15 +22,15 @@
 }
 
 @keyframes spin-colors {
-  0%   {fill: $color-04}
-  20%  {fill: $color-04}
+  0%   {fill: $color-05}
+  20%  {fill: $color-05}
   25%  {fill: $color-03}
   45%  {fill: $color-03}
-  50%  {fill: $color-05}
-  70%  {fill: $color-05}
+  50%  {fill: $color-04}
+  70%  {fill: $color-04}
   75%  {fill: $color-21}
   95%  {fill: $color-21}
-  100% {fill: $color-04}
+  100% {fill: $color-05}
 }
 
 .animate.spinning-wheel {
