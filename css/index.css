@@ -403,30 +403,39 @@ html {
 }
 @keyframes spin {
   0% {
+    fill: #ff5485;
     transform: rotate(0deg);
   }
   20% {
+    fill: #ff5485;
     transform: rotate(0deg);
   }
   25% {
+    fill: #008a6a;
     transform: rotate(90deg);
   }
   45% {
+    fill: #008a6a;
     transform: rotate(90deg);
   }
   50% {
+    fill: #ff673a;
     transform: rotate(180deg);
   }
   70% {
+    fill: #ff673a;
     transform: rotate(180deg);
   }
   75% {
+    fill: #4d87d9;
     transform: rotate(270deg);
   }
   95% {
+    fill: #4d87d9;
     transform: rotate(270deg);
   }
   100% {
+    fill: #ff5485;
     transform: rotate(360deg);
   }
 }
@@ -434,7 +443,7 @@ html {
   animation-name: spin;
   animation-duration: 15s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 3s;
   animation-direction: reverse;
   animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }

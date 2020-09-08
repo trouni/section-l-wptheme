@@ -10,22 +10,49 @@
 }
 
 @keyframes spin {
-  0%   {transform: rotate(0deg)}
-  20%  {transform: rotate(0deg)}
-  25%  {transform: rotate(90deg)}
-  45%  {transform: rotate(90deg)}
-  50%  {transform: rotate(180deg)}
-  70%  {transform: rotate(180deg)}
-  75%  {transform: rotate(270deg)}
-  95%  {transform: rotate(270deg)}
-  100% {transform: rotate(360deg)}
+  0%   {
+    fill: $color-04;
+    transform: rotate(0deg)
+  }
+  20%  {
+    fill: $color-04;
+    transform: rotate(0deg)
+  }
+  25%  {
+    fill: $color-03;
+    transform: rotate(90deg)
+  }
+  45%  {
+    fill: $color-03;
+    transform: rotate(90deg)
+  }
+  50%  {
+    fill: $color-05;
+    transform: rotate(180deg)
+  }
+  70%  {
+    fill: $color-05;
+    transform: rotate(180deg)
+  }
+  75%  {
+    fill: $color-21;
+    transform: rotate(270deg)
+  }
+  95%  {
+    fill: $color-21;
+    transform: rotate(270deg)
+  }
+  100% {
+    fill: $color-04;
+    transform: rotate(360deg)
+  }
 }
 
 .animate.spinning-wheel {
   animation-name: spin;
   animation-duration: 15s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 3s;
   animation-direction: reverse;
   animation-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
 }
