@@ -43,3 +43,14 @@ body {
       width: 100%;
   }
 }
+
+.object-fit-contain {
+  img {
+    object-fit: contain;
+  }
+
+  &, & div, & figure, & img {
+      height: 100% !important;
+      width: 100%;
+  }
+}
