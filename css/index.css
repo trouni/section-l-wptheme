@@ -374,25 +374,25 @@ html {
   0% {
     transform: rotate(0deg);
   }
-  24% {
+  20% {
     transform: rotate(0deg);
   }
   25% {
     transform: rotate(90deg);
   }
-  49% {
+  45% {
     transform: rotate(90deg);
   }
   50% {
     transform: rotate(180deg);
   }
-  74% {
+  70% {
     transform: rotate(180deg);
   }
   75% {
     transform: rotate(270deg);
   }
-  99% {
+  95% {
     transform: rotate(270deg);
   }
   100% {
@@ -401,7 +401,7 @@ html {
 }
 .animate.spinning-wheel {
   animation-name: spin;
-  animation-duration: 20s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
   transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
