@@ -405,60 +405,70 @@ html {
   0% {
     transform: rotate(0deg);
   }
-  0% svg {
-    fill: #ff5485;
-  }
   20% {
     transform: rotate(0deg);
-  }
-  20% svg {
-    fill: #ff5485;
   }
   25% {
     transform: rotate(90deg);
   }
-  25% svg {
-    fill: #008a6a;
-  }
   45% {
     transform: rotate(90deg);
-  }
-  45% svg {
-    fill: #008a6a;
   }
   50% {
     transform: rotate(180deg);
   }
-  50% svg {
-    fill: #ff673a;
-  }
   70% {
     transform: rotate(180deg);
-  }
-  70% svg {
-    fill: #ff673a;
   }
   75% {
     transform: rotate(270deg);
   }
-  75% svg {
-    fill: #4d87d9;
-  }
   95% {
     transform: rotate(270deg);
-  }
-  95% svg {
-    fill: #4d87d9;
   }
   100% {
     transform: rotate(360deg);
   }
-  100% svg {
+}
+@keyframes spin-colors {
+  0% {
+    fill: #ff5485;
+  }
+  20% {
+    fill: #ff5485;
+  }
+  25% {
+    fill: #008a6a;
+  }
+  45% {
+    fill: #008a6a;
+  }
+  50% {
+    fill: #ff673a;
+  }
+  70% {
+    fill: #ff673a;
+  }
+  75% {
+    fill: #4d87d9;
+  }
+  95% {
+    fill: #4d87d9;
+  }
+  100% {
     fill: #ff5485;
   }
 }
 .animate.spinning-wheel {
   animation-name: spin;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation-direction: reverse;
+  animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.animate.spinning-wheel svg {
+  animation-name: spin-colors;
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-delay: 3s;

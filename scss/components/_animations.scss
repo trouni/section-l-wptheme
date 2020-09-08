@@ -10,42 +10,27 @@
 }
 
 @keyframes spin {
-  0%   {
-    svg { fill: $color-04; }
-    transform: rotate(0deg)
-  }
-  20%  {
-    svg { fill: $color-04; }
-    transform: rotate(0deg)
-  }
-  25%  {
-    svg { fill: $color-03; }
-    transform: rotate(90deg)
-  }
-  45%  {
-    svg { fill: $color-03; }
-    transform: rotate(90deg)
-  }
-  50%  {
-    svg { fill: $color-05; }
-    transform: rotate(180deg)
-  }
-  70%  {
-    svg { fill: $color-05; }
-    transform: rotate(180deg)
-  }
-  75%  {
-    svg { fill: $color-21; }
-    transform: rotate(270deg)
-  }
-  95%  {
-    svg { fill: $color-21; }
-    transform: rotate(270deg)
-  }
-  100% {
-    svg { fill: $color-04; }
-    transform: rotate(360deg)
-  }
+  0%   {transform: rotate(0deg)}
+  20%  {transform: rotate(0deg)}
+  25%  {transform: rotate(90deg)}
+  45%  {transform: rotate(90deg)}
+  50%  {transform: rotate(180deg)}
+  70%  {transform: rotate(180deg)}
+  75%  {transform: rotate(270deg)}
+  95%  {transform: rotate(270deg)}
+  100% {transform: rotate(360deg)}
+}
+
+@keyframes spin-colors {
+  0%   {fill: $color-04}
+  20%  {fill: $color-04}
+  25%  {fill: $color-03}
+  45%  {fill: $color-03}
+  50%  {fill: $color-05}
+  70%  {fill: $color-05}
+  75%  {fill: $color-21}
+  95%  {fill: $color-21}
+  100% {fill: $color-04}
 }
 
 .animate.spinning-wheel {
@@ -55,6 +40,14 @@
   animation-delay: 3s;
   animation-direction: reverse;
   animation-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
+  svg {
+    animation-name: spin-colors;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: reverse;
+    animation-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
+  }
 }
 
 .animate.rotate-in-ccw {
