@@ -5,9 +5,6 @@ html {
 body {
   font-size: 1.6rem;
 }
-.site-footer {
-  display: none;
-}
 #page.container.grid-container {
   max-width: unset;
   background-color: unset;
