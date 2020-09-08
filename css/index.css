@@ -436,12 +436,12 @@ html {
   animation-iteration-count: infinite;
   animation-delay: 1s;
   animation-direction: reverse;
-  transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  animation-timing-function: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .animate.rotate-in-ccw {
   animation-name: rotate-in-ccw;
   animation-duration: 1s;
-  transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045), opacity 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  animation-timing-function: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045), opacity 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .round-word-btn .elementor-button {
   height: 5em;
@@ -655,4 +655,31 @@ html {
 }
 .elementor-swiper-button.elementor-swiper-button-next:after {
   transform: rotate(-90deg) translateY(20px);
+}
+.mobile-slider {
+  height: 75vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.mobile-slider .elementor-widget-container, .mobile-slider .swiper-container {
+  overflow: unset;
+}
+.mobile-slider div, .mobile-slider figure {
+  height: 100%;
+}
+.mobile-slider img {
+  padding: 1rem;
+  height: 100%;
+  object-fit: cover;
+}
+.mobile-slider .elementor-image-carousel-caption {
+  position: absolute;
+  text-align: right !important;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  width: 80%;
+}
+.mobile-slider .elementor-swiper-button {
+  align-items: center;
 }

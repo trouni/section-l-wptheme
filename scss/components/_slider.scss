@@ -13,3 +13,36 @@
     transform: rotate(-90deg) translateY(20px);
   }
 }
+
+.mobile-slider {
+  height: 75vh;
+  width: 100vw;
+  overflow: hidden;
+
+  .elementor-widget-container, .swiper-container {
+      overflow: unset;
+  }
+
+  div, figure {
+      height: 100%;
+  }
+
+  img {
+      padding: 1rem;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .elementor-image-carousel-caption {
+      position: absolute;
+      text-align: right !important;
+      color: white;
+      bottom: 20px;
+      right: 20px;
+      width: 80%;
+  }
+
+  .elementor-swiper-button {
+      align-items: center;
+  }
+}
