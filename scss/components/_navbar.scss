@@ -54,20 +54,19 @@
         display: flex;
 
         &:after {
-          content: $arrow-img;
-          transform: scale(0.7) rotate(-90deg) translate(-1rem, -3rem);
-          display: inline-flex;
+          content: $arrow-svg;
+          transform: rotate(-90deg) translateY(1.5em);
+          color: red;
           opacity: 0;
-          height: 4rem;
+          width: 2.5rem;
           transition: transform 0.3s ease-out, opacity 0.3s ease-out;
           justify-content: center;
           align-items: center;
-          margin-top: 1rem;
         }
       }
       
       &.current-menu-item > a:after, &:hover > a:after {
-        transform: scale(0.7) rotate(-90deg) translate(-1rem, -1rem);
+        transform: rotate(-90deg) translateY(0.5em);
         opacity: 1;
       }
     }

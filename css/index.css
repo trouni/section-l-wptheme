@@ -24,7 +24,8 @@ body {
 .bg-color-01 {
   background-color: #fff;
 }
-.fill-color-01, .fill-color-01 svg {
+.fill-color-01,
+.fill-color-01 svg {
   fill: #fff;
 }
 .text-color-02 {
@@ -33,7 +34,8 @@ body {
 .bg-color-02 {
   background-color: #290056;
 }
-.fill-color-02, .fill-color-02 svg {
+.fill-color-02,
+.fill-color-02 svg {
   fill: #290056;
 }
 .text-color-03 {
@@ -42,7 +44,8 @@ body {
 .bg-color-03 {
   background-color: #008a6a;
 }
-.fill-color-03, .fill-color-03 svg {
+.fill-color-03,
+.fill-color-03 svg {
   fill: #008a6a;
 }
 .text-color-04 {
@@ -51,7 +54,8 @@ body {
 .bg-color-04 {
   background-color: #ff5485;
 }
-.fill-color-04, .fill-color-04 svg {
+.fill-color-04,
+.fill-color-04 svg {
   fill: #ff5485;
 }
 .text-color-05 {
@@ -60,7 +64,8 @@ body {
 .bg-color-05 {
   background-color: #ff673a;
 }
-.fill-color-05, .fill-color-05 svg {
+.fill-color-05,
+.fill-color-05 svg {
   fill: #ff673a;
 }
 .text-color-06 {
@@ -69,7 +74,8 @@ body {
 .bg-color-06 {
   background-color: #ecedf0;
 }
-.fill-color-06, .fill-color-06 svg {
+.fill-color-06,
+.fill-color-06 svg {
   fill: #ecedf0;
 }
 .text-color-07 {
@@ -78,7 +84,8 @@ body {
 .bg-color-07 {
   background-color: #fff5f5;
 }
-.fill-color-07, .fill-color-07 svg {
+.fill-color-07,
+.fill-color-07 svg {
   fill: #fff5f5;
 }
 .text-color-08 {
@@ -87,7 +94,8 @@ body {
 .bg-color-08 {
   background-color: #ffe6d3;
 }
-.fill-color-08, .fill-color-08 svg {
+.fill-color-08,
+.fill-color-08 svg {
   fill: #ffe6d3;
 }
 .text-color-09 {
@@ -96,7 +104,8 @@ body {
 .bg-color-09 {
   background-color: #dac5b4;
 }
-.fill-color-09, .fill-color-09 svg {
+.fill-color-09,
+.fill-color-09 svg {
   fill: #dac5b4;
 }
 .text-color-10 {
@@ -105,7 +114,8 @@ body {
 .bg-color-10 {
   background-color: #e3dcff;
 }
-.fill-color-10, .fill-color-10 svg {
+.fill-color-10,
+.fill-color-10 svg {
   fill: #e3dcff;
 }
 .text-color-11 {
@@ -114,7 +124,8 @@ body {
 .bg-color-11 {
   background-color: #e4e4e7;
 }
-.fill-color-11, .fill-color-11 svg {
+.fill-color-11,
+.fill-color-11 svg {
   fill: #e4e4e7;
 }
 .text-color-12 {
@@ -123,7 +134,8 @@ body {
 .bg-color-12 {
   background-color: #ffd2c1;
 }
-.fill-color-12, .fill-color-12 svg {
+.fill-color-12,
+.fill-color-12 svg {
   fill: #ffd2c1;
 }
 .text-color-13 {
@@ -132,7 +144,8 @@ body {
 .bg-color-13 {
   background-color: #e3203d;
 }
-.fill-color-13, .fill-color-13 svg {
+.fill-color-13,
+.fill-color-13 svg {
   fill: #e3203d;
 }
 .text-color-14 {
@@ -141,7 +154,8 @@ body {
 .bg-color-14 {
   background-color: #b27d7e;
 }
-.fill-color-14, .fill-color-14 svg {
+.fill-color-14,
+.fill-color-14 svg {
   fill: #b27d7e;
 }
 .text-color-15 {
@@ -150,7 +164,8 @@ body {
 .bg-color-15 {
   background-color: #bdacab;
 }
-.fill-color-15, .fill-color-15 svg {
+.fill-color-15,
+.fill-color-15 svg {
   fill: #bdacab;
 }
 .text-color-16 {
@@ -159,7 +174,8 @@ body {
 .bg-color-16 {
   background-color: #fcb0b2;
 }
-.fill-color-16, .fill-color-16 svg {
+.fill-color-16,
+.fill-color-16 svg {
   fill: #fcb0b2;
 }
 .text-color-17 {
@@ -168,7 +184,8 @@ body {
 .bg-color-17 {
   background-color: #fffec3;
 }
-.fill-color-17, .fill-color-17 svg {
+.fill-color-17,
+.fill-color-17 svg {
   fill: #fffec3;
 }
 .text-color-18 {
@@ -177,7 +194,8 @@ body {
 .bg-color-18 {
   background-color: #ffde47;
 }
-.fill-color-18, .fill-color-18 svg {
+.fill-color-18,
+.fill-color-18 svg {
   fill: #ffde47;
 }
 .text-color-19 {
@@ -186,7 +204,8 @@ body {
 .bg-color-19 {
   background-color: #8989be;
 }
-.fill-color-19, .fill-color-19 svg {
+.fill-color-19,
+.fill-color-19 svg {
   fill: #8989be;
 }
 .text-color-20 {
@@ -195,7 +214,8 @@ body {
 .bg-color-20 {
   background-color: #aaa;
 }
-.fill-color-20, .fill-color-20 svg {
+.fill-color-20,
+.fill-color-20 svg {
   fill: #aaa;
 }
 .text-color-21 {
@@ -204,7 +224,8 @@ body {
 .bg-color-21 {
   background-color: #4d87d9;
 }
-.fill-color-21, .fill-color-21 svg {
+.fill-color-21,
+.fill-color-21 svg {
   fill: #4d87d9;
 }
 .text-color-22 {
@@ -213,7 +234,8 @@ body {
 .bg-color-22 {
   background-color: #c47159;
 }
-.fill-color-22, .fill-color-22 svg {
+.fill-color-22,
+.fill-color-22 svg {
   fill: #c47159;
 }
 @font-face {
@@ -261,7 +283,8 @@ body {
 html {
   font-size: 6px;
 }
-#site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
+#site-navigation.main-navigation .menu-toggle,
+#site-navigation.main-navigation .menu-toggle:before {
   margin: 3rem calc(3rem + 1rem);
 }
 #masthead.site-header .site-logo {
@@ -284,7 +307,8 @@ html {
   html {
     font-size: 7px;
   }
-  #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
+  #site-navigation.main-navigation .menu-toggle,
+  #site-navigation.main-navigation .menu-toggle:before {
     margin: 3rem calc(3rem + 1rem);
   }
   #masthead.site-header .site-logo {
@@ -308,7 +332,8 @@ html {
   html {
     font-size: 8px;
   }
-  #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
+  #site-navigation.main-navigation .menu-toggle,
+  #site-navigation.main-navigation .menu-toggle:before {
     margin: 3rem calc((6rem + 1rem) / 2);
     transform: translateX(50%);
   }
@@ -331,7 +356,8 @@ html {
   html {
     font-size: 9px;
   }
-  #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
+  #site-navigation.main-navigation .menu-toggle,
+  #site-navigation.main-navigation .menu-toggle:before {
     margin: 3rem calc((10rem + 1rem) / 2);
     transform: translateX(50%);
   }
@@ -354,7 +380,8 @@ html {
   html {
     font-size: 10px;
   }
-  #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
+  #site-navigation.main-navigation .menu-toggle,
+  #site-navigation.main-navigation .menu-toggle:before {
     margin: 3rem calc((14rem + 1rem) / 2);
     transform: translateX(50%);
   }
@@ -458,7 +485,8 @@ html {
 .animate.rotate-in-ccw {
   animation-name: rotate-in-ccw;
   animation-duration: 1s;
-  animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045), opacity 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045),
+    opacity 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .round-word-btn .elementor-button {
   height: 6em;
@@ -495,7 +523,8 @@ html {
     transform: translateX(-90%);
   }
 }
-#site-navigation.main-navigation *, #site-navigation.main-navigation.toggled * {
+#site-navigation.main-navigation *,
+#site-navigation.main-navigation.toggled * {
   margin: 0;
   padding: 0;
   display: inherit;
@@ -559,18 +588,24 @@ html {
   display: flex;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item > a:after {
-  content: url(/wp-content/uploads/2020/09/arrow.svg);
-  transform: scale(0.7) rotate(-90deg) translate(-1rem, -3rem);
-  display: inline-flex;
+  content: url("data:image/svg+xml;utf8,<svg id='a2ac12bf-8d9c-419c-b313-ef0c525b27ab' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36.77 59.88'><polygon class='e22aa11f-bda2-4928-bb62-ef3a9efbf9f7' points='14.88 19.77 14.88 59.88 21.89 59.88 21.89 19.77 36.77 19.77 18.39 0 18.38 0 0 19.77 14.88 19.77' fill='currentColor'/></svg>");
+  transform: rotate(-90deg) translateY(1.5em);
+  color: red;
   opacity: 0;
-  height: 4rem;
+  width: 2.5rem;
   transition: transform 0.3s ease-out, opacity 0.3s ease-out;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
 }
-#site-navigation.main-navigation #menu-header-nav > li.menu-item.current-menu-item > a:after, #site-navigation.main-navigation #menu-header-nav > li.menu-item:hover > a:after {
-  transform: scale(0.7) rotate(-90deg) translate(-1rem, -1rem);
+#site-navigation.main-navigation
+  #menu-header-nav
+  > li.menu-item.current-menu-item
+  > a:after,
+#site-navigation.main-navigation
+  #menu-header-nav
+  > li.menu-item:hover
+  > a:after {
+  transform: rotate(-90deg) translateY(0.5em);
   opacity: 1;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
@@ -583,11 +618,15 @@ html {
 #site-navigation.main-navigation #menu-header-nav .dropdown-menu-toggle {
   display: none;
 }
-#site-navigation.main-navigation #menu-header-nav ul, #site-navigation.main-navigation #menu-header-nav li {
+#site-navigation.main-navigation #menu-header-nav ul,
+#site-navigation.main-navigation #menu-header-nav li {
   margin: 0;
   list-style: none;
 }
-#site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu {
+#site-navigation.main-navigation
+  #menu-header-nav
+  .menu-item-has-children
+  .sub-menu {
   transition: opacity 0.5s;
   top: 3rem;
   margin-bottom: 3.5rem;
@@ -595,11 +634,19 @@ html {
   white-space: nowrap;
   top: 6rem;
 }
-#site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu > li > a {
+#site-navigation.main-navigation
+  #menu-header-nav
+  .menu-item-has-children
+  .sub-menu
+  > li
+  > a {
   color: #290056;
   font-size: 2rem;
 }
-#site-navigation.main-navigation #menu-header-nav .menu-item-has-children .dropdown-menu-toggle {
+#site-navigation.main-navigation
+  #menu-header-nav
+  .menu-item-has-children
+  .dropdown-menu-toggle {
   float: right;
 }
 #site-navigation.main-navigation.toggled {
@@ -642,7 +689,7 @@ html {
   display: none;
 }
 #site-navigation.main-navigation.toggled .menu-toggle:before {
-  content: '\2715';
+  content: "\2715";
   font-size: 48px;
   position: absolute;
   right: 0;
@@ -655,17 +702,21 @@ html {
     height: 3rem;
   }
 }
+.swiper-pagination-bullets {
+  display: none;
+}
 .elementor-swiper-button {
   display: flex;
   height: 100%;
   align-items: flex-end;
+  z-index: 1000;
 }
 .elementor-swiper-button:after {
-  content: url(/wp-content/uploads/2020/09/arrow.svg);
+  content: url("data:image/svg+xml;utf8,<svg id='a2ac12bf-8d9c-419c-b313-ef0c525b27ab' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36.77 59.88'><polygon class='e22aa11f-bda2-4928-bb62-ef3a9efbf9f7' points='14.88 19.77 14.88 59.88 21.89 59.88 21.89 19.77 36.77 19.77 18.39 0 18.38 0 0 19.77 14.88 19.77' fill='currentColor'/></svg>");
   fill: #e3203d;
+  color: #e3203d;
   width: 20px;
   margin-bottom: -45px;
-  z-index: 100000;
 }
 .elementor-swiper-button > i {
   display: none;
@@ -681,10 +732,12 @@ html {
   width: 100vw;
   overflow: hidden;
 }
-.mobile-slider .elementor-widget-container, .mobile-slider .swiper-container {
+.mobile-slider .elementor-widget-container,
+.mobile-slider .swiper-container {
   overflow: unset;
 }
-.mobile-slider div, .mobile-slider figure {
+.mobile-slider div,
+.mobile-slider figure {
   height: 100%;
 }
 .mobile-slider img {

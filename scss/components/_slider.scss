@@ -2,16 +2,21 @@
 //   overflow: hidden;
 // }
 
+.swiper-pagination-bullets {
+  display: none;
+}
+
 .elementor-swiper-button {
   display: flex;
   height: 100%;
   align-items: flex-end;
+  z-index: 1000;
   &:after {
-    content: $arrow-img;
+    content: $arrow-svg;
     fill: $color-13;
+    color: $color-13;
     width: 20px;
     margin-bottom: -45px;
-    z-index: 100000;
   }
   & > i {
     display: none;
