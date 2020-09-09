@@ -479,8 +479,8 @@ html {
   animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045), opacity 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .round-word-btn .elementor-button {
-  height: 6.8em;
-  width: 6.8em !important;
+  height: 6em;
+  width: 6em !important;
   border-radius: 50%;
   display: flex;
   justify-content: center;
