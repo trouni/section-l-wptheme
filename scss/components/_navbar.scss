@@ -90,8 +90,8 @@
     }
   
     .menu-item-has-children .sub-menu {
-      visibility: visible;
-      opacity: 0;
+      // visibility: visible;
+      // opacity: 0;
       transition: opacity 0.5s;
       top: 3rem;
       margin-bottom: 3.5rem;
@@ -105,9 +105,9 @@
       font-size: 2rem;
     }
 
-    .menu-item-has-children:hover .sub-menu {
-      opacity: 1;
-    }
+    // .menu-item-has-children:hover .sub-menu {
+    //   opacity: 1;
+    // }
 
     .menu-item-has-children .dropdown-menu-toggle {
       float: right;

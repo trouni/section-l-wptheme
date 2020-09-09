@@ -606,8 +606,6 @@ html {
   list-style: none;
 }
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu {
-  visibility: visible;
-  opacity: 0;
   transition: opacity 0.5s;
   top: 3rem;
   margin-bottom: 3.5rem;
@@ -618,9 +616,6 @@ html {
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu > li > a {
   color: #290056;
   font-size: 2rem;
-}
-#site-navigation.main-navigation #menu-header-nav .menu-item-has-children:hover .sub-menu {
-  opacity: 1;
 }
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .dropdown-menu-toggle {
   float: right;
