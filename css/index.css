@@ -454,14 +454,14 @@ html {
 }
 .animate.spinning-wheel {
   animation-name: spin;
-  animation-duration: 15s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
   animation-delay: 3s;
   animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .animate.spinning-wheel svg {
   animation-name: spin-colors;
-  animation-duration: 15s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
   animation-delay: 3s;
   animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
