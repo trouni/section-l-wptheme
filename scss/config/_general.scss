@@ -18,39 +18,43 @@ body {
   }
 }
 
-.elementor-widget-container {
-  overflow: hidden;
+.flip-x {
+  transform: scaleX(-1);
 }
 
-.object-fit-fill {
-  img {
-    object-fit: fill;
-  }
-
-  &, & div, & figure, & img {
-      height: 100% !important;
-      width: 100%;
-  }
+.flip-y {
+  transform: scaleY(-1);
 }
 
-.object-fit-cover {
-  img {
-    object-fit: cover;
-  }
+// .object-fit-fill {
+//   img {
+//     object-fit: fill;
+//   }
 
-  &, & div, & figure, & img {
-      height: 100% !important;
-      width: 100%;
-  }
-}
+//   &, & div, & figure, & img {
+//       height: 100% !important;
+//       width: 100%;
+//   }
+// }
 
-.object-fit-contain {
-  img {
-    object-fit: contain;
-  }
+// .object-fit-cover {
+//   img {
+//     object-fit: cover;
+//   }
 
-  &, & div, & figure, & img {
-      height: 100% !important;
-      width: 100%;
-  }
-}
+//   &, & div, & figure, & img {
+//       height: 100% !important;
+//       width: 100%;
+//   }
+// }
+
+// .object-fit-contain {
+//   img {
+//     object-fit: contain;
+//   }
+
+//   &, & div, & figure, & img {
+//       height: 100% !important;
+//       width: 100%;
+//   }
+// }

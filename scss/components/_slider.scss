@@ -1,3 +1,7 @@
+.elementor-widget-container {
+  overflow: hidden;
+}
+
 .elementor-swiper-button {
   &:after {
     content: $arrow-img;

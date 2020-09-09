@@ -12,29 +12,11 @@ body {
 #page.container.grid-container .site-content {
   padding: unset;
 }
-.elementor-widget-container {
-  overflow: hidden;
+.flip-x {
+  transform: scaleX(-1);
 }
-.object-fit-fill img {
-  object-fit: fill;
-}
-.object-fit-fill, .object-fit-fill div, .object-fit-fill figure, .object-fit-fill img {
-  height: 100% !important;
-  width: 100%;
-}
-.object-fit-cover img {
-  object-fit: cover;
-}
-.object-fit-cover, .object-fit-cover div, .object-fit-cover figure, .object-fit-cover img {
-  height: 100% !important;
-  width: 100%;
-}
-.object-fit-contain img {
-  object-fit: contain;
-}
-.object-fit-contain, .object-fit-contain div, .object-fit-contain figure, .object-fit-contain img {
-  height: 100% !important;
-  width: 100%;
+.flip-y {
+  transform: scaleY(-1);
 }
 .text-color-01 {
   color: #fff;
@@ -672,6 +654,9 @@ html {
   #site-navigation.main-navigation.toggled .menu-toggle:before {
     height: 3rem;
   }
+}
+.elementor-widget-container {
+  overflow: hidden;
 }
 .elementor-swiper-button:after {
   content: url(/wp-content/uploads/2020/09/arrow.svg);
