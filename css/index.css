@@ -655,21 +655,27 @@ html {
     height: 3rem;
   }
 }
-.elementor-widget-container {
-  overflow: hidden;
-}
 .elementor-swiper-button:after {
   content: url(/wp-content/uploads/2020/09/arrow.svg);
   fill: #e3203d;
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
 }
 .elementor-swiper-button > i {
   display: none;
 }
 .elementor-swiper-button.elementor-swiper-button-prev:after {
-  transform: rotate(-90deg) translateY(20px);
+  transform: rotate(-90deg);
+  width: 20px;
+  margin-bottom: -45px;
+  z-index: 100000;
 }
 .elementor-swiper-button.elementor-swiper-button-next:after {
-  transform: rotate(90deg) translateY(20px);
+  transform: rotate(90deg);
+  width: 20px;
+  margin-bottom: -45px;
+  z-index: 100000;
 }
 .mobile-slider {
   height: 75vh;
