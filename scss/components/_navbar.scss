@@ -54,7 +54,7 @@
         display: flex;
 
         &:after {
-          content: $arrow-svg;
+          content: $arrow-svg-red;
           transform: rotate(-90deg) translateY(1.5em);
           color: red;
           opacity: 0;
