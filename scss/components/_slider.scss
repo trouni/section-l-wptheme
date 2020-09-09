@@ -16,7 +16,9 @@
     fill: $color-13;
     color: $color-13;
     width: 20px;
-    margin-bottom: -45px;
+    @media screen and (min-width: 769px) {
+      margin-bottom: -45px;
+    }
   }
   & > i {
     display: none;

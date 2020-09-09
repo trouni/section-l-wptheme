@@ -679,7 +679,11 @@ html {
   fill: #e3203d;
   color: #e3203d;
   width: 20px;
-  margin-bottom: -45px;
+}
+@media screen and (min-width: 769px) {
+  .elementor-swiper-button:after {
+    margin-bottom: -45px;
+  }
 }
 .elementor-swiper-button > i {
   display: none;
