@@ -54,4 +54,5 @@ add_filter('generate_typography_default_fonts', function ($fonts) {
 $theme_dir = get_stylesheet_directory();
 
 require $theme_dir . '/inc/scss-variables.php';
+require $theme_dir . '/inc/elementor_heading.php';
 require $theme_dir . '/inc/structure/navigation.php';
