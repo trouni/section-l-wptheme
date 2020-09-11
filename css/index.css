@@ -331,6 +331,9 @@ html {
   #page.container.grid-container {
     padding: 3rem 6rem;
   }
+  #site-footer .footer-main-content {
+    padding-right: 6rem !important;
+  }
   #site-footer #footer-logo {
     position: absolute;
     top: 0;
@@ -361,6 +364,9 @@ html {
   #page.container.grid-container {
     padding: 3rem 10rem;
   }
+  #site-footer .footer-main-content {
+    padding-right: 10rem !important;
+  }
   #site-footer #footer-logo {
     position: absolute;
     top: 0;
@@ -390,6 +396,9 @@ html {
   }
   #page.container.grid-container {
     padding: 3rem 14rem;
+  }
+  #site-footer .footer-main-content {
+    padding-right: 14rem !important;
   }
   #site-footer #footer-logo {
     position: absolute;
