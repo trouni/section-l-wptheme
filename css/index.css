@@ -285,7 +285,7 @@ html {
 #site-navigation.main-navigation #primary-menu {
   padding: 3rem;
 }
-#site-footer .footer-main-content {
+.site-footer .footer-main-content {
   padding-right: 3rem !important;
 }
 .section-l-divider {
@@ -308,7 +308,7 @@ html {
   #site-navigation.main-navigation #primary-menu {
     padding: 3rem;
   }
-  #site-footer .footer-main-content {
+  .site-footer .footer-main-content {
     padding-right: 3rem !important;
   }
   .section-l-divider {
@@ -331,10 +331,10 @@ html {
   #page.container.grid-container {
     padding: 3rem 6rem;
   }
-  #site-footer .footer-main-content {
+  .site-footer .footer-main-content {
     padding-right: 6rem !important;
   }
-  #site-footer #footer-logo {
+  .site-footer #footer-logo {
     position: absolute;
     top: 0;
     left: calc((6rem + 1rem) / 2);
@@ -364,10 +364,10 @@ html {
   #page.container.grid-container {
     padding: 3rem 10rem;
   }
-  #site-footer .footer-main-content {
+  .site-footer .footer-main-content {
     padding-right: 10rem !important;
   }
-  #site-footer #footer-logo {
+  .site-footer #footer-logo {
     position: absolute;
     top: 0;
     left: calc((10rem + 1rem) / 2);
@@ -397,10 +397,10 @@ html {
   #page.container.grid-container {
     padding: 3rem 14rem;
   }
-  #site-footer .footer-main-content {
+  .site-footer .footer-main-content {
     padding-right: 14rem !important;
   }
-  #site-footer #footer-logo {
+  .site-footer #footer-logo {
     position: absolute;
     top: 0;
     left: calc((14rem + 1rem) / 2);

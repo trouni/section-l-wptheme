@@ -15,7 +15,7 @@
   #site-navigation.main-navigation #primary-menu {
     padding: $body-padding-y;
   }
-  #site-footer .footer-main-content {
+  .site-footer .footer-main-content {
     padding-right: $body-padding-x !important;
   }
   .section-l-divider {
@@ -39,7 +39,7 @@
   #page.container.grid-container {
     padding: $body-padding-y $body-padding-x;
   }
-  #site-footer {
+  .site-footer {
     .footer-main-content {
       padding-right: $body-padding-x !important;
     }
