@@ -39,8 +39,15 @@
   #page.container.grid-container {
     padding: $body-padding-y $body-padding-x;
   }
-  .site-footer .footer-main-content {
-    padding-right: $body-padding-x !important;
+  #site-footer #footer-logo {
+    position: absolute;
+    top: 0;
+    left: calc((#{$body-padding-x} + 1rem) / 2);
+    padding-right: calc((#{$body-padding-x} + 1rem) / 2);
+  }
+  .generate-back-to-top {
+    right: calc((#{$body-padding-x} + 1rem) / 2) !important;
+    transform: translateX(50%);
   }
   .section-l-divider {
     padding: 0 $body-padding-x;

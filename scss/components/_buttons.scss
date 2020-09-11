@@ -6,3 +6,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.generate-back-to-top {
+  background-color: transparent !important;
+  width: 3rem !important;
+  &:before {
+    content: $arrow-svg-brown !important;
+  }
+}

@@ -56,7 +56,6 @@
         &:after {
           content: $arrow-svg-red;
           transform: rotate(-90deg) translateY(1.5em);
-          color: red;
           opacity: 0;
           width: 2.5rem;
           transition: transform 0.3s ease-out, opacity 0.3s ease-out;
