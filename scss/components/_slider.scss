@@ -10,7 +10,7 @@
   display: flex;
   height: 100%;
   align-items: flex-end;
-  z-index: 1000;
+  z-index: 10;
   &:after {
     content: $arrow-svg-red;
     width: 20px;

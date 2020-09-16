@@ -524,6 +524,7 @@ html {
 }
 #masthead.site-header {
   background-color: unset;
+  z-index: 1;
 }
 #masthead.site-header .inside-header {
   padding: 10px;
@@ -532,7 +533,7 @@ html {
   position: fixed;
   overflow: hidden;
   text-align: left;
-  z-index: 1000;
+  z-index: 1;
 }
 #masthead.site-header .site-logo img {
   height: 3rem;
@@ -570,11 +571,12 @@ html {
   top: 0;
   width: 100%;
   background-color: #ecedf0;
-  z-index: 1000;
+  z-index: 0;
+  height: 60px;
 }
 #site-navigation.main-navigation .menu-toggle {
   position: absolute;
-  z-index: 10;
+  z-index: 1;
 }
 #site-navigation.main-navigation .inside-navigation {
   display: flex;
@@ -666,6 +668,9 @@ html {
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children:hover .sub-menu {
   opacity: 1;
 }
+#site-navigation.main-navigation.toggled {
+  z-index: 100;
+}
 #site-navigation.main-navigation.toggled #primary-menu {
   display: inherit !important;
   position: absolute;
@@ -679,6 +684,7 @@ html {
 @media screen and (min-width: 769px) {
   #site-navigation.main-navigation {
     background-color: transparent;
+    height: unset;
   }
   #site-navigation.main-navigation.toggled #primary-menu {
     height: 150px;
@@ -738,7 +744,7 @@ html {
   display: flex;
   height: 100%;
   align-items: flex-end;
-  z-index: 1000;
+  z-index: 10;
 }
 .elementor-swiper-button:after {
   content: url("data:image/svg+xml;utf8,<svg id='a2ac12bf-8d9c-419c-b313-ef0c525b27ab' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36.77 59.88'><polygon class='e22aa11f-bda2-4928-bb62-ef3a9efbf9f7' points='14.88 19.77 14.88 59.88 21.89 59.88 21.89 19.77 36.77 19.77 18.39 0 18.38 0 0 19.77 14.88 19.77' fill='%23E3203D'/></svg>");

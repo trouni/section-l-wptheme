@@ -7,11 +7,12 @@
   top: 0;
   width: 100%;
   background-color: $color-06;
-  z-index: 1000;
+  z-index: 0;
+  height: 60px; // background for header on mobile
 
   .menu-toggle {
     position: absolute;
-    z-index: 10;
+    z-index: 1;
   }
 
   .inside-navigation {
@@ -123,6 +124,7 @@
 }
 
 #site-navigation.main-navigation.toggled {
+  z-index: 100;
   #primary-menu {
     display: inherit !important;
     position: absolute;
@@ -142,6 +144,7 @@
 @media screen and (min-width: 769px) {
   #site-navigation.main-navigation {
     background-color: transparent;
+    height: unset;
 
     &.toggled #primary-menu {
       height: 150px;
