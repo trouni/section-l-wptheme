@@ -283,6 +283,9 @@ html {
   padding: 3rem 3rem;
 }
 #site-navigation.main-navigation #primary-menu {
+  padding: 0 3rem;
+}
+#site-navigation.main-navigation.toggled #primary-menu {
   padding: 3rem;
 }
 .site-footer .footer-main-content {
@@ -306,6 +309,9 @@ html {
     padding: 3rem 3rem;
   }
   #site-navigation.main-navigation #primary-menu {
+    padding: 0 3rem;
+  }
+  #site-navigation.main-navigation.toggled #primary-menu {
     padding: 3rem;
   }
   .site-footer .footer-main-content {
@@ -564,7 +570,11 @@ html {
   top: 0;
   width: 100%;
   background-color: #ecedf0;
-  z-index: 100;
+  z-index: 1000;
+}
+#site-navigation.main-navigation .menu-toggle {
+  position: absolute;
+  z-index: 10;
 }
 #site-navigation.main-navigation .inside-navigation {
   display: flex;
@@ -573,10 +583,13 @@ html {
   justify-content: space-between;
 }
 #site-navigation.main-navigation #primary-menu {
-  display: none;
+  height: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
   flex-grow: 1;
   background-color: #dac5b4;
-  height: 100vh;
+  transition: 0.3s;
 }
 #site-navigation.main-navigation #primary-menu > ul {
   justify-content: space-evenly;
@@ -620,7 +633,7 @@ html {
   opacity: 1;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
-  font-size: 8rem;
+  font-size: 52px;
   line-height: 12rem;
   font-weight: 600;
   display: flex;
@@ -634,25 +647,25 @@ html {
   list-style: none;
 }
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu {
+  visibility: visible;
+  position: relative;
+  pointer-events: unset;
   transition: opacity 0.5s;
-  top: 3rem;
   margin-bottom: 3.5rem;
-  position: absolute;
   white-space: nowrap;
-  top: 6rem;
 }
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu > li > a {
   color: #290056;
-  font-size: 2rem;
+  font-size: 38px;
+  padding-left: 30px;
 }
-#site-navigation.main-navigation #menu-header-nav .menu-item-has-children .dropdown-menu-toggle {
-  float: right;
-}
-#site-navigation.main-navigation.toggled {
-  z-index: 1000;
+#site-navigation.main-navigation #menu-header-nav .menu-item-has-children:hover .sub-menu {
+  opacity: 1;
 }
 #site-navigation.main-navigation.toggled #primary-menu {
   display: inherit !important;
+  position: absolute;
+  height: 100vh;
 }
 @media screen and (min-width: 1280px) {
   #menu-header-nav {
@@ -663,15 +676,24 @@ html {
   #site-navigation.main-navigation {
     background-color: transparent;
   }
-  #site-navigation.main-navigation #primary-menu {
-    height: unset;
+  #site-navigation.main-navigation.toggled #primary-menu {
+    height: 150px;
   }
   #site-navigation.main-navigation #menu-header-nav {
     display: inline-flex;
   }
   #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3.8rem;
+    line-height: 3.8rem;
+  }
+  #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu {
+    opacity: 0;
+    position: absolute;
+    top: 6rem;
+  }
+  #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu > li > a {
+    font-size: 2rem;
+    padding-left: unset;
   }
 }
 #site-navigation.main-navigation .menu-toggle {

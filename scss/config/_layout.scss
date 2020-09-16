@@ -13,6 +13,9 @@
     padding: $body-padding-y $body-padding-x;
   }
   #site-navigation.main-navigation #primary-menu {
+    padding: 0 $body-padding-y;
+  }
+  #site-navigation.main-navigation.toggled #primary-menu {
     padding: $body-padding-y;
   }
   .site-footer .footer-main-content {
