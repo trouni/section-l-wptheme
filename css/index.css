@@ -280,7 +280,7 @@ html {
   left: calc(3rem + 1rem);
 }
 #page.container.grid-container {
-  padding: 3rem 3rem;
+  padding: 60px 3rem 3rem 3rem;
 }
 #site-navigation.main-navigation #primary-menu {
   padding: 0 3rem;
@@ -306,7 +306,7 @@ html {
     left: calc(3rem + 1rem);
   }
   #page.container.grid-container {
-    padding: 3rem 3rem;
+    padding: 60px 3rem 3rem 3rem;
   }
   #site-navigation.main-navigation #primary-menu {
     padding: 0 3rem;

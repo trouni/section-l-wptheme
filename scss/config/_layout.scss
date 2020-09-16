@@ -10,7 +10,7 @@
     left: calc(#{$body-padding-x} + 1rem);
   }
   #page.container.grid-container {
-    padding: $body-padding-y $body-padding-x;
+    padding: 60px $body-padding-x $body-padding-y $body-padding-x;
   }
   #site-navigation.main-navigation #primary-menu {
     padding: 0 $body-padding-y;
