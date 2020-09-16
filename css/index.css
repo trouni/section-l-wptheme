@@ -618,26 +618,30 @@ html {
   color: #290056;
   align-content: start;
   display: flex;
+  font-size: 52px;
+  line-height: 12rem;
+  font-weight: 600;
+  align-items: center;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item > a:after {
   content: url("data:image/svg+xml;utf8,<svg id='a2ac12bf-8d9c-419c-b313-ef0c525b27ab' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36.77 59.88'><polygon class='e22aa11f-bda2-4928-bb62-ef3a9efbf9f7' points='14.88 19.77 14.88 59.88 21.89 59.88 21.89 19.77 36.77 19.77 18.39 0 18.38 0 0 19.77 14.88 19.77' fill='%23E3203D'/></svg>");
-  transform: rotate(-90deg) translateY(1.5em);
+  transform: rotate(-90deg);
+  width: 5rem;
   opacity: 0;
-  width: 2.5rem;
   transition: transform 0.3s ease-out, opacity 0.3s ease-out;
   justify-content: center;
   align-items: center;
 }
-#site-navigation.main-navigation #menu-header-nav > li.menu-item.current-menu-item > a:after, #site-navigation.main-navigation #menu-header-nav > li.menu-item:hover > a:after {
+#site-navigation.main-navigation #menu-header-nav > li.menu-item:hover > a:after {
+  transform: rotate(-90deg) translateY(0.5em);
+  opacity: 0.3;
+}
+#site-navigation.main-navigation #menu-header-nav > li.menu-item.current-menu-item > a:after {
   transform: rotate(-90deg) translateY(0.5em);
   opacity: 1;
 }
-#site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
-  font-size: 52px;
-  line-height: 12rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
+#site-navigation.main-navigation #menu-header-nav > li.menu-item.current-menu-item.menu-item-has-children .sub-menu {
+  opacity: 1;
 }
 #site-navigation.main-navigation #menu-header-nav .dropdown-menu-toggle {
   display: none;
@@ -685,6 +689,10 @@ html {
   #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
     font-size: 3.8rem;
     line-height: 3.8rem;
+  }
+  #site-navigation.main-navigation #menu-header-nav > li.menu-item > a:after {
+    transform: rotate(-90deg) translateY(1.5em);
+    width: 2.5rem;
   }
   #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu {
     opacity: 0;
