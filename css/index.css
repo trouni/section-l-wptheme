@@ -576,6 +576,8 @@ html {
 }
 #site-navigation.main-navigation .menu-toggle {
   position: absolute;
+  top: 0;
+  right: 0;
   z-index: 1;
 }
 #site-navigation.main-navigation .inside-navigation {
