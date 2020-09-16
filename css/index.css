@@ -571,7 +571,7 @@ html {
   top: 0;
   width: 100%;
   background-color: #ecedf0;
-  z-index: 0;
+  z-index: 10;
   height: 60px;
 }
 #site-navigation.main-navigation .menu-toggle {
