@@ -33,6 +33,11 @@ if (!function_exists('generate_navigation_position')) {
 				 */
 				do_action('generate_inside_navigation');
 				?>
+				<button class="reserve-button">
+					<span>
+						<p></p>
+					</span>
+				</button>
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 					<?php
 					/**

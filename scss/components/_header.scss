@@ -23,7 +23,7 @@
       /* for the logo animation to not be cropped on the right */
     }
 
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: $mobile-breakpoint) {
       &.collapsed img {
         transform: translateX(-90%);
       }

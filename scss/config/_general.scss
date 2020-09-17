@@ -1,3 +1,7 @@
+#site-navigation.main-navigation *, #site-navigation.main-navigation.toggled * {
+  margin: 0; padding: 0; display: inherit; background-color: unset; border: unset; box-shadow: unset; opacity: unset; width: unset; height: unset; line-height: unset; left: unset; right: unset; top: unset; bottom: unset;
+}
+
 // #wpadminbar { display:none !important;}
 
 html {
@@ -11,7 +15,7 @@ body {
 
 // Remove the blue highlight on touch devices
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $mobile-breakpoint) {
   * {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
@@ -39,36 +43,3 @@ body {
 .flip-y {
   transform: scaleY(-1);
 }
-
-// .object-fit-fill {
-//   img {
-//     object-fit: fill;
-//   }
-
-//   &, & div, & figure, & img {
-//       height: 100% !important;
-//       width: 100%;
-//   }
-// }
-
-// .object-fit-cover {
-//   img {
-//     object-fit: cover;
-//   }
-
-//   &, & div, & figure, & img {
-//       height: 100% !important;
-//       width: 100%;
-//   }
-// }
-
-// .object-fit-contain {
-//   img {
-//     object-fit: contain;
-//   }
-
-//   &, & div, & figure, & img {
-//       height: 100% !important;
-//       width: 100%;
-//   }
-// }

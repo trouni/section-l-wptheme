@@ -5,6 +5,17 @@
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
     margin: $body-padding-y calc(#{$body-padding-x} + 1rem);
   }
+  // Reserve button
+  #site-navigation .reserve-button {
+    position: fixed;
+    right: calc(#{$body-padding-x} + 8rem) !important;
+    top: $body-padding-y !important;
+  }
+  // Language button
+  #menu-header-nav > li:last-child {
+    bottom: $body-padding-y !important;
+    transform: translateY(-50%);
+  }
   #masthead.site-header .site-logo {
     top: $body-padding-y;
     left: calc(#{$body-padding-x} + 1rem);
@@ -33,6 +44,22 @@
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
     margin: $body-padding-y calc((#{$body-padding-x} + 1rem) / 2);
     transform: translateX(50%);
+  }
+  #site-navigation.main-navigation.toggled .menu-toggle:before {
+    margin: unset;
+  }
+  // Reserve button
+  #site-navigation .reserve-button {
+    position: fixed;
+    right: calc((#{$body-padding-x} + 1rem) / 2) !important;
+    top: 12rem !important;
+    transform: translateX(50%);
+  }
+  // Language button
+  #menu-header-nav > li:last-child {
+    bottom: unset !important;
+    right: $body-padding-x !important;
+    transform: translateX(-50%);
   }
   #masthead.site-header .site-logo {
     top: $body-padding-y;
@@ -68,7 +95,7 @@
   @include layout-mobile($base-font-size: 7px, $body-padding-y: 3rem, $body-padding-x: 3rem);
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: $mobile-breakpoint) {
   @include layout($base-font-size: 8px, $body-padding-y: 3rem, $body-padding-x: 6rem);
 }
 
