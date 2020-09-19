@@ -782,7 +782,7 @@ html {
     font-size: 2.2rem;
   }
   #site-navigation.main-navigation .reserve-button p:after {
-    content: 'Reserve';
+    content: 'Book';
   }
 }
 #site-navigation.main-navigation.toggled {
