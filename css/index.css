@@ -526,6 +526,7 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 1.7vw !important;
+  margin: unset !important;
 }
 .generate-back-to-top {
   background-color: transparent !important;
