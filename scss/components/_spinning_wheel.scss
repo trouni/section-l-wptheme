@@ -1,0 +1,12 @@
+.spinning-wheel .elementor-icon-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.spinning-wheel svg {
+  font-size: 80vw;
+  @media screen and (min-width: $mobile-breakpoint) {
+    font-size: 35vw;
+  }
+}

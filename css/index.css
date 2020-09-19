@@ -937,6 +937,19 @@ html {
 .mobile-slider .elementor-swiper-button {
   align-items: center;
 }
+.spinning-wheel .elementor-icon-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.spinning-wheel svg {
+  font-size: 80vw;
+}
+@media screen and (min-width: 769px) {
+  .spinning-wheel svg {
+    font-size: 35vw;
+  }
+}
 .elementor-widget-image[data-word] {
   display: none;
 }
