@@ -628,15 +628,16 @@ html {
   height: 3rem;
   width: unset;
   transform: translateX(0);
-  transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: transform 0.3s ease-in;
   object-fit: contain;
   object-position: left;
-  margin-right: 2rem;
   /* for the logo animation to not be cropped on the right */
+  margin-right: 2rem;
 }
 @media screen and (min-width: 769px) {
   #masthead.site-header .site-logo.collapsed img {
     transform: translateX(-90%);
+    transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
   }
 }
 #site-navigation.main-navigation {
