@@ -530,6 +530,9 @@ html {
   font-size: 1.7vw !important;
   margin: unset !important;
 }
+.round-word-btn.active .elementor-button-text {
+  border-bottom: 4px solid white;
+}
 .generate-back-to-top {
   background-color: transparent !important;
   width: 3rem !important;

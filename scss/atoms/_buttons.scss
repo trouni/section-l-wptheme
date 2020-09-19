@@ -1,12 +1,17 @@
-.round-word-btn .elementor-button {
-  height: 6em;
-  width: 6em !important;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.7vw !important;
-  margin: unset !important;
+.round-word-btn {
+  .elementor-button {
+    height: 6em;
+    width: 6em !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7vw !important;
+    margin: unset !important;
+  }
+  &.active .elementor-button-text {
+    border-bottom: 4px solid white;
+  }
 }
 
 .generate-back-to-top {
