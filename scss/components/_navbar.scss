@@ -20,6 +20,10 @@ $menu-transition-duration: 0.3s;
     z-index: 1;
   }
 
+  .menu-toggle:before {
+    color: $color-02;
+  }
+
   .inside-navigation {
     display: flex;
     flex-flow: row-reverse;

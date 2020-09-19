@@ -655,6 +655,9 @@ html {
   right: 0;
   z-index: 1;
 }
+#site-navigation.main-navigation .menu-toggle:before {
+  color: #290056;
+}
 #site-navigation.main-navigation .inside-navigation {
   display: flex;
   flex-flow: row-reverse;
