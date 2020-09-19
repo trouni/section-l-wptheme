@@ -1,15 +1,15 @@
-const activeClasses = ['active', 'animate__animated', 'animate__faster', 'animate__pulse']
+const activeBtnClasses = ['active', 'animate__animated', 'animate__faster', 'animate__pulse']
 
 const wordPhotos = document.querySelectorAll('[data-word]')
 const wordButtons = document.querySelectorAll('.round-word-btn')
 let activeButton = 0
 
 const activateButton = (button) => {
-  wordPhotos.forEach(photo => photo.classList.remove(...activeClasses))
-  wordButtons.forEach(photo => photo.classList.remove(...activeClasses))
   const word = button.innerText.toLowerCase()
-  button.classList.add(...activeClasses)
-  document.querySelector(`[data-word=${word}]`).classList.add(...activeClasses)
+  wordPhotos.forEach(photo => photo.classList.remove('active'))
+  document.querySelector(`[data-word=${word}]`).classList.add('active')
+  wordButtons.forEach(photo => photo.classList.remove(...activeBtnClasses))
+  button.classList.add(...activeBtnClasses)
 }
 
 const cyclePhotos = () => {
