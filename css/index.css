@@ -24,6 +24,16 @@ body {
 .hidden {
   display: none;
 }
+.square-ratio .elementor-image {
+  padding-top: 100%;
+}
+.square-ratio .elementor-image > img {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 @media screen and (max-width: 769px) {
   * {
     -webkit-tap-highlight-color: transparent;
