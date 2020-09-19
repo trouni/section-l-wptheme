@@ -11,6 +11,8 @@ function wp_scss_set_variables()
     'arrow-svg-orange' => "url(\"data:image/svg+xml;utf8,<svg id='a2ac12bf-8d9c-419c-b313-ef0c525b27ab' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36.77 59.88'><polygon class='e22aa11f-bda2-4928-bb62-ef3a9efbf9f7' points='14.88 19.77 14.88 59.88 21.89 59.88 21.89 19.77 36.77 19.77 18.39 0 18.38 0 0 19.77 14.88 19.77' fill='%23FF673A'/></svg>\")",
     'arrow-svg-brown' => "url(\"data:image/svg+xml;utf8,<svg id='a2ac12bf-8d9c-419c-b313-ef0c525b27ab' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36.77 59.88'><polygon class='e22aa11f-bda2-4928-bb62-ef3a9efbf9f7' points='14.88 19.77 14.88 59.88 21.89 59.88 21.89 19.77 36.77 19.77 18.39 0 18.38 0 0 19.77 14.88 19.77' fill='%23C47159'/></svg>\")",
     'mobile-breakpoint' => '769px',
+    'tablet-breakpoint' => '997px',
+    'desktop-breakpoint' => '1281px',
     'color-01' => '#FFFFFF',
     'color-02' => '#290056',
     'color-03' => '#008A6A',

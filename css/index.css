@@ -735,10 +735,6 @@ html {
   justify-content: center;
   align-items: center;
 }
-#site-navigation.main-navigation #menu-header-nav > li.menu-item:hover > a:after {
-  transform: rotate(-90deg) translateY(0.5em);
-  opacity: 0.3;
-}
 #site-navigation.main-navigation #menu-header-nav > li.menu-item.current-menu-item > a:after {
   transform: rotate(-90deg) translateY(0.5em);
   opacity: 1;
@@ -829,6 +825,12 @@ html {
   #menu-header-nav > li.menu-item > a {
     font-size: 3.8rem;
     line-height: 3.8rem;
+  }
+}
+@media screen and (min-width: 997px) {
+  #site-navigation.main-navigation #menu-header-nav > li.menu-item:hover > a:after {
+    transform: rotate(-90deg) translateY(0.5em);
+    opacity: 0.3;
   }
 }
 @media screen and (min-width: 769px) {

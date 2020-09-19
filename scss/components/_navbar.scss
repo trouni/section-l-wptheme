@@ -82,11 +82,6 @@ $menu-transition-duration: 0.3s;
           align-items: center;
         }
       }
-      
-      &:hover > a:after {
-        transform: rotate(-90deg) translateY(0.5em);
-        opacity: 0.3;
-      }
 
       &.current-menu-item > a:after {
         transform: rotate(-90deg) translateY(0.5em);
@@ -199,6 +194,16 @@ $menu-transition-duration: 0.3s;
   }
 }
 
+
+@media screen and (min-width: $tablet-breakpoint) {
+  #site-navigation.main-navigation {
+    #menu-header-nav > li.menu-item:hover > a:after {
+      transform: rotate(-90deg) translateY(0.5em);
+      opacity: 0.3;
+    }
+  }
+}
+
 // Desktop navbar
 
 @media screen and (min-width: $mobile-breakpoint) {
@@ -219,13 +224,11 @@ $menu-transition-duration: 0.3s;
           width: 2.5rem;
         }
       }
-
       .menu-item-has-children .sub-menu {
         opacity: 0;
         position: absolute;
         top: 6rem;
       }
-
       .menu-item-has-children .sub-menu > li > a {
         font-size: 2rem;
         padding-left: unset;
