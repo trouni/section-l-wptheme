@@ -350,7 +350,7 @@ html {
 .site-footer .footer-main-content {
   padding-right: 3rem !important;
 }
-.section-l-divider {
+.section-l-divider, .page-padding {
   padding: 0 3rem;
 }
 @media screen and (min-width: 577px) {
@@ -385,7 +385,7 @@ html {
   .site-footer .footer-main-content {
     padding-right: 3rem !important;
   }
-  .section-l-divider {
+  .section-l-divider, .page-padding {
     padding: 0 3rem;
   }
 }
@@ -423,7 +423,7 @@ html {
     right: calc((6rem + 1rem) / 2) !important;
     transform: translateX(50%);
   }
-  .section-l-divider {
+  .section-l-divider, .page-padding {
     padding: 0 6rem;
   }
 }
@@ -461,7 +461,7 @@ html {
     right: calc((10rem + 1rem) / 2) !important;
     transform: translateX(50%);
   }
-  .section-l-divider {
+  .section-l-divider, .page-padding {
     padding: 0 10rem;
   }
 }
@@ -499,7 +499,7 @@ html {
     right: calc((14rem + 1rem) / 2) !important;
     transform: translateX(50%);
   }
-  .section-l-divider {
+  .section-l-divider, .page-padding {
     padding: 0 14rem;
   }
 }

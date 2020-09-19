@@ -32,7 +32,7 @@
   .site-footer .footer-main-content {
     padding-right: $body-padding-x !important;
   }
-  .section-l-divider {
+  .section-l-divider, .page-padding {
     padding: 0 $body-padding-x;
   }
 }
@@ -84,7 +84,7 @@
     right: calc((#{$body-padding-x} + 1rem) / 2) !important;
     transform: translateX(50%);
   }
-  .section-l-divider {
+  .section-l-divider, .page-padding {
     padding: 0 $body-padding-x;
   }
 }
