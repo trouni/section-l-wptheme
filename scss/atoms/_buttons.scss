@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.7vw;
+    font-size: 1.7vw !important;
   }
   &.active .elementor-button-text {
     border-bottom: 4px solid white;
