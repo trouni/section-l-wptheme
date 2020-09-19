@@ -22,6 +22,9 @@ html {
 body {
   font-size: 1.6rem;
 }
+.hidden {
+  display: none;
+}
 @media screen and (max-width: 769px) {
   * {
     -webkit-tap-highlight-color: transparent;

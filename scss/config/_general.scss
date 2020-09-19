@@ -13,6 +13,10 @@ body {
   font-size: 1.6rem;
 }
 
+.hidden {
+  display: none;
+}
+
 // Remove the blue highlight on touch devices
 
 @media screen and (max-width: $mobile-breakpoint) {
