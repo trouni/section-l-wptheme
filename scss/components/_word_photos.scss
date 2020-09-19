@@ -1,0 +1,6 @@
+.elementor-widget-image[data-word] {
+  display: none;
+  &.active {
+    display: unset;
+  }
+}

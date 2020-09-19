@@ -1,4 +1,3 @@
-@import 'buttons';
 #site-navigation.main-navigation *, #site-navigation.main-navigation.toggled * {
   margin: 0;
   padding: 0;
@@ -924,4 +923,10 @@ html {
 }
 .mobile-slider .elementor-swiper-button {
   align-items: center;
+}
+.elementor-widget-image[data-word] {
+  display: none;
+}
+.elementor-widget-image[data-word].active {
+  display: unset;
 }
