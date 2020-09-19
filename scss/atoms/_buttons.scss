@@ -1,5 +1,6 @@
 .round-word-btn {
   .elementor-button {
+    cursor: pointer;
     height: 6em;
     width: 6em !important;
     border-radius: 50%;
@@ -10,6 +11,7 @@
   }
   &.active .elementor-button-text {
     border-bottom: 4px solid white;
+    border-top: 4px solid transparent;
   }
 }
 
