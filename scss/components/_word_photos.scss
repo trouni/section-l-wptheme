@@ -1,6 +1,14 @@
 .elementor-widget-image[data-word] {
-  display: none;
+  // display: none;
+  transition: opacity 1s;
+  opacity: 0;
+  &:not(:first-child) {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   &.active {
-    display: unset;
+    // display: unset;
+    opacity: 1;
   }
 }

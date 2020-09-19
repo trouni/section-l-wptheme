@@ -510,8 +510,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.7vw !important;
-  margin: unset !important;
+  font-size: 1.7vw;
 }
 .round-word-btn.active .elementor-button-text {
   border-bottom: 4px solid white;
@@ -930,8 +929,14 @@ html {
   }
 }
 .elementor-widget-image[data-word] {
-  display: none;
+  transition: opacity 1s;
+  opacity: 0;
+}
+.elementor-widget-image[data-word]:not(:first-child) {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .elementor-widget-image[data-word].active {
-  display: unset;
+  opacity: 1;
 }
