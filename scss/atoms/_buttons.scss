@@ -1,4 +1,5 @@
 .round-word-btn {
+  transition: transform 0.3s;
   .elementor-button {
     cursor: pointer;
     height: 6em;
@@ -8,6 +9,9 @@
     justify-content: center;
     align-items: center;
     font-size: 1.7vw !important;
+  }
+  &:hover {
+    transform: scale(1.05);
   }
   &.active .elementor-button-text {
     border-bottom: 4px solid white;

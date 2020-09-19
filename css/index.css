@@ -503,6 +503,9 @@ html {
     padding: 0 14rem;
   }
 }
+.round-word-btn {
+  transition: transform 0.3s;
+}
 .round-word-btn .elementor-button {
   cursor: pointer;
   height: 6em;
@@ -512,6 +515,9 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 1.7vw !important;
+}
+.round-word-btn:hover {
+  transform: scale(1.05);
 }
 .round-word-btn.active .elementor-button-text {
   border-bottom: 4px solid white;
