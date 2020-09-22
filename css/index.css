@@ -44,7 +44,7 @@ body {
     -ms-user-select: none;
     user-select: none;
   }
-  elementor-menu-anchor {
+  .elementor-menu-anchor {
     margin-top: -40px;
   }
 }
