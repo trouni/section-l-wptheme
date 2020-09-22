@@ -44,11 +44,8 @@ body {
     -ms-user-select: none;
     user-select: none;
   }
-  section:target:before {
-    content: '';
-    display: block;
-    height: 80px;
-    margin-top: -80px;
+  elementor-menu-anchor {
+    margin-top: -40px;
   }
 }
 #page.container.grid-container {

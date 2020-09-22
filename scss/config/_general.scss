@@ -43,11 +43,8 @@ body {
     user-select: none;
   }
   // Offset anchor scroll on mobile
-  section[id]:target:before {
-    content: '';
-    display: block;
-    height:      80px;
-    margin-top: -80px;
+  elementor-menu-anchor {
+    margin-top: -40px;
   }
 }
 
