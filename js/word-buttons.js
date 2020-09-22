@@ -17,12 +17,14 @@ const cyclePhotos = () => {
   activateButton(wordButtons[activeButton])
 }
 
-const cycleInterval = setInterval(cyclePhotos, 3000)
-
-wordButtons.forEach(button => {
-  button.addEventListener('click', e => {
-    e.preventDefault()
-    clearInterval(cycleInterval)
-    activateButton(button)
+if (wordButtons.length > 0) {
+  const cycleInterval = setInterval(cyclePhotos, 3000)
+  
+  wordButtons.forEach(button => {
+    button.addEventListener('click', e => {
+      e.preventDefault()
+      clearInterval(cycleInterval)
+      activateButton(button)
+    })
   })
-})
+}

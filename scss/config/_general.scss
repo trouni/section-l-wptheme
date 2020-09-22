@@ -43,7 +43,7 @@ body {
     user-select: none;
   }
   // Offset anchor scroll on mobile
-  section:target:before {
+  section[id]:target:before {
     content: '';
     display: block;
     height:      80px;
