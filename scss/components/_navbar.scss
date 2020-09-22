@@ -57,10 +57,16 @@ $menu-transition-duration: 0.3s;
   }
 
   #menu-header-nav {
-    display: block;
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
     margin: 0;
-    height: 15rem;
+    @media screen and (min-width: $mobile-breakpoint) {
+      flex-direction: unset;
+      justify-content: flex-start;
+      height: 15rem;
+    }
 
     & > li.menu-item {
       font-weight: 800;
@@ -70,8 +76,8 @@ $menu-transition-duration: 0.3s;
         color: $color-02;
         align-content: start;
         display: flex;
-        font-size: 52px;
-        line-height: 12rem;
+        font-size: 5vh;
+        line-height: 7vh;
         font-weight: 600;
         align-items: center;
 
@@ -134,7 +140,7 @@ $menu-transition-duration: 0.3s;
 
     .menu-item-has-children .sub-menu > li > a {
       color: $color-02;
-      font-size: 38px;
+      font-size: 4vh;
       padding-left: 30px;
     }
 

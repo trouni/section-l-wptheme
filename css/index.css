@@ -698,10 +698,18 @@ html {
   display: inherit !important;
 }
 #site-navigation.main-navigation #menu-header-nav {
-  display: block;
-  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
   margin: 0;
-  height: 15rem;
+}
+@media screen and (min-width: 769px) {
+  #site-navigation.main-navigation #menu-header-nav {
+    flex-direction: unset;
+    justify-content: flex-start;
+    height: 15rem;
+  }
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item {
   font-weight: 800;
@@ -711,8 +719,8 @@ html {
   color: #290056;
   align-content: start;
   display: flex;
-  font-size: 52px;
-  line-height: 12rem;
+  font-size: 5vh;
+  line-height: 7vh;
   font-weight: 600;
   align-items: center;
 }
@@ -765,7 +773,7 @@ html {
 }
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu > li > a {
   color: #290056;
-  font-size: 38px;
+  font-size: 4vh;
   padding-left: 30px;
 }
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children:hover .sub-menu {
