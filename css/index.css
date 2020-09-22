@@ -44,6 +44,12 @@ body {
     -ms-user-select: none;
     user-select: none;
   }
+  section:target:before {
+    content: '';
+    display: block;
+    height: 80px;
+    margin-top: -80px;
+  }
 }
 #page.container.grid-container {
   max-width: unset;

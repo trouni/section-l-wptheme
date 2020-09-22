@@ -30,9 +30,9 @@ body {
   }
 }
 
-// Remove the blue highlight on touch devices
-
+// Mobile device rules only
 @media screen and (max-width: $mobile-breakpoint) {
+  // Remove the blue highlight on touch devices
   * {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
@@ -41,6 +41,13 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+  }
+  // Offset anchor scroll on mobile
+  section:target:before {
+    content: '';
+    display: block;
+    height:      80px;
+    margin-top: -80px;
   }
 }
 
