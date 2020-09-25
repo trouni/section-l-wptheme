@@ -100,9 +100,9 @@
 }
 
 @media screen and (min-width: $tablet-breakpoint) {
-  @include layout($base-font-size: 9px, $body-padding-y: 3rem, $body-padding-x: 10rem);
+  @include layout($base-font-size: 9px, $body-padding-y: 4rem, $body-padding-x: 10rem);
 }
 
 @media screen and (min-width: $desktop-breakpoint) {
-  @include layout($base-font-size: 10px, $body-padding-y: 3rem, $body-padding-x: 14rem);
+  @include layout($base-font-size: 10px, $body-padding-y: 6rem, $body-padding-x: 14rem);
 }

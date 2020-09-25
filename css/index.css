@@ -435,7 +435,7 @@ html {
     font-size: 9px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: 3rem calc((10rem + 1rem) / 2);
+    margin: 4rem calc((10rem + 1rem) / 2);
     transform: translateX(50%);
   }
   #site-navigation.main-navigation.toggled .menu-toggle:before {
@@ -453,12 +453,12 @@ html {
     transform: translateX(-50%);
   }
   #masthead.site-header .site-logo {
-    top: 3rem;
+    top: 4rem;
     left: calc((10rem + 1rem) / 2);
     transform: translateX(-1rem);
   }
   #page.container.grid-container {
-    padding: 3rem 10rem;
+    padding: 4rem 10rem;
   }
   .generate-back-to-top {
     right: calc((10rem + 1rem) / 2) !important;
@@ -473,7 +473,7 @@ html {
     font-size: 10px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: 3rem calc((14rem + 1rem) / 2);
+    margin: 6rem calc((14rem + 1rem) / 2);
     transform: translateX(50%);
   }
   #site-navigation.main-navigation.toggled .menu-toggle:before {
@@ -491,12 +491,12 @@ html {
     transform: translateX(-50%);
   }
   #masthead.site-header .site-logo {
-    top: 3rem;
+    top: 6rem;
     left: calc((14rem + 1rem) / 2);
     transform: translateX(-1rem);
   }
   #page.container.grid-container {
-    padding: 3rem 14rem;
+    padding: 6rem 14rem;
   }
   .generate-back-to-top {
     right: calc((14rem + 1rem) / 2) !important;
