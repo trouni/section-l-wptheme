@@ -65,33 +65,33 @@ body {
   transform: scaleY(-1);
 }
 .object-fit-fill {
-  img {
+  img, svg {
     object-fit: fill;
   }
 
-  &, & div, & figure, & img {
+  &, & div, & figure, & img, & svg {
       height: 100% !important;
       width: 100%;
   }
 }
 
 .object-fit-cover {
-  img {
+  img, svg {
     object-fit: cover;
   }
 
-  &, & div, & figure, & img {
+  &, & div, & figure, & img, & svg {
       height: 100% !important;
       width: 100%;
   }
 }
 
 .object-fit-contain {
-  img {
+  img, svg {
     object-fit: contain;
   }
 
-  &, & div, & figure, & img {
+  &, & div, & figure, & img, & svg {
       height: 100% !important;
       width: 100%;
   }
