@@ -48,7 +48,7 @@
       object-fit: cover;
   }
 
-  .elementor-image-carousel-caption {
+  &.start-here .elementor-image-carousel-caption {
       position: absolute;
       text-align: right !important;
       color: white;

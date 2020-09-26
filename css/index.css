@@ -927,7 +927,7 @@ html {
   height: 100%;
   object-fit: cover;
 }
-.mobile-slider .elementor-image-carousel-caption {
+.mobile-slider.start-here .elementor-image-carousel-caption {
   position: absolute;
   text-align: right !important;
   color: white;
