@@ -356,7 +356,7 @@ html {
 .site-footer .footer-main-content {
   padding-right: 4rem !important;
 }
-.section-l-divider, .page-padding {
+.section-l-divider, .page-padding, .section-l-slider {
   padding: 0 4rem;
 }
 @media screen and (min-width: 577px) {
@@ -394,7 +394,7 @@ html {
   .site-footer .footer-main-content {
     padding-right: 4rem !important;
   }
-  .section-l-divider, .page-padding {
+  .section-l-divider, .page-padding, .section-l-slider {
     padding: 0 4rem;
   }
 }
@@ -993,45 +993,47 @@ html {
 .section-l-slider .elementor-swiper-button.elementor-swiper-button-next:after {
   transform: rotate(90deg);
 }
+.section-l-slider figure {
+  background-color: #ffd2c1;
+}
 .section-l-slider .elementor-image-carousel-caption {
-  position: absolute;
-  text-align: right !important;
-  color: white;
-  bottom: 2rem;
-  right: 2rem;
-  width: 80%;
+  text-align: left !important;
+  padding: 4rem 5rem;
 }
 .section-l-slider .elementor-image-carousel-caption h4 {
   font-weight: 600;
 }
 .section-l-slider .elementor-image-carousel-caption p {
-  margin-left: auto;
   font-weight: 500;
 }
 @media screen and (max-width: 769px) {
-  .section-l-slider, .mobile-slider {
-    height: 75vh;
+  .section-l-slider {
+    height: 80vh;
     width: 100vw;
   }
-  .section-l-slider .elementor-image-carousel-caption h4, .mobile-slider .elementor-image-carousel-caption h4 {
+  .section-l-slider .elementor-image-carousel-caption h4 {
     font-size: 4rem;
   }
-  .section-l-slider .elementor-image-carousel-caption p, .mobile-slider .elementor-image-carousel-caption p {
+  .section-l-slider .elementor-image-carousel-caption p {
     width: 100%;
     font-size: 20px;
   }
-  .section-l-slider .elementor-widget-container, .mobile-slider .elementor-widget-container, .section-l-slider .swiper-container, .mobile-slider .swiper-container {
+  .section-l-slider .elementor-widget-container, .section-l-slider .swiper-container {
     overflow: unset;
   }
-  .section-l-slider div, .mobile-slider div, .section-l-slider figure, .mobile-slider figure {
+  .section-l-slider figure {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem !important;
+  }
+  .section-l-slider div, .section-l-slider figure {
     height: 100%;
   }
-  .section-l-slider img.swiper-slide-image, .mobile-slider img.swiper-slide-image {
-    padding: 1rem;
-    height: 100%;
+  .section-l-slider img.swiper-slide-image {
     object-fit: cover;
+    flex-grow: 1;
   }
-  .section-l-slider .elementor-swiper-button, .mobile-slider .elementor-swiper-button {
+  .section-l-slider .elementor-swiper-button {
     align-items: center;
   }
 }
@@ -1041,16 +1043,22 @@ html {
     margin-bottom: -4rem;
     padding-bottom: 6rem;
   }
-  .section-l-slider .elementor-image-carousel-caption h4 {
-    font-size: 3rem;
-  }
-  .section-l-slider .elementor-image-carousel-caption p {
-    width: 50%;
-    font-size: 2.2rem;
+  .section-l-slider .swiper-slide-inner {
+    display: flex;
   }
   .section-l-slider .swiper-slide-image {
+    min-width: 65%;
     object-fit: cover;
     height: 67.5rem;
+  }
+  .section-l-slider .elementor-image-carousel-caption {
+    max-height: 67.5rem;
+  }
+  .section-l-slider .elementor-image-carousel-caption h4 {
+    font-size: 5rem;
+  }
+  .section-l-slider .elementor-image-carousel-caption p {
+    font-size: 3rem;
   }
   .section-l-slider .elementor-swiper-button.elementor-swiper-button-prev:after {
     position: absolute;
