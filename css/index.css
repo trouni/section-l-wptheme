@@ -1020,7 +1020,7 @@ html {
   }
   .section-l-slider .elementor-image-carousel-caption p {
     width: 100%;
-    font-size: 20px;
+    font-size: 2.8rem;
   }
   .section-l-slider .elementor-widget-container, .section-l-slider .swiper-container {
     overflow: unset;
