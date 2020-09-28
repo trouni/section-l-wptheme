@@ -93,6 +93,10 @@
       display: flex;
     }
 
+    .swiper-slide:nth-child(even) .swiper-slide-inner {
+      flex-direction: row-reverse;
+    }
+
     .swiper-slide-image {
       min-width: 65%;
       object-fit: cover;

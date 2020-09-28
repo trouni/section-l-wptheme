@@ -1047,6 +1047,9 @@ html {
   .section-l-slider .swiper-slide-inner {
     display: flex;
   }
+  .section-l-slider .swiper-slide:nth-child(even) .swiper-slide-inner {
+    flex-direction: row-reverse;
+  }
   .section-l-slider .swiper-slide-image {
     min-width: 65%;
     object-fit: cover;
