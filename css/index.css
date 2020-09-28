@@ -1037,6 +1037,7 @@ html {
   .section-l-slider img.swiper-slide-image {
     object-fit: cover;
     flex-grow: 1;
+    height: 100%;
   }
   .section-l-slider .elementor-swiper-button {
     align-items: center;

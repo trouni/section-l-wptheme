@@ -75,10 +75,11 @@
     div, figure {
       height: 100%;
     }
-
+    
     img.swiper-slide-image {
       object-fit: cover;
       flex-grow: 1;
+      height: 100%;
     }
 
     .elementor-swiper-button {
