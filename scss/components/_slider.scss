@@ -95,6 +95,10 @@
     margin-bottom: -4rem;
     padding-bottom: 6rem;
 
+    figure > div {
+      display: contents;
+    }
+
     .swiper-slide-inner {
       display: flex;
     }

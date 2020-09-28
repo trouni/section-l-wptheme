@@ -1049,6 +1049,9 @@ html {
     margin-bottom: -4rem;
     padding-bottom: 6rem;
   }
+  .section-l-slider figure > div {
+    display: contents;
+  }
   .section-l-slider .swiper-slide-inner {
     display: flex;
   }
