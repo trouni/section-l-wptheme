@@ -1,5 +1,6 @@
 
 #section-l-words {
+  background-color: unset;
   .elementor-widget-image[data-word] {
     // display: none;
     transition: opacity 1s;
@@ -37,7 +38,7 @@
   }
 
   @media screen and (min-width: $mobile-breakpoint) {
-    background-color: transparent !important;
+    background-color: white;
     .word-photo {
       .wp-caption {
         margin-bottom: 0;

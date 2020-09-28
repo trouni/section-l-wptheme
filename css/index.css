@@ -1076,6 +1076,9 @@ html {
     font-size: 35vw;
   }
 }
+#section-l-words {
+  background-color: unset;
+}
 #section-l-words .elementor-widget-image[data-word] {
   transition: opacity 1s;
   opacity: 0;
@@ -1110,7 +1113,7 @@ html {
 }
 @media screen and (min-width: 769px) {
   #section-l-words {
-    background-color: transparent !important;
+    background-color: white;
   }
   #section-l-words .word-photo .wp-caption {
     margin-bottom: 0;
