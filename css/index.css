@@ -1093,6 +1093,13 @@ html {
 }
 #section-l-words .word-photo .wp-caption {
   padding-top: 100%;
+  margin-bottom: 5rem;
+}
+#section-l-words .word-photo .widget-image-caption.wp-caption-text {
+  position: absolute;
+  bottom: -5rem;
+  line-height: 5rem;
+  width: 100%;
 }
 #section-l-words .word-photo > img {
   height: 100%;
