@@ -1031,6 +1031,9 @@ html {
     justify-content: flex-end;
     margin: 0 1rem !important;
   }
+  .section-l-slider figure > div {
+    overflow: hidden;
+  }
   .section-l-slider div, .section-l-slider figure {
     height: 100%;
   }

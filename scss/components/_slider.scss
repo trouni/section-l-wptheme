@@ -72,6 +72,10 @@
       margin: 0 1rem !important;
     }
 
+    figure > div {
+      overflow: hidden;
+    }
+
     div, figure {
       height: 100%;
     }
