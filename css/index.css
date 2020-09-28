@@ -34,7 +34,7 @@ body {
   top: 0;
   left: 0;
 }
-@media screen and (max-width: calc($mobile-breakpoint - 1px)) {
+@media screen and (max-width: calc(769px - 1px)) {
   * {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
@@ -998,18 +998,22 @@ html {
 }
 .section-l-slider .elementor-image-carousel-caption {
   text-align: left !important;
-  padding: 4rem 5rem 0 5rem;
+  padding: 4rem 5rem;
 }
 .section-l-slider .elementor-image-carousel-caption h4 {
   font-weight: 600;
 }
 .section-l-slider .elementor-image-carousel-caption p {
   font-weight: 500;
+  margin: 0;
 }
-@media screen and (max-width: calc($mobile-breakpoint - 1px)) {
+@media screen and (max-width: calc(769px - 1px)) {
   .section-l-slider {
     height: 80vh;
     width: 100vw;
+  }
+  .section-l-slider .elementor-image-carousel-caption {
+    margin-top: -1rem !important;
   }
   .section-l-slider .elementor-image-carousel-caption h4 {
     font-size: 4rem;
@@ -1051,7 +1055,7 @@ html {
     flex-direction: row-reverse;
   }
   .section-l-slider .swiper-slide-image {
-    min-width: 65%;
+    min-width: 62%;
     object-fit: cover;
     height: 67.5rem;
   }

@@ -32,22 +32,27 @@
 
   .elementor-image-carousel-caption {
     text-align: left !important;
-    padding: 4rem 5rem 0 5rem;
+    padding: 4rem 5rem;
     h4 {
       font-weight: 600;
     }
     p {
       font-weight: 500;
+      margin: 0;
     }
   }
 }
 
 // Mobile Slider
-@media screen and (max-width: calc($mobile-breakpoint - 1px)) {
+@media screen and (max-width: calc(#{$mobile-breakpoint} - 1px)) {
   .section-l-slider {
     height: 80vh;
     width: 100vw;
-
+    
+    .elementor-image-carousel-caption {
+      // display: none;
+      margin-top: -1rem !important;
+    }
     .elementor-image-carousel-caption h4 {
       font-size: 4rem;
     }
@@ -98,7 +103,7 @@
     }
 
     .swiper-slide-image {
-      min-width: 65%;
+      min-width: 62%;
       object-fit: cover;
       height: 67.5rem;
     }
