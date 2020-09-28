@@ -31,7 +31,7 @@ body {
 }
 
 // Mobile device rules only
-@media screen and (max-width: $mobile-breakpoint) {
+@media screen and (max-width: calc($mobile-breakpoint - 1px)) {
   // Remove the blue highlight on touch devices
   * {
     -webkit-tap-highlight-color: transparent;

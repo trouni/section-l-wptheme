@@ -34,7 +34,7 @@ body {
   top: 0;
   left: 0;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: calc($mobile-breakpoint - 1px)) {
   * {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
@@ -512,7 +512,7 @@ html {
     padding: 0 14rem;
   }
 }
-@media screen and (min-width: 1679px) {
+@media screen and (min-width: 1681px) {
   html {
     font-size: 12px;
   }
@@ -550,7 +550,7 @@ html {
     padding: 0 14rem;
   }
 }
-@media screen and (min-width: 1919px) {
+@media screen and (min-width: 1921px) {
   html {
     font-size: 14px;
   }
@@ -1006,7 +1006,7 @@ html {
 .section-l-slider .elementor-image-carousel-caption p {
   font-weight: 500;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: calc($mobile-breakpoint - 1px)) {
   .section-l-slider {
     height: 80vh;
     width: 100vw;
