@@ -85,7 +85,7 @@
     right: calc((#{$body-padding-x} + 1rem) / 2) !important;
     transform: translateX(50%);
   }
-  .section-l-divider, .page-padding {
+  .section-l-divider, .page-padding, .section-l-slider {
     padding: 0 $body-padding-x;
   }
 }

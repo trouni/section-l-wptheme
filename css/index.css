@@ -432,7 +432,7 @@ html {
     right: calc((6rem + 1rem) / 2) !important;
     transform: translateX(50%);
   }
-  .section-l-divider, .page-padding {
+  .section-l-divider, .page-padding, .section-l-slider {
     padding: 0 6rem;
   }
 }
@@ -470,7 +470,7 @@ html {
     right: calc((10rem + 1rem) / 2) !important;
     transform: translateX(50%);
   }
-  .section-l-divider, .page-padding {
+  .section-l-divider, .page-padding, .section-l-slider {
     padding: 0 10rem;
   }
 }
@@ -508,7 +508,7 @@ html {
     right: calc((14rem + 1rem) / 2) !important;
     transform: translateX(50%);
   }
-  .section-l-divider, .page-padding {
+  .section-l-divider, .page-padding, .section-l-slider {
     padding: 0 14rem;
   }
 }
@@ -546,7 +546,7 @@ html {
     right: calc((14rem + 1rem) / 2) !important;
     transform: translateX(50%);
   }
-  .section-l-divider, .page-padding {
+  .section-l-divider, .page-padding, .section-l-slider {
     padding: 0 14rem;
   }
 }
@@ -584,7 +584,7 @@ html {
     right: calc((14rem + 1rem) / 2) !important;
     transform: translateX(50%);
   }
-  .section-l-divider, .page-padding {
+  .section-l-divider, .page-padding, .section-l-slider {
     padding: 0 14rem;
   }
 }
