@@ -37,6 +37,7 @@
   }
 
   @media screen and (min-width: $mobile-breakpoint) {
+    background-color: transparent !important;
     .word-photo {
       .wp-caption {
         margin-bottom: 0;
