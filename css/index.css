@@ -998,7 +998,7 @@ html {
 }
 .section-l-slider .elementor-image-carousel-caption {
   text-align: left !important;
-  padding: 4rem 5rem;
+  padding: 4rem 5rem 0 5rem;
 }
 .section-l-slider .elementor-image-carousel-caption h4 {
   font-weight: 600;
@@ -1024,6 +1024,7 @@ html {
   .section-l-slider figure {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     margin: 0 1rem !important;
   }
   .section-l-slider div, .section-l-slider figure {

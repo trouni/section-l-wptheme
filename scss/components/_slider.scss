@@ -32,7 +32,7 @@
 
   .elementor-image-carousel-caption {
     text-align: left !important;
-    padding: 4rem 5rem;
+    padding: 4rem 5rem 0 5rem;
     h4 {
       font-weight: 600;
     }
@@ -63,6 +63,7 @@
     figure {
       display: flex;
       flex-direction: column;
+      justify-content: flex-end;
       margin: 0 1rem !important;
     }
 
