@@ -14,7 +14,7 @@
   &:after {
     content: $arrow-svg-red;
     width: 20px;
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: $mobile-breakpoint) {
       margin-bottom: -45px;
     }
   }
@@ -52,8 +52,8 @@
       position: absolute;
       text-align: right !important;
       color: white;
-      bottom: 20px;
-      right: 20px;
+      bottom: 2rem;
+      right: 2rem;
       width: 80%;
   }
 

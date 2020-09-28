@@ -17,6 +17,7 @@
     transform: translateY(-50%);
   }
   #masthead.site-header .site-logo {
+    a { display: flex }
     top: $body-padding-y;
     left: calc(#{$body-padding-x} + 1rem);
   }
@@ -105,4 +106,12 @@
 
 @media screen and (min-width: $desktop-breakpoint) {
   @include layout($base-font-size: 10px, $body-padding-y: 6rem, $body-padding-x: 14rem);
+}
+
+@media screen and (min-width: $xl-desktop-breakpoint) {
+  @include layout($base-font-size: 12px, $body-padding-y: 6rem, $body-padding-x: 14rem);
+}
+
+@media screen and (min-width: $xxl-desktop-breakpoint) {
+  @include layout($base-font-size: 14px, $body-padding-y: 6rem, $body-padding-x: 14rem);
 }

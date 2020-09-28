@@ -13,6 +13,8 @@ function wp_scss_set_variables()
     'mobile-breakpoint' => '769px',
     'tablet-breakpoint' => '997px',
     'desktop-breakpoint' => '1281px',
+    'xl-desktop-breakpoint' => '1679px',
+    'xxl-desktop-breakpoint' => '1919px',
     'color-01' => '#FFFFFF',
     'color-02' => '#290056',
     'color-03' => '#008A6A',
