@@ -356,7 +356,7 @@ html {
 .site-footer .footer-main-content {
   padding-right: 4rem !important;
 }
-.section-l-divider, .page-padding, .section-l-slider {
+.section-l-divider, .page-padding {
   padding: 0 4rem;
 }
 @media screen and (min-width: 577px) {
@@ -394,7 +394,7 @@ html {
   .site-footer .footer-main-content {
     padding-right: 4rem !important;
   }
-  .section-l-divider, .page-padding, .section-l-slider {
+  .section-l-divider, .page-padding {
     padding: 0 4rem;
   }
 }
