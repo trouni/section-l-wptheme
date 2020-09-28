@@ -1076,15 +1076,28 @@ html {
     font-size: 35vw;
   }
 }
-.elementor-widget-image[data-word] {
+#section-l-words .elementor-widget-image[data-word] {
   transition: opacity 1s;
   opacity: 0;
 }
-.elementor-widget-image[data-word]:not(:first-child) {
+#section-l-words .elementor-widget-image[data-word]:not(:first-child) {
   position: absolute;
   top: 0;
   left: 0;
 }
-.elementor-widget-image[data-word].active {
+#section-l-words .elementor-widget-image[data-word].active {
   opacity: 1;
+}
+#section-l-words .word-photo {
+  overflow: hidden;
+}
+#section-l-words .word-photo .wp-caption {
+  padding-top: 100%;
+}
+#section-l-words .word-photo > img {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

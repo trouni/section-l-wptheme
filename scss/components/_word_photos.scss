@@ -1,14 +1,31 @@
-.elementor-widget-image[data-word] {
-  // display: none;
-  transition: opacity 1s;
-  opacity: 0;
-  &:not(:first-child) {
-    position: absolute;
-    top: 0;
-    left: 0;
+
+#section-l-words {
+  .elementor-widget-image[data-word] {
+    // display: none;
+    transition: opacity 1s;
+    opacity: 0;
+    &:not(:first-child) {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    &.active {
+      // display: unset;
+      opacity: 1;
+    }
   }
-  &.active {
-    // display: unset;
-    opacity: 1;
+
+  .word-photo {
+    overflow: hidden;
+    .wp-caption {
+      padding-top: 100%;
+    }
+    & > img {
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
   }
 }
