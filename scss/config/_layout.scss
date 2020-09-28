@@ -90,10 +90,10 @@
   }
 }
 
-@include layout-mobile($base-font-size: 6px, $body-padding-y: 3rem, $body-padding-x: 3rem);
+@include layout-mobile($base-font-size: 6px, $body-padding-y: 3rem, $body-padding-x: 4rem);
 
 @media screen and (min-width: 577px) {
-  @include layout-mobile($base-font-size: 7px, $body-padding-y: 3rem, $body-padding-x: 3rem);
+  @include layout-mobile($base-font-size: 7px, $body-padding-y: 3rem, $body-padding-x: 4rem);
 }
 
 @media screen and (min-width: $mobile-breakpoint) {

@@ -326,11 +326,11 @@ html {
   font-size: 6px;
 }
 #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-  margin: 3rem calc(3rem + 1rem);
+  margin: 3rem calc(4rem + 1rem);
 }
 #site-navigation .reserve-button {
   position: fixed;
-  right: calc(3rem + 8rem) !important;
+  right: calc(4rem + 8rem) !important;
   top: 3rem !important;
 }
 #menu-header-nav > li:last-child {
@@ -339,13 +339,13 @@ html {
 }
 #masthead.site-header .site-logo {
   top: 3rem;
-  left: calc(3rem + 1rem);
+  left: calc(4rem + 1rem);
 }
 #masthead.site-header .site-logo a {
   display: flex;
 }
 #page.container.grid-container {
-  padding: 60px 3rem 3rem 3rem;
+  padding: 60px 4rem 3rem 4rem;
 }
 #site-navigation.main-navigation #primary-menu {
   padding: 0 3rem;
@@ -354,21 +354,21 @@ html {
   padding: 3rem;
 }
 .site-footer .footer-main-content {
-  padding-right: 3rem !important;
+  padding-right: 4rem !important;
 }
 .section-l-divider, .page-padding {
-  padding: 0 3rem;
+  padding: 0 4rem;
 }
 @media screen and (min-width: 577px) {
   html {
     font-size: 7px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: 3rem calc(3rem + 1rem);
+    margin: 3rem calc(4rem + 1rem);
   }
   #site-navigation .reserve-button {
     position: fixed;
-    right: calc(3rem + 8rem) !important;
+    right: calc(4rem + 8rem) !important;
     top: 3rem !important;
   }
   #menu-header-nav > li:last-child {
@@ -377,13 +377,13 @@ html {
   }
   #masthead.site-header .site-logo {
     top: 3rem;
-    left: calc(3rem + 1rem);
+    left: calc(4rem + 1rem);
   }
   #masthead.site-header .site-logo a {
     display: flex;
   }
   #page.container.grid-container {
-    padding: 60px 3rem 3rem 3rem;
+    padding: 60px 4rem 3rem 4rem;
   }
   #site-navigation.main-navigation #primary-menu {
     padding: 0 3rem;
@@ -392,10 +392,10 @@ html {
     padding: 3rem;
   }
   .site-footer .footer-main-content {
-    padding-right: 3rem !important;
+    padding-right: 4rem !important;
   }
   .section-l-divider, .page-padding {
-    padding: 0 3rem;
+    padding: 0 4rem;
   }
 }
 @media screen and (min-width: 769px) {
