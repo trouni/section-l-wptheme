@@ -35,4 +35,15 @@
       left: 0;
     }
   }
+
+  @media screen and (min-width: $mobile-breakpoint) {
+    .word-photo {
+      .wp-caption {
+        margin-bottom: 0;
+      }
+      .wp-caption-text {
+        display: none
+      }
+    }
+  }
 }
