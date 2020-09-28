@@ -15,7 +15,7 @@
     content: $arrow-svg-red;
     width: 20px;
     @media screen and (min-width: $mobile-breakpoint) {
-      margin-bottom: -45px;
+      margin-bottom: -7rem;
     }
   }
   & > i {
@@ -83,8 +83,8 @@
 @media screen and (min-width: $mobile-breakpoint) {
   .section-l-slider {
     position: relative;
-    margin-bottom: 4rem !important;
-    padding-bottom: 2rem;
+    margin-bottom: -4rem;
+    padding-bottom: 6rem;
 
     .elementor-image-carousel-caption h4 {
       font-size: 3rem;
@@ -98,7 +98,7 @@
       object-fit: cover;
       height: 67.5rem;
     }
-    
+
     // // Overlay
     // .swiper-slide-inner:before {
     //   content: "";
@@ -114,12 +114,12 @@
     .elementor-swiper-button.elementor-swiper-button-prev:after {
       position: absolute;
       bottom: 0;
-      left: 0;
+      left: 1rem;
     }
     .elementor-swiper-button.elementor-swiper-button-next:after {
       position: absolute;
       bottom: 0;
-      right: 0;
+      right: 1rem;
     }
   }
 }

@@ -981,7 +981,7 @@ html {
 }
 @media screen and (min-width: 769px) {
   .section-l-slider .elementor-swiper-button:after {
-    margin-bottom: -45px;
+    margin-bottom: -7rem;
   }
 }
 .section-l-slider .elementor-swiper-button > i {
@@ -1038,8 +1038,8 @@ html {
 @media screen and (min-width: 769px) {
   .section-l-slider {
     position: relative;
-    margin-bottom: 4rem !important;
-    padding-bottom: 2rem;
+    margin-bottom: -4rem;
+    padding-bottom: 6rem;
   }
   .section-l-slider .elementor-image-carousel-caption h4 {
     font-size: 3rem;
@@ -1055,12 +1055,12 @@ html {
   .section-l-slider .elementor-swiper-button.elementor-swiper-button-prev:after {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 1rem;
   }
   .section-l-slider .elementor-swiper-button.elementor-swiper-button-next:after {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 1rem;
   }
 }
 .spinning-wheel .elementor-icon-wrapper {
