@@ -73,14 +73,15 @@ $menu-transition-duration: 0.3s;
       font-weight: 800;
       margin-right: 5vw;
       margin-bottom: 5vh;
+      font-size: 6vh;
+      line-height: 7vh;
 
       & > a {
         color: $color-02;
         align-content: start;
         display: flex;
-        font-size: 6vh;
-        line-height: 7vh;
         font-weight: 600;
+        font-size: inherit;
         align-items: center;
 
         &:after {
@@ -108,6 +109,7 @@ $menu-transition-duration: 0.3s;
         visibility: hidden;
         position: absolute;
         a {
+          font-size: 0.8em;
           color: $color-22;
         }
         a:after {
@@ -116,7 +118,7 @@ $menu-transition-duration: 0.3s;
         @media screen and (max-width: calc(#{$mobile-breakpoint} - 1px)) {
           bottom: 5vh;
           a {
-            font-size: 4.5vh;
+            // font-size: 4.5vh;
           }
         }
       }
@@ -214,18 +216,15 @@ $menu-transition-duration: 0.3s;
       display: inline-flex;
       & > li.menu-item {
         margin-bottom: unset;
-      }
-      & > li.menu-item > a {
         font-size: 3vw;
         line-height: 3vw;
-        &:after {
-          transform: rotate(-90deg) translateY(1.5em);
-          width: 2vw;
-        }
+      }
+      & > li.menu-item > a:after {
+        transform: rotate(-90deg) translateY(1.5em);
+        width: 2vw;
       }
       & > li.menu-item:last-child {
-        // bottom: unset;
-        right: 10rem;
+        right: 6vw;
       }
       .menu-item-has-children .sub-menu {
         display: unset;
@@ -253,7 +252,7 @@ $menu-transition-duration: 0.3s;
 
 @media screen and (min-width: $desktop-breakpoint) {
   #site-navigation.main-navigation {
-    #menu-header-nav > li.menu-item > a {
+    #menu-header-nav > li.menu-item {
       font-size: 3.8rem;
       line-height: 3.8rem;
     }

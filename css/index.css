@@ -817,14 +817,15 @@ html {
   font-weight: 800;
   margin-right: 5vw;
   margin-bottom: 5vh;
+  font-size: 6vh;
+  line-height: 7vh;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
   color: #290056;
   align-content: start;
   display: flex;
-  font-size: 6vh;
-  line-height: 7vh;
   font-weight: 600;
+  font-size: inherit;
   align-items: center;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item > a:after {
@@ -848,6 +849,7 @@ html {
   position: absolute;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item:last-child a {
+  font-size: 0.8em;
   color: #c47159;
 }
 #site-navigation.main-navigation #menu-header-nav > li.menu-item:last-child a:after {
@@ -856,9 +858,6 @@ html {
 @media screen and (max-width: calc(768px - 1px)) {
   #site-navigation.main-navigation #menu-header-nav > li.menu-item:last-child {
     bottom: 5vh;
-  }
-  #site-navigation.main-navigation #menu-header-nav > li.menu-item:last-child a {
-    font-size: 4.5vh;
   }
 }
 #site-navigation.main-navigation #menu-header-nav .dropdown-menu-toggle {
@@ -938,8 +937,6 @@ html {
   }
   #site-navigation.main-navigation #menu-header-nav > li.menu-item {
     margin-bottom: unset;
-  }
-  #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
     font-size: 3vw;
     line-height: 3vw;
   }
@@ -948,7 +945,7 @@ html {
     width: 2vw;
   }
   #site-navigation.main-navigation #menu-header-nav > li.menu-item:last-child {
-    right: 10rem;
+    right: 6vw;
   }
   #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu {
     display: unset;
@@ -969,7 +966,7 @@ html {
   }
 }
 @media screen and (min-width: 1280px) {
-  #site-navigation.main-navigation #menu-header-nav > li.menu-item > a {
+  #site-navigation.main-navigation #menu-header-nav > li.menu-item {
     font-size: 3.8rem;
     line-height: 3.8rem;
   }
