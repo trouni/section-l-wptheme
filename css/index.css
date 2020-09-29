@@ -1135,13 +1135,13 @@ html {
   content: "";
   width: 6em;
   height: 6em;
-  background-color: red;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   z-index: -1;
+  color: white;
 }
 #section-l-words .word-photo img {
   height: 100%;
@@ -1149,6 +1149,33 @@ html {
   position: absolute;
   top: 0;
   left: 0;
+}
+#section-l-words .word-photo[data-word=dream] figcaption.widget-image-caption.wp-caption-text:after {
+  background-color: #aaa;
+}
+#section-l-words .word-photo[data-word=soak] figcaption.widget-image-caption.wp-caption-text:after {
+  background-color: #008a6a;
+}
+#section-l-words .word-photo[data-word=chill] figcaption.widget-image-caption.wp-caption-text:after {
+  background-color: #4d87d9;
+}
+#section-l-words .word-photo[data-word=work] figcaption.widget-image-caption.wp-caption-text:after {
+  background-color: #c47159;
+}
+#section-l-words .word-photo[data-word=read] figcaption.widget-image-caption.wp-caption-text:after {
+  background-color: #ff5485;
+}
+#section-l-words .word-photo[data-word=eat] figcaption.widget-image-caption.wp-caption-text:after {
+  background-color: #ff673a;
+}
+#section-l-words .word-photo[data-word=pamper] figcaption.widget-image-caption.wp-caption-text:after {
+  background-color: #ffde47;
+}
+#section-l-words .word-photo[data-word=stare] figcaption.widget-image-caption.wp-caption-text:after {
+  background-color: #8989be;
+}
+#section-l-words .word-photo[data-word=refresh] figcaption.widget-image-caption.wp-caption-text:after {
+  background-color: #fcb0b2;
 }
 @media screen and (min-width: 769px) {
   #section-l-words {

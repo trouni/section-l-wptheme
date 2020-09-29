@@ -35,13 +35,13 @@
       content: "";
       width: 6em;
       height: 6em;
-      background-color: red;
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       border-radius: 50%;
       z-index: -1;
+      color: white;
     }
     img {
       height: 100%;
@@ -49,6 +49,33 @@
       position: absolute;
       top: 0;
       left: 0;
+    }
+    &[data-word=dream] figcaption.widget-image-caption.wp-caption-text:after {
+      background-color: $color-20;
+    }
+    &[data-word=soak] figcaption.widget-image-caption.wp-caption-text:after {
+      background-color: $color-03;
+    }
+    &[data-word=chill] figcaption.widget-image-caption.wp-caption-text:after {
+      background-color: $color-21;
+    }
+    &[data-word=work] figcaption.widget-image-caption.wp-caption-text:after {
+      background-color: $color-22;
+    }
+    &[data-word=read] figcaption.widget-image-caption.wp-caption-text:after {
+      background-color: $color-04;
+    }
+    &[data-word=eat] figcaption.widget-image-caption.wp-caption-text:after {
+      background-color: $color-05;
+    }
+    &[data-word=pamper] figcaption.widget-image-caption.wp-caption-text:after {
+      background-color: $color-18;
+    }
+    &[data-word=stare] figcaption.widget-image-caption.wp-caption-text:after {
+      background-color: $color-19;
+    }
+    &[data-word=refresh] figcaption.widget-image-caption.wp-caption-text:after {
+      background-color: $color-16;
     }
   }
 
