@@ -681,23 +681,19 @@ html {
 @keyframes startFadeIn {
   0% {
     opacity: 0;
-    transform: scale(1) translateY(100vh);
+    transform: translateY(100vh);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 @keyframes startFadeOut {
   0% {
     opacity: 1;
-    color: #ff673a;
-    transform: translateY(0);
   }
   100% {
     opacity: 0;
-    color: #ff5485;
-    transform: scale(1) translateY(-100vh);
+    transform: translateY(-100vh);
     display: none;
   }
 }
@@ -718,7 +714,7 @@ html {
   top: 40%;
   animation-name: startFadeOut;
   animation-duration: 750ms;
-  animation-delay: 2.75s;
+  animation-delay: 2.85s;
   animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   /* easeInCubic */
   animation-fill-mode: forwards;
@@ -1234,9 +1230,9 @@ html {
     margin-bottom: 0;
   }
   #section-l-words .word-photo .wp-caption-text {
-    bottom: 6.5rem;
-    font-size: 8rem;
-    left: 3rem;
+    bottom: 5vw;
+    font-size: 5vw;
+    left: 3vw;
     width: unset;
   }
   #section-l-words .word-photo figcaption.widget-image-caption.wp-caption-text:after {
