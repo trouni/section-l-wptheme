@@ -818,7 +818,7 @@ html {
   position: relative;
   pointer-events: unset;
   transition: opacity 0.5s;
-  margin: 1rem 0;
+  margin: 2vh 0 5vh 0;
   white-space: nowrap;
 }
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children a[href$="stay/"] + .sub-menu {
