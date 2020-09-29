@@ -1,6 +1,6 @@
 #masthead.site-header {
   background-color: unset;
-  z-index: 10;
+  z-index: 91;
 
   .inside-header {
     padding: 10px;
@@ -10,7 +10,7 @@
     position: fixed;
     overflow: hidden;
     text-align: left;
-    z-index: 1;
+    // z-index: 1;
     
     img {
       height: 3rem;

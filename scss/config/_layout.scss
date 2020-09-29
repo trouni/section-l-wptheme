@@ -11,11 +11,6 @@
     right: calc(#{$body-padding-x} + 8rem) !important;
     top: $body-padding-y !important;
   }
-  // Language button
-  #menu-header-nav > li:last-child {
-    bottom: $body-padding-y !important;
-    transform: translateY(-50%);
-  }
   #masthead.site-header .site-logo {
     a { display: flex }
     top: $body-padding-y;

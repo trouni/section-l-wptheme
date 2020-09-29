@@ -9,7 +9,7 @@ $menu-transition-duration: 0.3s;
   top: 0;
   width: 100%;
   background-color: $color-08;
-  z-index: 5;
+  z-index: 90;
   height: 60px; // background for header on mobile
   transition: $menu-transition-duration;
 
@@ -57,9 +57,10 @@ $menu-transition-duration: 0.3s;
   }
 
   #menu-header-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: block;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
     height: 80%;
     margin: 0;
     @media screen and (min-width: $mobile-breakpoint) {
@@ -71,12 +72,13 @@ $menu-transition-duration: 0.3s;
     & > li.menu-item {
       font-weight: 800;
       margin-right: 5vw;
+      margin-bottom: 5vh;
 
       & > a {
         color: $color-02;
         align-content: start;
         display: flex;
-        font-size: 5vh;
+        font-size: 6vh;
         line-height: 7vh;
         font-weight: 600;
         align-items: center;
@@ -84,7 +86,7 @@ $menu-transition-duration: 0.3s;
         &:after {
           content: $arrow-svg-red;
           transform: rotate(-90deg);
-          width: 5rem;
+          width: 3rem;
           opacity: 0;
           transition: transform 0.3s ease-out, opacity 0.3s ease-out;
           justify-content: center;
@@ -93,7 +95,7 @@ $menu-transition-duration: 0.3s;
       }
 
       &.current-menu-item > a:after {
-        transform: rotate(-90deg) translateY(0.5em);
+        transform: rotate(-90deg) translateY(40%);
         opacity: 1;
       }
 
@@ -105,9 +107,11 @@ $menu-transition-duration: 0.3s;
       &:last-child {
         visibility: hidden;
         position: absolute;
+        bottom: 0;
+        transform: translateY(-50%);
         a {
           color: $color-22;
-          font-size: 40px;
+          font-size: 4.5vh;
         }
         a:after {
           display: none;
@@ -130,12 +134,18 @@ $menu-transition-duration: 0.3s;
     }
   
     .menu-item-has-children .sub-menu {
+      display: none;
       visibility: visible;
       position: relative;
       pointer-events: unset;
       transition: opacity 0.5s;
-      margin-bottom: 3.5rem;
+      margin: 1rem 0;
       white-space: nowrap;
+    }
+
+    // Only show sub menu for Stay
+    .menu-item-has-children a[href$="stay/"] + .sub-menu {
+      display: unset;
     }
 
     .menu-item-has-children .sub-menu > li > a {
@@ -204,6 +214,9 @@ $menu-transition-duration: 0.3s;
     }
     #menu-header-nav {
       display: inline-flex;
+      & > li.menu-item {
+        margin-bottom: unset;
+      }
       & > li.menu-item > a {
         font-size: 3vw;
         line-height: 3vw;
@@ -213,9 +226,11 @@ $menu-transition-duration: 0.3s;
         }
       }
       .menu-item-has-children .sub-menu {
+        display: unset;
         opacity: 0;
         position: absolute;
         top: 6rem;
+        margin: 0;
       }
       .menu-item-has-children .sub-menu > li > a {
         font-size: 2rem;
@@ -228,7 +243,7 @@ $menu-transition-duration: 0.3s;
 @media screen and (min-width: $tablet-breakpoint) {
   #site-navigation.main-navigation {
     #menu-header-nav > li.menu-item:hover > a:after {
-      transform: rotate(-90deg) translateY(0.5em);
+      transform: rotate(-90deg) translateY(40%);
       opacity: 0.3;
     }
   }
