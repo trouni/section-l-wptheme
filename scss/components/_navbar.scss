@@ -86,7 +86,7 @@ $menu-transition-duration: 0.3s;
         &:after {
           content: $arrow-svg-red;
           transform: rotate(-90deg);
-          width: 3rem;
+          width: 3.5vh;
           opacity: 0;
           transition: transform 0.3s ease-out, opacity 0.3s ease-out;
           justify-content: center;
@@ -107,18 +107,16 @@ $menu-transition-duration: 0.3s;
       &:last-child {
         visibility: hidden;
         position: absolute;
-        bottom: 0;
-        transform: translateY(-50%);
         a {
           color: $color-22;
-          font-size: 4.5vh;
         }
         a:after {
-          display: none;
+          visibility: hidden;
         }
-        @media screen and (min-width: $mobile-breakpoint) {
+        @media screen and (max-width: calc(#{$mobile-breakpoint} - 1px)) {
+          bottom: 5vh;
           a {
-            font-size: 2.2rem;
+            font-size: 4.5vh;
           }
         }
       }
@@ -222,8 +220,12 @@ $menu-transition-duration: 0.3s;
         line-height: 3vw;
         &:after {
           transform: rotate(-90deg) translateY(1.5em);
-          width: 2.5rem;
+          width: 2vw;
         }
+      }
+      & > li.menu-item:last-child {
+        // bottom: unset;
+        right: 10rem;
       }
       .menu-item-has-children .sub-menu {
         display: unset;

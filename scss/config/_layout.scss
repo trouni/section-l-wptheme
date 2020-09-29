@@ -52,11 +52,11 @@
     transform: translateX(50%);
   }
   // Language button
-  #menu-header-nav > li:last-child {
-    bottom: unset !important;
-    right: $body-padding-x !important;
-    transform: translateX(-50%);
-  }
+  // #menu-header-nav > li:last-child {
+  //   // bottom: unset !important;
+  //   // right: $body-padding-x !important;
+  //   // transform: translateX(-50%);
+  // }
   #masthead.site-header .site-logo {
     top: $body-padding-y;
     left: calc((#{$body-padding-x} + 1rem) / 2);
@@ -100,13 +100,13 @@
 }
 
 @media screen and (min-width: $desktop-breakpoint) {
-  @include layout($base-font-size: 10px, $body-padding-y: 6rem, $body-padding-x: 14rem);
+  @include layout($base-font-size: 10px, $body-padding-y: 4rem, $body-padding-x: 14rem);
 }
 
 @media screen and (min-width: $xl-desktop-breakpoint) {
-  @include layout($base-font-size: 12px, $body-padding-y: 6rem, $body-padding-x: 14rem);
+  @include layout($base-font-size: 12px, $body-padding-y: 4rem, $body-padding-x: 14rem);
 }
 
 @media screen and (min-width: $xxl-desktop-breakpoint) {
-  @include layout($base-font-size: 14px, $body-padding-y: 6rem, $body-padding-x: 14rem);
+  @include layout($base-font-size: 14px, $body-padding-y: 4rem, $body-padding-x: 14rem);
 }

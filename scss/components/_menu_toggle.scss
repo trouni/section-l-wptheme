@@ -23,15 +23,17 @@
     content: '\2715';
     font-size: 6vh;
     position: absolute;
-    // right: 0;
+    right: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
     margin: 0;
   }
   @media screen and (min-width: $mobile-breakpoint) {
     &.toggled .menu-toggle:before {
       height: 3rem;
+      font-size: 48px;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
