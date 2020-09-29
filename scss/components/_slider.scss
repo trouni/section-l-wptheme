@@ -102,7 +102,7 @@
 @media screen and (min-width: $mobile-breakpoint) {
   .section-l-slider {
     position: relative;
-    margin-bottom: -4rem;
+    // margin-bottom: -4rem;
     padding-bottom: 6rem;
 
     figure > div {
@@ -120,11 +120,11 @@
     .swiper-slide-image {
       min-width: 62%;
       object-fit: cover;
-      height: 67.5rem;
+      height: 60rem;
     }
 
     .elementor-image-carousel-caption {
-      max-height: 67.5rem;
+      max-height: 60rem;
       h4 { font-size: 5rem; }
       p { font-size: 3rem; }
     }

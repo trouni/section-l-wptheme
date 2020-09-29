@@ -1090,7 +1090,6 @@ html {
 @media screen and (min-width: 768px) {
   .section-l-slider {
     position: relative;
-    margin-bottom: -4rem;
     padding-bottom: 6rem;
   }
   .section-l-slider figure > div {
@@ -1105,10 +1104,10 @@ html {
   .section-l-slider .swiper-slide-image {
     min-width: 62%;
     object-fit: cover;
-    height: 67.5rem;
+    height: 60rem;
   }
   .section-l-slider .elementor-image-carousel-caption {
-    max-height: 67.5rem;
+    max-height: 60rem;
   }
   .section-l-slider .elementor-image-carousel-caption h4 {
     font-size: 5rem;
