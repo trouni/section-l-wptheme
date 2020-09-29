@@ -1,3 +1,5 @@
+// Spinning wheel
+
 @keyframes rotate-in-ccw {
   0%   {
     opacity: 0;
@@ -52,4 +54,61 @@
   animation-name: rotate-in-ccw;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045), opacity 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045);
+}
+
+// Start animation
+
+@keyframes startFadeIn {
+  0%   {
+    opacity: 0;
+    transform: scale(1) translateY(100vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes startFadeOut {
+  0%   {
+    opacity: 1;
+    color: $color-05;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    color: $color-04;
+    transform: scale(1) translateY(-100vh);
+    display: none;
+  }
+}
+
+.start-animation {
+  .start-title h1 {
+    opacity: 0;
+    font-size: 10rem;
+    animation-fill-mode: forwards;
+    color: $color-05;
+    width: 100%;
+    text-align: center;
+    animation-delay: 1s;
+    animation-name: startFadeIn;
+    animation-duration: 750ms;
+    animation-timing-function: cubic-bezier(0.185, 0.620, 0.125, 1.015);
+  }
+  .start-title {
+    position: absolute;
+    top: 40%;
+    animation-name: startFadeOut;
+    animation-duration: 750ms;
+    animation-delay: 2.75s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190); /* easeInCubic */
+  }
+  .section-l-slider {
+    animation-name: startFadeIn;
+    animation-delay: 3s;
+    animation-duration: 750ms;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
+  }
 }

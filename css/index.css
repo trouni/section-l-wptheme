@@ -579,11 +579,17 @@ html {
   border-top: 4px solid transparent;
 }
 .generate-back-to-top {
+  display: none;
   background-color: transparent !important;
   width: 3rem !important;
 }
 .generate-back-to-top:before {
   content: url("data:image/svg+xml;utf8,<svg id='a2ac12bf-8d9c-419c-b313-ef0c525b27ab' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36.77 59.88'><polygon class='e22aa11f-bda2-4928-bb62-ef3a9efbf9f7' points='14.88 19.77 14.88 59.88 21.89 59.88 21.89 19.77 36.77 19.77 18.39 0 18.38 0 0 19.77 14.88 19.77' fill='%23C47159'/></svg>") !important;
+}
+@media screen and (min-width: 768px) {
+  .generate-back-to-top {
+    display: unset;
+  }
 }
 @keyframes rotate-in-ccw {
   0% {
@@ -671,6 +677,58 @@ html {
   animation-name: rotate-in-ccw;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045), opacity 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+@keyframes startFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(1) translateY(100vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes startFadeOut {
+  0% {
+    opacity: 1;
+    color: #ff673a;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    color: #ff5485;
+    transform: scale(1) translateY(-100vh);
+    display: none;
+  }
+}
+.start-animation .start-title h1 {
+  opacity: 0;
+  font-size: 10rem;
+  animation-fill-mode: forwards;
+  color: #ff673a;
+  width: 100%;
+  text-align: center;
+  animation-delay: 1s;
+  animation-name: startFadeIn;
+  animation-duration: 750ms;
+  animation-timing-function: cubic-bezier(0.185, 0.62, 0.125, 1.015);
+}
+.start-animation .start-title {
+  position: absolute;
+  top: 40%;
+  animation-name: startFadeOut;
+  animation-duration: 750ms;
+  animation-delay: 2.75s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  /* easeInCubic */
+}
+.start-animation .section-l-slider {
+  animation-name: startFadeIn;
+  animation-delay: 3s;
+  animation-duration: 750ms;
+  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  /* easeOutCubic */
 }
 #masthead.site-header {
   background-color: unset;
@@ -971,9 +1029,11 @@ html {
 }
 .section-l-slider .elementor-swiper-button.elementor-swiper-button-prev:after {
   transform: rotate(-90deg);
+  filter: drop-shadow(-3px 3px 3px black);
 }
 .section-l-slider .elementor-swiper-button.elementor-swiper-button-next:after {
   transform: rotate(90deg);
+  filter: drop-shadow(3px -3px 3px black);
 }
 .section-l-slider figure {
   background-color: #fcb0b2;
@@ -995,12 +1055,14 @@ html {
     height: 80vh;
     min-height: 480px;
     width: 100vw;
+    overflow: hidden;
   }
   .section-l-slider .elementor-image-carousel-caption {
     margin-top: -1rem !important;
   }
   .section-l-slider .elementor-image-carousel-caption h4 {
     font-size: 4rem;
+    margin-bottom: 2rem;
   }
   .section-l-slider .elementor-image-carousel-caption p {
     width: 100%;
@@ -1063,11 +1125,13 @@ html {
     position: absolute;
     bottom: 0;
     left: 1rem;
+    filter: unset;
   }
   .section-l-slider .elementor-swiper-button.elementor-swiper-button-next:after {
     position: absolute;
     bottom: 0;
     right: 1rem;
+    filter: unset;
   }
 }
 .spinning-wheel .elementor-icon-wrapper {

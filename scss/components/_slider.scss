@@ -20,9 +20,11 @@
     }
     &.elementor-swiper-button-prev:after {
       transform: rotate(-90deg);
+      filter: drop-shadow(-3px 3px 3px black);
     }
     &.elementor-swiper-button-next:after {
       transform: rotate(90deg);
+      filter: drop-shadow(3px -3px 3px black);
     }
   }
 
@@ -50,6 +52,7 @@
     height: 80vh;
     min-height: 480px;
     width: 100vw;
+    overflow: hidden;
     
     .elementor-image-carousel-caption {
       // display: none;
@@ -57,6 +60,7 @@
     }
     .elementor-image-carousel-caption h4 {
       font-size: 4rem;
+      margin-bottom: 2rem;
     }
     .elementor-image-carousel-caption p {
       width: 100%;
@@ -129,11 +133,13 @@
       position: absolute;
       bottom: 0;
       left: 1rem;
+      filter: unset;
     }
     .elementor-swiper-button.elementor-swiper-button-next:after {
       position: absolute;
       bottom: 0;
       right: 1rem;
+      filter: unset;
     }
   }
 }
