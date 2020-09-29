@@ -1120,7 +1120,7 @@ html {
 }
 #section-l-words .word-photo .wp-caption {
   padding-top: 100%;
-  margin-bottom: 10rem;
+  margin-bottom: 3em;
 }
 #section-l-words .word-photo .wp-caption-text {
   position: absolute;
@@ -1130,6 +1130,7 @@ html {
   line-height: 8rem;
   width: 100%;
   transform: translateY(50%);
+  font-size: inherit;
 }
 #section-l-words .word-photo figcaption.widget-image-caption.wp-caption-text:after {
   content: "";
@@ -1141,7 +1142,6 @@ html {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   z-index: -1;
-  color: white;
 }
 #section-l-words .word-photo img {
   height: 100%;

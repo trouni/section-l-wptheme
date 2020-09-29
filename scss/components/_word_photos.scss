@@ -20,7 +20,7 @@
     overflow: hidden;
     .wp-caption {
       padding-top: 100%;
-      margin-bottom: 10rem;
+      margin-bottom: 3em;
     }
     .wp-caption-text {
       position: absolute;
@@ -30,6 +30,7 @@
       line-height: 8rem;
       width: 100%;
       transform: translateY(50%);
+      font-size: inherit;
     }
     figcaption.widget-image-caption.wp-caption-text:after {
       content: "";
@@ -41,7 +42,6 @@
       transform: translate(-50%, -50%);
       border-radius: 50%;
       z-index: -1;
-      color: white;
     }
     img {
       height: 100%;
