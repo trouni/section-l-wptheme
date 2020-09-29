@@ -87,7 +87,6 @@
   .start-title h1 {
     opacity: 0;
     font-size: 10rem;
-    animation-fill-mode: forwards;
     color: $color-05;
     width: 100%;
     text-align: center;
@@ -95,6 +94,7 @@
     animation-name: startFadeIn;
     animation-duration: 750ms;
     animation-timing-function: cubic-bezier(0.185, 0.620, 0.125, 1.015);
+    animation-fill-mode: forwards;
   }
   .start-title {
     position: absolute;
@@ -102,13 +102,15 @@
     animation-name: startFadeOut;
     animation-duration: 750ms;
     animation-delay: 2.75s;
-    animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190); /* easeInCubic */
+    animation-fill-mode: forwards;
   }
   .section-l-slider {
+    opacity: 0;
     animation-name: startFadeIn;
     animation-delay: 3s;
     animation-duration: 750ms;
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
+    animation-fill-mode: forwards;
   }
 }
