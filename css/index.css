@@ -711,7 +711,7 @@ html {
 }
 .start-animation .start-title {
   position: absolute;
-  top: 40%;
+  top: 35%;
   animation-name: startFadeOut;
   animation-duration: 750ms;
   animation-delay: 2.85s;
