@@ -1,3 +1,27 @@
+@font-face {
+  font-family: Inter;
+  src: url(/wp-content/themes/section-l-wptheme/fonts/Inter-Light.ttf);
+  font-weight: 200;
+  font-style: light;
+}
+@font-face {
+  font-family: Inter;
+  src: url(/wp-content/themes/section-l-wptheme/fonts/Inter-Regular.ttf);
+  font-weight: 400;
+  font-style: regular;
+}
+@font-face {
+  font-family: Inter;
+  src: url(/wp-content/themes/section-l-wptheme/fonts/Inter-Medium.ttf);
+  font-weight: 500;
+  font-style: medium;
+}
+@font-face {
+  font-family: Inter;
+  src: url(/wp-content/themes/section-l-wptheme/fonts/Inter-SemiBold.ttf);
+  font-weight: 600;
+  font-style: semibold;
+}
 #site-navigation.main-navigation *, #site-navigation.main-navigation.toggled * {
   margin: 0;
   padding: 0;
@@ -279,30 +303,6 @@ body {
 }
 .fill-color-22, .fill-color-22 svg {
   fill: #c47159;
-}
-@font-face {
-  font-family: Inter;
-  src: url(/wp-content/themes/section-l-wptheme/fonts/Inter-Light.ttf);
-  font-weight: 200;
-  font-style: light;
-}
-@font-face {
-  font-family: Inter;
-  src: url(/wp-content/themes/section-l-wptheme/fonts/Inter-Regular.ttf);
-  font-weight: 400;
-  font-style: regular;
-}
-@font-face {
-  font-family: Inter;
-  src: url(/wp-content/themes/section-l-wptheme/fonts/Inter-Medium.ttf);
-  font-weight: 500;
-  font-style: medium;
-}
-@font-face {
-  font-family: Inter;
-  src: url(/wp-content/themes/section-l-wptheme/fonts/Inter-SemiBold.ttf);
-  font-weight: 600;
-  font-style: semibold;
 }
 html {
   font-size: 6px;

@@ -19,7 +19,7 @@ document.fonts.ready.then(_ => {
 })
 
 const animationDelay = new Promise((resolve, reject) => {
-  document.fonts.ready.then(_ => setTimeout(resolve, 2000))
+  return document.fonts.ready.then(_ => setTimeout(resolve, 2000))
 });
 
 const waitToLoad = [
