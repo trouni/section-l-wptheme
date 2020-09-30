@@ -58,9 +58,6 @@ $menu-transition-duration: 0.3s;
 
   #menu-header-nav {
     display: block;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
     height: 80%;
     margin: 0;
     @media screen and (min-width: $mobile-breakpoint) {
@@ -117,9 +114,6 @@ $menu-transition-duration: 0.3s;
         }
         @media screen and (max-width: calc(#{$mobile-breakpoint} - 1px)) {
           bottom: 5vh;
-          a {
-            // font-size: 4.5vh;
-          }
         }
       }
     }
