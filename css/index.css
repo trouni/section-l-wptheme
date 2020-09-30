@@ -716,10 +716,10 @@ html {
 }
 .start-animation .start-title {
   position: absolute;
-  top: 35%;
+  top: 30%;
   animation-name: startFadeOut;
   animation-duration: 750ms;
-  animation-delay: 2.85s;
+  animation-delay: 2.8s;
   animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   /* easeInCubic */
   animation-fill-mode: forwards;
