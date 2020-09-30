@@ -573,6 +573,12 @@ html {
     display: unset;
   }
 }
+.page-nav a {
+  color: #c47159;
+}
+.page-nav a:hover {
+  text-decoration: underline;
+}
 @keyframes rotate-in-ccw {
   0% {
     opacity: 0;
