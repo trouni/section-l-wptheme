@@ -667,11 +667,13 @@ html {
   }
   100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 @keyframes startFadeOut {
   0% {
     opacity: 1;
+    transform: translateY(0);
   }
   100% {
     opacity: 0;
@@ -700,7 +702,6 @@ html {
 }
 .start-animation.animate .start-title h1 {
   animation-name: startFadeIn;
-  animation-delay: 1s;
   animation-duration: 750ms;
   animation-timing-function: cubic-bezier(0.185, 0.62, 0.125, 1.015);
   animation-fill-mode: forwards;
@@ -708,14 +709,14 @@ html {
 .start-animation.animate .start-title {
   animation-name: startFadeOut;
   animation-duration: 750ms;
-  animation-delay: 2.8s;
+  animation-delay: 1.8s;
   animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   /* easeInCubic */
   animation-fill-mode: forwards;
 }
 .start-animation.animate .section-l-slider {
   animation-name: startFadeIn;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-duration: 750ms;
   animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   /* easeOutCubic */
