@@ -16,8 +16,7 @@ function enqueue_custom_styles()
   foreach (glob(get_stylesheet_directory() . '/css/*.css') as $file) {
     // $file returns the absolute path
     $filename = substr($file, strrpos($file, '/') + 1);
-    $filepath = get_stylesheet_directory_uri() . '/css/' . $filename
-    wp_enqueue_style($file, $filepath, array(), filemtime($filepath));
+    wp_enqueue_style($file, get_stylesheet_directory_uri() . '/css/' . $filename, array(), filemtime(get_stylesheet_directory() . '/css/' . $filename));
   }
 
   foreach (glob(get_stylesheet_directory() . '/css/vendors/*.css') as $file) {
@@ -36,8 +35,7 @@ function enqueue_custom_scripts()
   foreach (glob(get_stylesheet_directory() . '/js/*.js') as $file) {
     // $file returns the absolute path
     $filename = substr($file, strrpos($file, '/') + 1);
-    $filepath = get_stylesheet_directory_uri() . '/js/' . $filename;
-    wp_enqueue_script($file, $filepath, array(), false, filemtime($filepath));
+    wp_enqueue_script($file, get_stylesheet_directory_uri() . '/js/' . $filename, array(), false, filemtime(get_stylesheet_directory() . '/js/' . $filename));
   }
 }
 
