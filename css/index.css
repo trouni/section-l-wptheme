@@ -705,9 +705,6 @@ html {
   .start-animation .start-title h1 {
     font-size: 15vw;
   }
-  .start-animation .start-title {
-    top: 30%;
-  }
 }
 .fonts-loaded .start-animation .start-title h1 {
   animation-name: startFadeIn;
@@ -930,6 +927,7 @@ html {
   #site-navigation.main-navigation {
     background-color: transparent;
     height: unset;
+    z-index: 100;
   }
   #site-navigation.main-navigation.toggled #primary-menu {
     height: 15rem;
@@ -959,6 +957,7 @@ html {
   #site-navigation.main-navigation #menu-header-nav .menu-item-has-children .sub-menu > li > a {
     font-size: 2rem;
     padding-left: unset;
+    line-height: 1.5;
   }
 }
 @media screen and (min-width: 996px) {

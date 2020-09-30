@@ -202,6 +202,8 @@ $menu-transition-duration: 0.3s;
   #site-navigation.main-navigation {
     background-color: transparent;
     height: unset;
+    // Allow hamburger to be fully clickable:
+    z-index: 100;
 
     &.toggled #primary-menu {
       height: 15rem;
@@ -230,6 +232,7 @@ $menu-transition-duration: 0.3s;
       .menu-item-has-children .sub-menu > li > a {
         font-size: 2rem;
         padding-left: unset;
+        line-height: 1.5;
       }
     }
   }
