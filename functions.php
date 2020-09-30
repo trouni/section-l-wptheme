@@ -35,7 +35,7 @@ function enqueue_custom_scripts()
   foreach (glob(get_stylesheet_directory() . '/js/*.js') as $file) {
     // $file returns the absolute path
     $filename = substr($file, strrpos($file, '/') + 1);
-    wp_enqueue_script($file, get_stylesheet_directory_uri() . '/js/' . $filename, array(), false, filemtime(get_stylesheet_directory() . '/js/' . $filename));
+    wp_enqueue_script($file, get_stylesheet_directory_uri() . '/js/' . $filename, array(), filemtime(get_stylesheet_directory() . '/js/' . $filename), false);
   }
 }
 
