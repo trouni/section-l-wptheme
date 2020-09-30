@@ -1237,9 +1237,8 @@ html {
   }
 }
 .error404 #page {
-  padding-top: 10%;
   min-height: 35vh;
-  padding-top: 15vh;
+  padding-top: 15vh !important;
 }
 .error404 #page .entry-content {
   display: none;
