@@ -101,23 +101,25 @@
   }
 }
 
-.start-animation.animate {
+.fonts-loaded .start-animation {
   .start-title h1 {
     animation-name: startFadeIn;
     animation-duration: 750ms;
     animation-timing-function: cubic-bezier(0.185, 0.620, 0.125, 1.015);
     animation-fill-mode: forwards;
   }
+}
+
+.start-animation.animate {
   .start-title {
     animation-name: startFadeOut;
     animation-duration: 750ms;
-    animation-delay: 1.8s;
     animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190); /* easeInCubic */
     animation-fill-mode: forwards;
   }
   .section-l-slider {
     animation-name: startFadeIn;
-    animation-delay: 2s;
+    animation-delay: 0.2s;
     animation-duration: 750ms;
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
     animation-fill-mode: forwards;

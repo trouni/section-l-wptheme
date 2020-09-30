@@ -14,12 +14,20 @@
   });
 })(document, window, 'addEventListener', 'removeEventListener', 'DOMContentLoaded', 'load');
 
+document.fonts.ready.then(_ => {
+  document.querySelector('body').classList.add('fonts-loaded')
+})
+
+const animationDelay = new Promise((resolve, reject) => {
+  document.fonts.ready.then(_ => setTimeout(resolve, 2000))
+});
+
 const waitToLoad = [
   document.ready,
-  document.fonts.ready
+  animationDelay
 ]
 
-Promise.all(waitToLoad).then(function () {
+Promise.all(waitToLoad).then(_ => {
   const startAnimation = document.querySelector('.start-animation')
-  startAnimation.classList.add('animate')
+  if (startAnimation) startAnimation.classList.add('animate')
 });
