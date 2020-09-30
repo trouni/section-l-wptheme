@@ -84,20 +84,27 @@
 .start-animation {
   .start-title h1 {
     opacity: 0;
-    font-size: 10rem;
-    @media screen and (min-width: $mobile-breakpoint) {
-      font-size: 10vw;
-    }
+    font-size: 30vw;
     color: $color-05;
     width: 100%;
     text-align: center;
   }
   .start-title {
     position: absolute;
-    top: 30%;
+    top: 20%;
   }
   .section-l-slider {
     opacity: 0;
+  }
+}
+@media screen and (min-width: $mobile-breakpoint) {
+  .start-animation {
+    .start-title h1 {
+      font-size: 15vw;
+    }
+    .start-title {
+      top: 30%;
+    }
   }
 }
 

@@ -683,22 +683,25 @@ html {
 }
 .start-animation .start-title h1 {
   opacity: 0;
-  font-size: 10rem;
+  font-size: 30vw;
   color: #ff673a;
   width: 100%;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
-  .start-animation .start-title h1 {
-    font-size: 10vw;
-  }
-}
 .start-animation .start-title {
   position: absolute;
-  top: 30%;
+  top: 20%;
 }
 .start-animation .section-l-slider {
   opacity: 0;
+}
+@media screen and (min-width: 768px) {
+  .start-animation .start-title h1 {
+    font-size: 15vw;
+  }
+  .start-animation .start-title {
+    top: 30%;
+  }
 }
 .fonts-loaded .start-animation .start-title h1 {
   animation-name: startFadeIn;
