@@ -703,11 +703,6 @@ html {
   color: #ff673a;
   width: 100%;
   text-align: center;
-  animation-delay: 1s;
-  animation-name: startFadeIn;
-  animation-duration: 750ms;
-  animation-timing-function: cubic-bezier(0.185, 0.62, 0.125, 1.015);
-  animation-fill-mode: forwards;
 }
 @media screen and (min-width: 768px) {
   .start-animation .start-title h1 {
@@ -717,6 +712,18 @@ html {
 .start-animation .start-title {
   position: absolute;
   top: 30%;
+}
+.start-animation .section-l-slider {
+  opacity: 0;
+}
+.start-animation.animate .start-title h1 {
+  animation-name: startFadeIn;
+  animation-delay: 1s;
+  animation-duration: 750ms;
+  animation-timing-function: cubic-bezier(0.185, 0.62, 0.125, 1.015);
+  animation-fill-mode: forwards;
+}
+.start-animation.animate .start-title {
   animation-name: startFadeOut;
   animation-duration: 750ms;
   animation-delay: 2.8s;
@@ -724,8 +731,7 @@ html {
   /* easeInCubic */
   animation-fill-mode: forwards;
 }
-.start-animation .section-l-slider {
-  opacity: 0;
+.start-animation.animate .section-l-slider {
   animation-name: startFadeIn;
   animation-delay: 3s;
   animation-duration: 750ms;

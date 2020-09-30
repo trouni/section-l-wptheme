@@ -89,15 +89,25 @@
     color: $color-05;
     width: 100%;
     text-align: center;
-    animation-delay: 1s;
+  }
+  .start-title {
+    position: absolute;
+    top: 30%;
+  }
+  .section-l-slider {
+    opacity: 0;
+  }
+}
+
+.start-animation.animate {
+  .start-title h1 {
     animation-name: startFadeIn;
+    animation-delay: 1s;
     animation-duration: 750ms;
     animation-timing-function: cubic-bezier(0.185, 0.620, 0.125, 1.015);
     animation-fill-mode: forwards;
   }
   .start-title {
-    position: absolute;
-    top: 30%;
     animation-name: startFadeOut;
     animation-duration: 750ms;
     animation-delay: 2.8s;
@@ -105,7 +115,6 @@
     animation-fill-mode: forwards;
   }
   .section-l-slider {
-    opacity: 0;
     animation-name: startFadeIn;
     animation-delay: 3s;
     animation-duration: 750ms;
