@@ -25,7 +25,7 @@ function enqueue_custom_styles()
     wp_enqueue_style($file, get_stylesheet_directory_uri() . '/css/vendors/' . $filename);
   }
 }
-// Adding comment
+
 /**
  * Enqueuing JavaScript files in the footer
  */
