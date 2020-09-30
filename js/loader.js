@@ -14,20 +14,23 @@
   });
 })(document, window, 'addEventListener', 'removeEventListener', 'DOMContentLoaded', 'load');
 
-document.fonts.ready.then(_ => {
-  document.querySelector('body').classList.add('fonts-loaded')
+document.addEventListener('DOMContentLoaded', _ => {
+  document.fonts.ready.then(_ => {
+    document.querySelector('body').classList.add('fonts-loaded')
+  })
+  
+  const animationDelay = new Promise((resolve, reject) => {
+    return document.fonts.ready.then(_ => setTimeout(resolve, 2000))
+  });
+  
+  const waitToLoad = [
+    document.ready,
+    animationDelay
+  ]
+  
+  Promise.all(waitToLoad).then(_ => {
+    const startAnimation = document.querySelector('.start-animation')
+    if (startAnimation) startAnimation.classList.add('animate')
+  });
+
 })
-
-const animationDelay = new Promise((resolve, reject) => {
-  return document.fonts.ready.then(_ => setTimeout(resolve, 2000))
-});
-
-const waitToLoad = [
-  document.ready,
-  animationDelay
-]
-
-Promise.all(waitToLoad).then(_ => {
-  const startAnimation = document.querySelector('.start-animation')
-  if (startAnimation) startAnimation.classList.add('animate')
-});

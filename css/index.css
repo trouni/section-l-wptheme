@@ -745,7 +745,7 @@ html {
 }
 @media screen and (min-width: 768px) {
   #masthead.site-header .site-logo.collapsed img {
-    transform: translateX(-90%);
+    transform: translateX(-89%);
     transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
   }
 }
