@@ -3,7 +3,7 @@
     font-size: $base-font-size;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: $body-padding-y calc(#{$body-padding-x} + 1rem);
+    margin: $body-padding-y $body-padding-x;
   }
   // Reserve button
   #site-navigation .reserve-button {
@@ -14,7 +14,7 @@
   #masthead.site-header .site-logo {
     a { display: flex }
     top: $body-padding-y;
-    left: calc(#{$body-padding-x} + 1rem);
+    left: $body-padding-x;
   }
   #page.container.grid-container {
     padding: 60px $body-padding-x $body-padding-y $body-padding-x;
@@ -38,7 +38,7 @@
     font-size: $base-font-size;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: $body-padding-y calc((#{$body-padding-x} + 1rem) / 2);
+    margin: $body-padding-y calc(#{$body-padding-x} / 2);
     transform: translateX(50%);
   }
   #site-navigation.main-navigation.toggled .menu-toggle:before {
@@ -47,7 +47,7 @@
   // Reserve button
   #site-navigation .reserve-button {
     position: fixed;
-    right: calc((#{$body-padding-x} + 1rem) / 2) !important;
+    right: calc(#{$body-padding-x} / 2) !important;
     top: 14rem !important;
     transform: translateX(50%);
   }
@@ -59,7 +59,7 @@
   // }
   #masthead.site-header .site-logo {
     top: $body-padding-y;
-    left: calc((#{$body-padding-x} + 1rem) / 2);
+    left: calc(#{$body-padding-x} / 2);
     transform: translateX(-1rem);
   }
   #page.container.grid-container {

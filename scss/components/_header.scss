@@ -24,7 +24,7 @@
     }
 
     @media screen and (min-width: $mobile-breakpoint) {
-      &.collapsed img {
+      &.collapsed:not(:hover) img {
         transform: translateX(-89%);
         transition: transform 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045);
       }

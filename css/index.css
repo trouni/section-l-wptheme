@@ -308,7 +308,7 @@ html {
   font-size: 6px;
 }
 #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-  margin: 3rem calc(4rem + 1rem);
+  margin: 3rem 4rem;
 }
 #site-navigation .reserve-button {
   position: fixed;
@@ -317,7 +317,7 @@ html {
 }
 #masthead.site-header .site-logo {
   top: 3rem;
-  left: calc(4rem + 1rem);
+  left: 4rem;
 }
 #masthead.site-header .site-logo a {
   display: flex;
@@ -342,7 +342,7 @@ html {
     font-size: 7px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: 3rem calc(4rem + 1rem);
+    margin: 3rem 4rem;
   }
   #site-navigation .reserve-button {
     position: fixed;
@@ -351,7 +351,7 @@ html {
   }
   #masthead.site-header .site-logo {
     top: 3rem;
-    left: calc(4rem + 1rem);
+    left: 4rem;
   }
   #masthead.site-header .site-logo a {
     display: flex;
@@ -377,7 +377,7 @@ html {
     font-size: 8px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: 3rem calc((6rem + 1rem) / 2);
+    margin: 3rem calc(6rem / 2);
     transform: translateX(50%);
   }
   #site-navigation.main-navigation.toggled .menu-toggle:before {
@@ -385,13 +385,13 @@ html {
   }
   #site-navigation .reserve-button {
     position: fixed;
-    right: calc((6rem + 1rem) / 2) !important;
+    right: calc(6rem / 2) !important;
     top: 14rem !important;
     transform: translateX(50%);
   }
   #masthead.site-header .site-logo {
     top: 3rem;
-    left: calc((6rem + 1rem) / 2);
+    left: calc(6rem / 2);
     transform: translateX(-1rem);
   }
   #page.container.grid-container {
@@ -410,7 +410,7 @@ html {
     font-size: 9px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: 4rem calc((10rem + 1rem) / 2);
+    margin: 4rem calc(10rem / 2);
     transform: translateX(50%);
   }
   #site-navigation.main-navigation.toggled .menu-toggle:before {
@@ -418,13 +418,13 @@ html {
   }
   #site-navigation .reserve-button {
     position: fixed;
-    right: calc((10rem + 1rem) / 2) !important;
+    right: calc(10rem / 2) !important;
     top: 14rem !important;
     transform: translateX(50%);
   }
   #masthead.site-header .site-logo {
     top: 4rem;
-    left: calc((10rem + 1rem) / 2);
+    left: calc(10rem / 2);
     transform: translateX(-1rem);
   }
   #page.container.grid-container {
@@ -443,7 +443,7 @@ html {
     font-size: 10px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: 4rem calc((14rem + 1rem) / 2);
+    margin: 4rem calc(14rem / 2);
     transform: translateX(50%);
   }
   #site-navigation.main-navigation.toggled .menu-toggle:before {
@@ -451,13 +451,13 @@ html {
   }
   #site-navigation .reserve-button {
     position: fixed;
-    right: calc((14rem + 1rem) / 2) !important;
+    right: calc(14rem / 2) !important;
     top: 14rem !important;
     transform: translateX(50%);
   }
   #masthead.site-header .site-logo {
     top: 4rem;
-    left: calc((14rem + 1rem) / 2);
+    left: calc(14rem / 2);
     transform: translateX(-1rem);
   }
   #page.container.grid-container {
@@ -476,7 +476,7 @@ html {
     font-size: 12px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: 4rem calc((14rem + 1rem) / 2);
+    margin: 4rem calc(14rem / 2);
     transform: translateX(50%);
   }
   #site-navigation.main-navigation.toggled .menu-toggle:before {
@@ -484,13 +484,13 @@ html {
   }
   #site-navigation .reserve-button {
     position: fixed;
-    right: calc((14rem + 1rem) / 2) !important;
+    right: calc(14rem / 2) !important;
     top: 14rem !important;
     transform: translateX(50%);
   }
   #masthead.site-header .site-logo {
     top: 4rem;
-    left: calc((14rem + 1rem) / 2);
+    left: calc(14rem / 2);
     transform: translateX(-1rem);
   }
   #page.container.grid-container {
@@ -509,7 +509,7 @@ html {
     font-size: 14px;
   }
   #site-navigation.main-navigation .menu-toggle, #site-navigation.main-navigation .menu-toggle:before {
-    margin: 4rem calc((14rem + 1rem) / 2);
+    margin: 4rem calc(14rem / 2);
     transform: translateX(50%);
   }
   #site-navigation.main-navigation.toggled .menu-toggle:before {
@@ -517,13 +517,13 @@ html {
   }
   #site-navigation .reserve-button {
     position: fixed;
-    right: calc((14rem + 1rem) / 2) !important;
+    right: calc(14rem / 2) !important;
     top: 14rem !important;
     transform: translateX(50%);
   }
   #masthead.site-header .site-logo {
     top: 4rem;
-    left: calc((14rem + 1rem) / 2);
+    left: calc(14rem / 2);
     transform: translateX(-1rem);
   }
   #page.container.grid-container {
@@ -744,7 +744,7 @@ html {
   margin-right: 2rem;
 }
 @media screen and (min-width: 768px) {
-  #masthead.site-header .site-logo.collapsed img {
+  #masthead.site-header .site-logo.collapsed:not(:hover) img {
     transform: translateX(-89%);
     transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
   }
