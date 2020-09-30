@@ -574,7 +574,7 @@ html {
   }
 }
 .page-nav a {
-  color: #c47159;
+  color: #c47159 !important;
 }
 .page-nav a:hover {
   text-decoration: underline;
