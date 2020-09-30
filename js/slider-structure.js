@@ -3,4 +3,4 @@ document.addEventListener('DOMContentLoaded', _ => {
     new_html = "<div>" + img.outerHTML + "</div>";
     img.outerHTML = new_html;
   });
-}
+})
