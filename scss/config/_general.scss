@@ -73,7 +73,7 @@ a {
     object-fit: fill;
   }
 
-  &, & div, & figure, & img, & svg {
+  &, & div, & figure, & img, & svg, & a {
       height: 100% !important;
       width: 100%;
   }
@@ -84,7 +84,7 @@ a {
     object-fit: cover;
   }
 
-  &, & div, & figure, & img, & svg {
+  &, & div, & figure, & img, & svg, & a {
       height: 100% !important;
       width: 100%;
   }
@@ -95,7 +95,7 @@ a {
     object-fit: contain;
   }
 
-  &, & div, & figure, & img, & svg {
+  &, & div, & figure, & img, & svg, & a {
       height: 100% !important;
       width: 100%;
   }

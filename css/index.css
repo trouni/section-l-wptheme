@@ -98,7 +98,7 @@ a {
 .object-fit-cover img, .object-fit-cover svg {
   object-fit: cover;
 }
-.object-fit-cover, .object-fit-cover div, .object-fit-cover figure, .object-fit-cover img, .object-fit-cover svg {
+.object-fit-cover, .object-fit-cover div, .object-fit-cover figure, .object-fit-cover img, .object-fit-cover svg, .object-fit-cover a {
   height: 100% !important;
   width: 100%;
 }
