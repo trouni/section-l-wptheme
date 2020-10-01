@@ -15,10 +15,6 @@
   .book-widget-booking-strip-size .icon-book-calendar {
     color: $color-02;
   }
-  .book-container .book-form-inline .book-form-control.book-btn, .book-container .book-form-inline .book-form-control.book-btn:focus, .book-container .book-form-inline .book-form-control.book-btn:hover {
-    color: $color-08 !important;
-    background: $color-02 !important;
-  }
   .book-container .book-form-inline .book-form-control {
     background: transparent;
     border: solid 1px $color-02;
@@ -27,6 +23,10 @@
     font-size: 1em !important;
     width: 100%;
     font-family: inherit !important;
+    &.book-btn, &.book-btn:focus, &.book-btn:hover {
+      color: $color-08 !important;
+      background: $color-02 !important;
+    }
   }
   @media (min-width: $mobile-breakpoint) {
     .book-form-inline {
