@@ -733,6 +733,40 @@ html {
   /* easeOutCubic */
   animation-fill-mode: forwards;
 }
+.booking-bar .book-widget-bg {
+  padding: 0;
+  border: none;
+}
+.booking-bar .book-form-inline {
+  display: flex;
+}
+.booking-bar .book-widget label {
+  text-align: left;
+  font-family: "Inter" !important;
+}
+.booking-bar .book-widget-booking-strip-size .icon-book-calendar {
+  color: #290056;
+}
+.booking-bar #b24_widget_5f75583f06aed .book-btn, .booking-bar .book-btn:focus {
+  color: #fff !important;
+  font-size: 1em;
+  background: #290056;
+  border-color: #290056;
+  font-family: "Inter";
+}
+@media (min-width: 768px) {
+  .booking-bar .book-container .book-form-inline .book-form-group {
+    margin-right: 0;
+    flex-grow: 1;
+  }
+  .booking-bar .book-container .book-form-inline .book-form-control {
+    background: transparent;
+    border: solid 1px #290056;
+    color: #290056 !important;
+    border-right: none;
+    width: 100%;
+  }
+}
 #masthead.site-header {
   background-color: unset;
   z-index: 91;

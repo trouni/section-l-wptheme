@@ -1,0 +1,36 @@
+.booking-bar {
+  .book-widget-bg {
+    padding: 0;
+    border: none;
+  }
+  .book-form-inline {
+    display: flex;
+  }
+  .book-widget label {
+    text-align: left;
+    font-family: "Inter" !important;
+  }
+  .book-widget-booking-strip-size .icon-book-calendar {
+    color: $color-02;
+  }
+  #b24_widget_5f75583f06aed .book-btn, .book-btn:focus {
+    color: #FFFFFF !important;
+    font-size: 1em;
+    background: $color-02;
+    border-color: $color-02;
+    font-family: "Inter";
+  }
+  @media (min-width: $mobile-breakpoint) {
+    .book-container .book-form-inline .book-form-group {
+      margin-right: 0;
+      flex-grow: 1;
+    }
+    .book-container .book-form-inline .book-form-control {
+      background: transparent;
+      border: solid 1px $color-02;
+      color: $color-02 !important;
+      border-right: none;
+      width: 100%;
+    }
+  }
+}
