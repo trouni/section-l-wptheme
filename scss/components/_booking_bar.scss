@@ -56,9 +56,8 @@
     .book-container .book-form-inline .book-form-group {
       flex-basis: 100%;
     }
-    .book-container .book-form-inline .book-form-group:not(:first-child) {
+    .book-container .book-form-inline .book-form-group:not(:first-child) label {
       margin-top: 2rem;
-      flex-basis: 100%;
     }
   }
 }

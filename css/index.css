@@ -784,9 +784,8 @@ html {
   #stay-booking-bar .book-container .book-form-inline .book-form-group {
     flex-basis: 100%;
   }
-  #stay-booking-bar .book-container .book-form-inline .book-form-group:not(:first-child) {
+  #stay-booking-bar .book-container .book-form-inline .book-form-group:not(:first-child) label {
     margin-top: 2rem;
-    flex-basis: 100%;
   }
 }
 #ui-datepicker-div.book-widget {
