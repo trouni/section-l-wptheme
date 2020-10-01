@@ -155,7 +155,6 @@ $menu-transition-duration: 0.3s;
 
   // Book button
   .reserve-button {
-    display: none;
     p {
       align-items: center;
       color: $color-05;
@@ -193,7 +192,7 @@ $menu-transition-duration: 0.3s;
     height: 100vh;
   }
   #menu-header-nav > li.menu-item:last-child {
-    // visibility: visible;
+    visibility: visible;
   }
 }
 

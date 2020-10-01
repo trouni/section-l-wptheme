@@ -939,9 +939,6 @@ html {
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children:hover .sub-menu {
   opacity: 1;
 }
-#site-navigation.main-navigation .reserve-button {
-  display: none;
-}
 #site-navigation.main-navigation .reserve-button p {
   align-items: center;
   color: #ff673a;
@@ -975,6 +972,9 @@ html {
   display: inherit !important;
   position: absolute;
   height: 100vh;
+}
+#site-navigation.main-navigation.toggled #menu-header-nav > li.menu-item:last-child {
+  visibility: visible;
 }
 @media screen and (min-width: 768px) {
   #site-navigation.main-navigation {

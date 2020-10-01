@@ -34,9 +34,11 @@ if (!function_exists('generate_navigation_position')) {
 				do_action('generate_inside_navigation');
 				?>
 				<button class="reserve-button">
-					<span>
-						<p></p>
-					</span>
+					<a href="/book">
+						<span>
+							<p></p>
+						</span>
+					</a>
 				</button>
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 					<?php
