@@ -91,7 +91,7 @@ a {
 .object-fit-fill img, .object-fit-fill svg {
   object-fit: fill;
 }
-.object-fit-fill, .object-fit-fill div, .object-fit-fill figure, .object-fit-fill img, .object-fit-fill svg {
+.object-fit-fill, .object-fit-fill div, .object-fit-fill figure, .object-fit-fill img, .object-fit-fill svg, .object-fit-fill a {
   height: 100% !important;
   width: 100%;
 }
@@ -105,7 +105,7 @@ a {
 .object-fit-contain img, .object-fit-contain svg {
   object-fit: contain;
 }
-.object-fit-contain, .object-fit-contain div, .object-fit-contain figure, .object-fit-contain img, .object-fit-contain svg {
+.object-fit-contain, .object-fit-contain div, .object-fit-contain figure, .object-fit-contain img, .object-fit-contain svg, .object-fit-contain a {
   height: 100% !important;
   width: 100%;
 }
