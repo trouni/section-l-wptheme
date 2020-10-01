@@ -749,15 +749,21 @@ html {
 .booking-bar .book-widget-booking-strip-size .icon-book-calendar {
   color: #290056;
 }
+.booking-bar .book-container .book-form-inline .book-form-control {
+  background: transparent;
+  border: solid 1px #290056;
+  color: #290056 !important;
+  font-weight: 500;
+  font-size: 1em;
+  width: 100%;
+  font-family: inherit !important;
+}
 .booking-bar #b24_widget_5f75583f06aed .book-btn, .booking-bar .book-btn:focus, .booking-bar .book-btn:hover {
   color: #ffe6d3 !important;
   font-size: 1em;
   font-weight: 500;
   background: #290056;
   border-color: #290056;
-  font-family: inherit !important;
-}
-.booking-bar #ui-datepicker-div {
   font-family: inherit !important;
 }
 @media (min-width: 768px) {
@@ -772,15 +778,11 @@ html {
     flex-grow: 1;
   }
   .booking-bar .book-container .book-form-inline .book-form-control {
-    background: transparent;
-    border: solid 1px #290056;
-    color: #290056 !important;
-    font-weight: 500;
-    font-size: 1em;
     border-right: none;
-    width: 100%;
-    font-family: inherit !important;
   }
+}
+#ui-datepicker-div.book-widget {
+  font-family: inherit !important;
 }
 #masthead.site-header {
   background-color: unset;
