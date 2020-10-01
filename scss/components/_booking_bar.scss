@@ -56,6 +56,10 @@
     .book-container .book-form-inline .book-form-group {
       flex-basis: 100%;
     }
+    .book-container .book-form-inline .book-form-group:not(:first-child) {
+      margin-top: 2rem;
+      flex-basis: 100%;
+    }
   }
 }
 
