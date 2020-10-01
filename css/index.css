@@ -765,6 +765,7 @@ html {
 @media (min-width: 768px) {
   .booking-bar .book-form-inline, #home-booking-bar .book-form-inline {
     display: flex;
+    flex-wrap: wrap;
   }
   .booking-bar .book-form-group .book-va-bottom, #home-booking-bar .book-form-group .book-va-bottom {
     padding-top: 24px;
@@ -775,6 +776,14 @@ html {
   }
   .booking-bar .book-container .book-form-inline .book-form-control, #home-booking-bar .book-container .book-form-inline .book-form-control {
     border-right: none;
+  }
+}
+@media (min-width: 768px) {
+  #stay-booking-bar .book-container .book-form-inline .book-form-group {
+    flex-basis: 50%;
+  }
+  #stay-booking-bar .book-container .book-form-inline .book-form-control {
+    border-right: unset;
   }
 }
 #ui-datepicker-div.book-widget {

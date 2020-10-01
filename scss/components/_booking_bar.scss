@@ -31,6 +31,7 @@
   @media (min-width: $mobile-breakpoint) {
     .book-form-inline {
       display: flex;
+      flex-wrap: wrap;
     }
     .book-form-group .book-va-bottom {
       padding-top: 24px;
@@ -44,6 +45,18 @@
     }
   }
 }
+
+#stay-booking-bar {
+  @media (min-width: $mobile-breakpoint) {
+    .book-container .book-form-inline .book-form-group {
+      flex-basis: 50%;
+    }
+    .book-container .book-form-inline .book-form-control {
+      border-right: unset;
+    }
+  }
+}
+
 
 #ui-datepicker-div.book-widget {
   font-family: inherit !important;
