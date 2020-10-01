@@ -733,23 +733,23 @@ html {
   /* easeOutCubic */
   animation-fill-mode: forwards;
 }
-.booking-bar .book-widget.book-widget-holder, #home-booking-bar .book-widget.book-widget-holder {
+.booking-bar .book-widget.book-widget-holder, #home-booking-bar .book-widget.book-widget-holder, #stay-booking-bar .book-widget.book-widget-holder {
   font-size: inherit !important;
 }
-.booking-bar .book-widget-bg, #home-booking-bar .book-widget-bg {
+.booking-bar .book-widget-bg, #home-booking-bar .book-widget-bg, #stay-booking-bar .book-widget-bg {
   padding: 0;
   border: none;
 }
-.booking-bar .book-widget label, #home-booking-bar .book-widget label {
+.booking-bar .book-widget label, #home-booking-bar .book-widget label, #stay-booking-bar .book-widget label {
   text-align: left !important;
   font-family: inherit !important;
   font-weight: 500;
   font-size: 0.8em !important;
 }
-.booking-bar .book-widget-booking-strip-size .icon-book-calendar, #home-booking-bar .book-widget-booking-strip-size .icon-book-calendar {
+.booking-bar .book-widget-booking-strip-size .icon-book-calendar, #home-booking-bar .book-widget-booking-strip-size .icon-book-calendar, #stay-booking-bar .book-widget-booking-strip-size .icon-book-calendar {
   color: #290056;
 }
-.booking-bar .book-container .book-form-inline .book-form-control, #home-booking-bar .book-container .book-form-inline .book-form-control {
+.booking-bar .book-container .book-form-inline .book-form-control, #home-booking-bar .book-container .book-form-inline .book-form-control, #stay-booking-bar .book-container .book-form-inline .book-form-control {
   background: transparent;
   border: solid 1px #290056;
   color: #290056 !important;
@@ -758,32 +758,31 @@ html {
   width: 100%;
   font-family: inherit !important;
 }
-.booking-bar .book-container .book-form-inline .book-form-control.book-btn, #home-booking-bar .book-container .book-form-inline .book-form-control.book-btn, .booking-bar .book-container .book-form-inline .book-form-control.book-btn:focus, #home-booking-bar .book-container .book-form-inline .book-form-control.book-btn:focus, .booking-bar .book-container .book-form-inline .book-form-control.book-btn:hover, #home-booking-bar .book-container .book-form-inline .book-form-control.book-btn:hover {
+.booking-bar .book-container .book-form-inline .book-form-control.book-btn, #home-booking-bar .book-container .book-form-inline .book-form-control.book-btn, #stay-booking-bar .book-container .book-form-inline .book-form-control.book-btn, .booking-bar .book-container .book-form-inline .book-form-control.book-btn:focus, #home-booking-bar .book-container .book-form-inline .book-form-control.book-btn:focus, #stay-booking-bar .book-container .book-form-inline .book-form-control.book-btn:focus, .booking-bar .book-container .book-form-inline .book-form-control.book-btn:hover, #home-booking-bar .book-container .book-form-inline .book-form-control.book-btn:hover, #stay-booking-bar .book-container .book-form-inline .book-form-control.book-btn:hover {
   color: #ffe6d3 !important;
   background: #290056 !important;
 }
 @media (min-width: 768px) {
-  .booking-bar .book-form-inline, #home-booking-bar .book-form-inline {
+  .booking-bar .book-form-inline, #home-booking-bar .book-form-inline, #stay-booking-bar .book-form-inline {
     display: flex;
-    flex-wrap: wrap;
   }
-  .booking-bar .book-form-group .book-va-bottom, #home-booking-bar .book-form-group .book-va-bottom {
+  .booking-bar .book-form-group .book-va-bottom, #home-booking-bar .book-form-group .book-va-bottom, #stay-booking-bar .book-form-group .book-va-bottom {
     padding-top: 24px;
   }
-  .booking-bar .book-container .book-form-inline .book-form-group, #home-booking-bar .book-container .book-form-inline .book-form-group {
+  .booking-bar .book-container .book-form-inline .book-form-group, #home-booking-bar .book-container .book-form-inline .book-form-group, #stay-booking-bar .book-container .book-form-inline .book-form-group {
     margin-right: 0;
     flex-grow: 1;
   }
-  .booking-bar .book-container .book-form-inline .book-form-control, #home-booking-bar .book-container .book-form-inline .book-form-control {
-    border-right: none;
-  }
+}
+#home-booking-bar .book-container .book-form-inline .book-form-group:not(:first-child) .book-form-control {
+  border-left: none;
 }
 @media (min-width: 768px) {
-  #stay-booking-bar .book-container .book-form-inline .book-form-group {
-    flex-basis: 50%;
+  #stay-booking-bar .book-form-inline {
+    flex-wrap: wrap;
   }
-  #stay-booking-bar .book-container .book-form-inline .book-form-control {
-    border-right: unset;
+  #stay-booking-bar .book-container .book-form-inline .book-form-group {
+    flex-basis: 100%;
   }
 }
 #ui-datepicker-div.book-widget {

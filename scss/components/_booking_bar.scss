@@ -1,4 +1,4 @@
-.booking-bar, #home-booking-bar {
+.booking-bar, #home-booking-bar, #stay-booking-bar {
   .book-widget.book-widget-holder {
     font-size: inherit !important;
   }
@@ -31,7 +31,6 @@
   @media (min-width: $mobile-breakpoint) {
     .book-form-inline {
       display: flex;
-      flex-wrap: wrap;
     }
     .book-form-group .book-va-bottom {
       padding-top: 24px;
@@ -40,19 +39,22 @@
       margin-right: 0;
       flex-grow: 1;
     }
-    .book-container .book-form-inline .book-form-control {
-      border-right: none;
-    }
+  }
+}
+
+#home-booking-bar {
+  .book-container .book-form-inline .book-form-group:not(:first-child) .book-form-control {
+    border-left: none;
   }
 }
 
 #stay-booking-bar {
   @media (min-width: $mobile-breakpoint) {
-    .book-container .book-form-inline .book-form-group {
-      flex-basis: 50%;
+    .book-form-inline {
+      flex-wrap: wrap;
     }
-    .book-container .book-form-inline .book-form-control {
-      border-right: unset;
+    .book-container .book-form-inline .book-form-group {
+      flex-basis: 100%;
     }
   }
 }
