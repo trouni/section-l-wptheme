@@ -741,15 +741,17 @@ html {
   display: flex;
 }
 .booking-bar .book-widget label {
-  text-align: left;
+  text-align: left !important;
   font-family: "Inter" !important;
+  font-weight: 500;
 }
 .booking-bar .book-widget-booking-strip-size .icon-book-calendar {
   color: #290056;
 }
 .booking-bar #b24_widget_5f75583f06aed .book-btn, .booking-bar .book-btn:focus {
-  color: #fff !important;
+  color: #ffe6d3 !important;
   font-size: 1em;
+  font-weight: 500;
   background: #290056;
   border-color: #290056;
   font-family: "Inter";
@@ -763,6 +765,7 @@ html {
     background: transparent;
     border: solid 1px #290056;
     color: #290056 !important;
+    font-weight: 500;
     border-right: none;
     width: 100%;
   }
