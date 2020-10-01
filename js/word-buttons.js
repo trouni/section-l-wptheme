@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', _ => {
   let activeBtnIndex = 0
 
   const activateButton = (button) => {
-    const word = button.innerText.toLowerCase()
+    const word = button.innerText.trim().toLowerCase()
     wordPhotos.forEach(photo => photo.classList.remove('active'))
     document.querySelector(`[data-word=${word}]`).classList.add('active')
     wordButtons.forEach(photo => photo.classList.remove(...activeBtnClasses))
