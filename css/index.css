@@ -51,6 +51,9 @@ a {
 .hidden {
   display: none;
 }
+.invisible {
+  visibility: hidden;
+}
 .square-ratio .elementor-image {
   padding-top: 100%;
 }
