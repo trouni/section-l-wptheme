@@ -752,7 +752,7 @@ html {
 .booking-bar .book-container .book-form-inline .book-form-control, #home-booking-bar .book-container .book-form-inline .book-form-control {
   background: transparent;
   border: solid 1px #290056;
-  color: #290056 !important;
+  color: #290056;
   font-weight: 500;
   font-size: 1em !important;
   width: 100%;
@@ -760,11 +760,7 @@ html {
 }
 .booking-bar .book-btn, #home-booking-bar .book-btn, .booking-bar .book-btn:focus, #home-booking-bar .book-btn:focus, .booking-bar .book-btn:hover, #home-booking-bar .book-btn:hover {
   color: #ffe6d3 !important;
-  font-size: 1em !important;
-  font-weight: 500;
-  background: #290056;
-  border-color: #290056;
-  font-family: inherit !important;
+  background: #290056 !important;
 }
 @media (min-width: 768px) {
   .booking-bar .book-form-inline, #home-booking-bar .book-form-inline {

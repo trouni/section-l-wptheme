@@ -18,7 +18,7 @@
   .book-container .book-form-inline .book-form-control {
     background: transparent;
     border: solid 1px $color-02;
-    color: $color-02 !important;
+    color: $color-02;
     font-weight: 500;
     font-size: 1em !important;
     width: 100%;
@@ -26,11 +26,11 @@
   }
   .book-btn, .book-btn:focus, .book-btn:hover {
     color: $color-08 !important;
-    font-size: 1em !important;
-    font-weight: 500;
-    background: $color-02;
-    border-color: $color-02;
-    font-family: inherit !important;
+    background: $color-02 !important;
+    // font-size: 1em !important;
+    // font-weight: 500;
+    // border-color: $color-02;
+    // font-family: inherit !important;
   }
   @media (min-width: $mobile-breakpoint) {
     .book-form-inline {
