@@ -926,9 +926,6 @@ html {
   position: absolute;
   height: 100vh;
 }
-#site-navigation.main-navigation.toggled #menu-header-nav > li.menu-item:last-child {
-  visibility: visible;
-}
 @media screen and (min-width: 768px) {
   #site-navigation.main-navigation {
     background-color: transparent;
