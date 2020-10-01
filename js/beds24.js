@@ -10,4 +10,4 @@ document.addEventListener('DOMContentLoaded', _ => {
     iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
     iframe.contentDocument.body.innerHTML = iframe.contentDocument.body.innerHTML + '<link rel="stylesheet" href="https://www.section-l.co/wp-content/themes/section-l-wptheme/css/beds24.css">';
   }
-}
+})
