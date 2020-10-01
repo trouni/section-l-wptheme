@@ -155,6 +155,7 @@ $menu-transition-duration: 0.3s;
 
   // Book button
   .reserve-button {
+    display: none;
     p {
       align-items: center;
       color: $color-05;

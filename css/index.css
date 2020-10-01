@@ -889,6 +889,9 @@ html {
 #site-navigation.main-navigation #menu-header-nav .menu-item-has-children:hover .sub-menu {
   opacity: 1;
 }
+#site-navigation.main-navigation .reserve-button {
+  display: none;
+}
 #site-navigation.main-navigation .reserve-button p {
   align-items: center;
   color: #ff673a;
