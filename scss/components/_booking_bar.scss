@@ -1,4 +1,4 @@
-.booking-bar {
+.booking-bar, #home-booking-bar {
   .book-widget {
     font-size: inherit !important;
   }
@@ -10,7 +10,7 @@
     text-align: left !important;
     font-family: inherit !important;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 0.8em !important;
   }
   .book-widget-booking-strip-size .icon-book-calendar {
     color: $color-02;
@@ -20,13 +20,13 @@
     border: solid 1px $color-02;
     color: $color-02 !important;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1em !important;
     width: 100%;
     font-family: inherit !important;
   }
   #b24_widget_5f75583f06aed .book-btn, .book-btn:focus, .book-btn:hover {
     color: $color-08 !important;
-    font-size: 1em;
+    font-size: 1em !important;
     font-weight: 500;
     background: $color-02;
     border-color: $color-02;

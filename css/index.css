@@ -733,51 +733,51 @@ html {
   /* easeOutCubic */
   animation-fill-mode: forwards;
 }
-.booking-bar .book-widget {
+.booking-bar .book-widget, #home-booking-bar .book-widget {
   font-size: inherit !important;
 }
-.booking-bar .book-widget-bg {
+.booking-bar .book-widget-bg, #home-booking-bar .book-widget-bg {
   padding: 0;
   border: none;
 }
-.booking-bar .book-widget label {
+.booking-bar .book-widget label, #home-booking-bar .book-widget label {
   text-align: left !important;
   font-family: inherit !important;
   font-weight: 500;
-  font-size: 0.8em;
+  font-size: 0.8em !important;
 }
-.booking-bar .book-widget-booking-strip-size .icon-book-calendar {
+.booking-bar .book-widget-booking-strip-size .icon-book-calendar, #home-booking-bar .book-widget-booking-strip-size .icon-book-calendar {
   color: #290056;
 }
-.booking-bar .book-container .book-form-inline .book-form-control {
+.booking-bar .book-container .book-form-inline .book-form-control, #home-booking-bar .book-container .book-form-inline .book-form-control {
   background: transparent;
   border: solid 1px #290056;
   color: #290056 !important;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1em !important;
   width: 100%;
   font-family: inherit !important;
 }
-.booking-bar #b24_widget_5f75583f06aed .book-btn, .booking-bar .book-btn:focus, .booking-bar .book-btn:hover {
+.booking-bar #b24_widget_5f75583f06aed .book-btn, #home-booking-bar #b24_widget_5f75583f06aed .book-btn, .booking-bar .book-btn:focus, #home-booking-bar .book-btn:focus, .booking-bar .book-btn:hover, #home-booking-bar .book-btn:hover {
   color: #ffe6d3 !important;
-  font-size: 1em;
+  font-size: 1em !important;
   font-weight: 500;
   background: #290056;
   border-color: #290056;
   font-family: inherit !important;
 }
 @media (min-width: 768px) {
-  .booking-bar .book-form-inline {
+  .booking-bar .book-form-inline, #home-booking-bar .book-form-inline {
     display: flex;
   }
-  .booking-bar .book-form-group .book-va-bottom {
+  .booking-bar .book-form-group .book-va-bottom, #home-booking-bar .book-form-group .book-va-bottom {
     padding-top: 24px;
   }
-  .booking-bar .book-container .book-form-inline .book-form-group {
+  .booking-bar .book-container .book-form-inline .book-form-group, #home-booking-bar .book-container .book-form-inline .book-form-group {
     margin-right: 0;
     flex-grow: 1;
   }
-  .booking-bar .book-container .book-form-inline .book-form-control {
+  .booking-bar .book-container .book-form-inline .book-form-control, #home-booking-bar .book-container .book-form-inline .book-form-control {
     border-right: none;
   }
 }
