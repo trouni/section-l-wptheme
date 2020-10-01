@@ -1,5 +1,5 @@
 .booking-bar, #home-booking-bar {
-  .book-widget {
+  .book-widget.book-widget-holder {
     font-size: inherit !important;
   }
   .book-widget-bg {
@@ -24,7 +24,7 @@
     width: 100%;
     font-family: inherit !important;
   }
-  #b24_widget_5f75583f06aed .book-btn, .book-btn:focus, .book-btn:hover {
+  .book-btn, .book-btn:focus, .book-btn:hover {
     color: $color-08 !important;
     font-size: 1em !important;
     font-weight: 500;

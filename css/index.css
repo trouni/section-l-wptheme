@@ -733,7 +733,7 @@ html {
   /* easeOutCubic */
   animation-fill-mode: forwards;
 }
-.booking-bar .book-widget, #home-booking-bar .book-widget {
+.booking-bar .book-widget.book-widget-holder, #home-booking-bar .book-widget.book-widget-holder {
   font-size: inherit !important;
 }
 .booking-bar .book-widget-bg, #home-booking-bar .book-widget-bg {
@@ -758,7 +758,7 @@ html {
   width: 100%;
   font-family: inherit !important;
 }
-.booking-bar #b24_widget_5f75583f06aed .book-btn, #home-booking-bar #b24_widget_5f75583f06aed .book-btn, .booking-bar .book-btn:focus, #home-booking-bar .book-btn:focus, .booking-bar .book-btn:hover, #home-booking-bar .book-btn:hover {
+.booking-bar .book-btn, #home-booking-bar .book-btn, .booking-bar .book-btn:focus, #home-booking-bar .book-btn:focus, .booking-bar .book-btn:hover, #home-booking-bar .book-btn:hover {
   color: #ffe6d3 !important;
   font-size: 1em !important;
   font-weight: 500;
