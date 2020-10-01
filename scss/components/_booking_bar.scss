@@ -1,28 +1,38 @@
 .booking-bar {
+  .book-widget {
+    font-size: inherit !important;
+  }
   .book-widget-bg {
     padding: 0;
     border: none;
   }
-  .book-form-inline {
-    display: flex;
-  }
   .book-widget label {
     text-align: left !important;
-    font-family: "Inter" !important;
+    font-family: inherit !important;
     font-weight: 500;
+    font-size: 0.8em;
   }
   .book-widget-booking-strip-size .icon-book-calendar {
     color: $color-02;
   }
-  #b24_widget_5f75583f06aed .book-btn, .book-btn:focus {
+  #b24_widget_5f75583f06aed .book-btn, .book-btn:focus, .book-btn:hover {
     color: $color-08 !important;
     font-size: 1em;
     font-weight: 500;
     background: $color-02;
     border-color: $color-02;
-    font-family: "Inter";
+    font-family: inherit !important;
+  }
+  #ui-datepicker-div {
+    font-family: inherit !important;
   }
   @media (min-width: $mobile-breakpoint) {
+    .book-form-inline {
+      display: flex;
+    }
+    .book-form-group .book-va-bottom {
+      padding-top: 24px;
+    }
     .book-container .book-form-inline .book-form-group {
       margin-right: 0;
       flex-grow: 1;
@@ -32,8 +42,10 @@
       border: solid 1px $color-02;
       color: $color-02 !important;
       font-weight: 500;
+      font-size: 1em;
       border-right: none;
       width: 100%;
+      font-family: inherit !important;
     }
   }
 }

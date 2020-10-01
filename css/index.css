@@ -733,30 +733,40 @@ html {
   /* easeOutCubic */
   animation-fill-mode: forwards;
 }
+.booking-bar .book-widget {
+  font-size: inherit !important;
+}
 .booking-bar .book-widget-bg {
   padding: 0;
   border: none;
 }
-.booking-bar .book-form-inline {
-  display: flex;
-}
 .booking-bar .book-widget label {
   text-align: left !important;
-  font-family: "Inter" !important;
+  font-family: inherit !important;
   font-weight: 500;
+  font-size: 0.8em;
 }
 .booking-bar .book-widget-booking-strip-size .icon-book-calendar {
   color: #290056;
 }
-.booking-bar #b24_widget_5f75583f06aed .book-btn, .booking-bar .book-btn:focus {
+.booking-bar #b24_widget_5f75583f06aed .book-btn, .booking-bar .book-btn:focus, .booking-bar .book-btn:hover {
   color: #ffe6d3 !important;
   font-size: 1em;
   font-weight: 500;
   background: #290056;
   border-color: #290056;
-  font-family: "Inter";
+  font-family: inherit !important;
+}
+.booking-bar #ui-datepicker-div {
+  font-family: inherit !important;
 }
 @media (min-width: 768px) {
+  .booking-bar .book-form-inline {
+    display: flex;
+  }
+  .booking-bar .book-form-group .book-va-bottom {
+    padding-top: 24px;
+  }
   .booking-bar .book-container .book-form-inline .book-form-group {
     margin-right: 0;
     flex-grow: 1;
@@ -766,8 +776,10 @@ html {
     border: solid 1px #290056;
     color: #290056 !important;
     font-weight: 500;
+    font-size: 1em;
     border-right: none;
     width: 100%;
+    font-family: inherit !important;
   }
 }
 #masthead.site-header {
