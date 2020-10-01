@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', _ => {
   const loc = window.location.toString(),
     params = loc.split('?')[1],
-    iframe = document.querySelector('iframe#beds24');
+    iframe = document.querySelector('#beds24 iframe');
 
   const isBeds24Page = loc.match(/section-l\.co\/book/)
 
