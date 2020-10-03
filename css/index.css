@@ -1086,11 +1086,11 @@ html {
 }
 .section-l-slider .elementor-swiper-button.elementor-swiper-button-prev:after {
   transform: rotate(-90deg);
-  filter: drop-shadow(-3px 3px 3px black);
+  filter: drop-shadow(-2px 2px 2px rgba(0, 0, 0, 0.35));
 }
 .section-l-slider .elementor-swiper-button.elementor-swiper-button-next:after {
   transform: rotate(90deg);
-  filter: drop-shadow(3px -3px 3px black);
+  filter: drop-shadow(2px -2px 2px rgba(0, 0, 0, 0.35));
 }
 .section-l-slider figure {
   background-color: #fcb0b2;
