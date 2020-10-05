@@ -42,14 +42,14 @@
   }
 }
 
-#home-booking-bar {
-  .book-container .book-form-inline .book-form-group:not(:first-child) .book-form-control {
-    border-left: none;
+@media (min-width: $mobile-breakpoint) {
+  #home-booking-bar {
+    .book-container .book-form-inline .book-form-group:not(:first-child) .book-form-control {
+      border-left: none;
+    }
   }
-}
 
-#stay-booking-bar {
-  @media (min-width: $mobile-breakpoint) {
+  #stay-booking-bar {
     .book-form-inline {
       flex-wrap: wrap;
     }
