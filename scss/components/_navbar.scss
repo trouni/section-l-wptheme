@@ -102,11 +102,15 @@ $menu-transition-duration: 0.3s;
       }
 
       // Language button
+      .language-button {
+        font-size: 0.6em;
+        color: $color-22;
+      }
       &:last-child {
         visibility: hidden;
         position: absolute;
         a {
-          font-size: 0.8em;
+          font-size: 0.6em;
           color: $color-22;
         }
         a:after {
