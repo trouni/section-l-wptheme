@@ -7,6 +7,32 @@
  * @since SectionLTheme 1.0
  */
 
+add_action('init', function () {
+  add_filter('wpml_elementor_widgets_to_translate', 'shortcode_widget_registration');
+});
+
+/**
+ * Translate Shortcodes widget by elementor
+ * @param array $widgets
+ * @return array
+ */
+function shortcode_widget_registration($widgets)
+{
+  $widgets['shortcode'] = [
+    'conditions' => ['widgetType' => 'shortcode'],
+    'fields' => [
+      [
+        'field' => 'shortcode',
+        'type' => __('Enter your shortcode', 'sitepress'),
+        'editor_type' => 'AREA'
+      ],
+
+    ],
+  ];
+
+  return $widgets;
+}
+
 /**
  * Enqueuing stylesheets
  */
