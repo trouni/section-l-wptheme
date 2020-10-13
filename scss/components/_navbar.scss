@@ -171,9 +171,9 @@ $menu-transition-duration: 0.3s;
       transform: rotate(90deg) translateY(40%);
       width: 2rem;
     }
-    p:after {
-      content: 'Book';
-    }
+    // p:after {
+    //   content: 'Book';
+    // }
     @media screen and (min-width: $mobile-breakpoint) {
       span {
         transform: rotate(90deg);

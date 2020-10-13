@@ -36,7 +36,7 @@ if (!function_exists('generate_navigation_position')) {
 				<button class="reserve-button">
 					<a href="/book">
 						<span>
-							<p></p>
+							<p>Book</p>
 						</span>
 					</a>
 				</button>
