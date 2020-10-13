@@ -2,10 +2,10 @@
 const loc = window.location.toString(),
   params = loc.split('?')[1];
 
-const isBeds24Page = loc.match(/section-l\.co\/book/);
+const beds24Page = document.getElementById('beds24');
 
 document.addEventListener('DOMContentLoaded', _ => {
-  if (isBeds24Page) {  
+  if (beds24Page) {  
     iframe = document.querySelector('#beds24 iframe');
     iframe.src = iframe.src + '?' + params;
     // // Can't access iframe on other domain, so code below doesn't work :(
