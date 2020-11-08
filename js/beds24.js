@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', _ => {
     iframe = document.querySelector('#beds24 iframe');
     iframeParams = new URLSearchParams(iframe.src.split('?')[1])
     urlParams.keys().forEach(key=>iframeParams.append(key, urlParams.get(key)))
+    if (!iframeParams.get('lang')) iframeParams.append('lang', 'en')
     iframe.src = iframe.src.split('?')[0] + '?' + iframeParams;
     beds24Page.classList.remove('invisible')
   }
