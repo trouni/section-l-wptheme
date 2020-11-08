@@ -34,7 +34,7 @@ if (!function_exists('generate_navigation_position')) {
 				do_action('generate_inside_navigation');
 				?>
 				<button class="reserve-button">
-					<a href="/book">
+					<a href="<?php echo __('/book', 'section-l-header'); ?>">
 						<span>
 							<p><?php echo __('Book', 'section-l-header'); ?></p>
 						</span>
