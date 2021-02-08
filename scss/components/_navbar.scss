@@ -200,6 +200,20 @@ $menu-transition-duration: 0.3s;
   }
 }
 
+// Multi-language WPML mobile switcher
+[data-elementor-device-mode="mobile"] #site-navigation.main-navigation.toggled .wpml-ls-first-item {
+  & > a {
+    display: none;
+  }
+  & > .sub-menu {
+    display: inherit;
+    margin-bottom: 0;
+    & > li > a {
+      padding-left: 0;
+    }
+  }
+}
+
 // Desktop navbar
 
 @media screen and (min-width: $mobile-breakpoint) {
