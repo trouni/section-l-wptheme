@@ -201,7 +201,7 @@ $menu-transition-duration: 0.3s;
 }
 
 // Multi-language WPML mobile switcher
-[data-elementor-device-mode="mobile"] #site-navigation.main-navigation.toggled .wpml-ls-first-item {
+[data-elementor-device-mode="mobile"] #site-navigation.main-navigation.toggled #primary-menu > ul > .wpml-ls-item {
   & > a {
     display: none;
   }
