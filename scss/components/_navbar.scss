@@ -206,6 +206,7 @@ $menu-transition-duration: 0.3s;
     display: none;
   }
   & > .sub-menu {
+    color: $color-22;
     display: inherit;
     margin-bottom: 0;
     & > li > a {
